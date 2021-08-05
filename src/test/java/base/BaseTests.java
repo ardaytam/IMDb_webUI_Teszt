@@ -9,6 +9,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import pages.MainPage;
 
+import java.util.concurrent.TimeUnit;
+
 
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
 //JUnitException: @BeforeAll method 'public void base.BaseTests.setUp()' must be static
@@ -34,6 +36,7 @@ public class BaseTests {
         options.addArguments("--disable-dev-shm-usage");
         options.addArguments("--headless");
         webDriver = new ChromeDriver(options); // új böngésző nyitása az opciókkal
+        webDriver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         webDriver.get("https://www.imdb.com/");
 
         mainPage = new MainPage(webDriver);

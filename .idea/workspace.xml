@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d1472d1-77fb-4f4b-9c0a-db84b9665e1f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/base/BaseTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/base/BaseTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/base/BaseTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/signinandout/SignOutTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/signinandout/SignOutTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,23 +40,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.6402299" />
   </component>
-  <component name="RunManager" selected="JUnit.SignOutTest.testSuccessfulSignOut">
-    <configuration name="CreateAccountTests.testSuccesfullRegistration" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="IMDb_webUI_Teszt" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="createaccount.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="createaccount" />
-      <option name="MAIN_CLASS_NAME" value="createaccount.CreateAccountTests" />
-      <option name="METHOD_NAME" value="testSuccesfullRegistration" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.SignOutTest">
     <configuration name="CreateAccountTests.testSuccessfullRegistration" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="IMDb_webUI_Teszt" />
       <extension name="coverage">
@@ -71,6 +57,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SignInTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="IMDb_webUI_Teszt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="signinandout.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="signinandout" />
+      <option name="MAIN_CLASS_NAME" value="signinandout.SignInTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SignInTests.testSuccessfulSignIn" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="IMDb_webUI_Teszt" />
       <extension name="coverage">
@@ -83,6 +84,21 @@
       <option name="MAIN_CLASS_NAME" value="signinandout.SignInTests" />
       <option name="METHOD_NAME" value="testSuccessfulSignIn" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SignOutTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="IMDb_webUI_Teszt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="signinandout.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="signinandout" />
+      <option name="MAIN_CLASS_NAME" value="signinandout.SignOutTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -105,10 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SignOutTest" />
+        <item itemvalue="JUnit.SignInTests" />
         <item itemvalue="JUnit.SignOutTest.testSuccessfulSignOut" />
         <item itemvalue="JUnit.SignInTests.testSuccessfulSignIn" />
         <item itemvalue="JUnit.CreateAccountTests.testSuccessfullRegistration" />
-        <item itemvalue="JUnit.CreateAccountTests.testSuccesfullRegistration" />
       </list>
     </recent_temporary>
   </component>
