@@ -1,0 +1,60 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "signinandout",
+    "children" : [ {
+      "name" : "SignInTests",
+      "children" : [ {
+        "name" : "testSuccessfulSignIn",
+        "uid" : "baa475708da082a5",
+        "parentUid" : "deae180f11395132b7f022faf095ce50",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628190494228,
+          "stop" : 1628190526540,
+          "duration" : 32312
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "deae180f11395132b7f022faf095ce50"
+    }, {
+      "name" : "SignOutTest",
+      "children" : [ {
+        "name" : "testSuccessfulSignOut",
+        "uid" : "b4bb40735ac943cf",
+        "parentUid" : "65b96fdb5aef5fd35d04b0fd8ab163e4",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628190528367,
+          "stop" : 1628190560115,
+          "duration" : 31748
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "65b96fdb5aef5fd35d04b0fd8ab163e4"
+    } ],
+    "uid" : "c90db1512212982ffcd65a47c66bb068"
+  }, {
+    "name" : "createaccount.CreateAccountTests",
+    "children" : [ {
+      "name" : "testSuccessfullRegistration",
+      "uid" : "d67ff32b24e0b0b6",
+      "parentUid" : "14dfbd3d78b0f3053a1b1009fe1ead7c",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1628190562202,
+        "stop" : 1628190562202,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "createaccount.CreateAccountTests"
+  } ],
+  "name" : "packages"
+}
