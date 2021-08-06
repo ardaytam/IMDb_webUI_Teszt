@@ -34,9 +34,10 @@ public class BaseTests {
         options.addArguments("start-maximized"); // teljes képernyőben való használat
         options.addArguments("--no-sandbox");
         options.addArguments("--disable-dev-shm-usage");
+        options.addArguments("--incognito");
         options.addArguments("--headless");
         webDriver = new ChromeDriver(options); // új böngésző nyitása az opciókkal
-        webDriver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+        webDriver.manage().timeouts().implicitlyWait(30, TimeUnit.MILLISECONDS);
         webDriver.get("https://www.imdb.com/");
 
         mainPage = new MainPage(webDriver);

@@ -10,6 +10,9 @@ public class SignInWithIMDbPage {
     private By emailField = By.id("ap_email");
     private By passwordField = By.id("ap_password");
     private By signInButton = By.id("signInSubmit");
+    private By passwordError1 = By.xpath("//*[@id=\"auth-error-message-box\"]/div/div/ul/li/span");
+    private By passwordError1 = By.xpath("//*[@id=\"auth-error-message-box\"]/div/div/ul/li/span");
+
 
     public SignInWithIMDbPage(WebDriver webDriver) {
         this.webDriver = webDriver;
@@ -25,6 +28,15 @@ public class SignInWithIMDbPage {
 
     public void clickSignInButton() {
         webDriver.findElement(signInButton).click();
+    }
+
+    public String Passworderror() {
+        String passwordErrorMessage = webDriver.findElement(passwordError).getText();
+        return passwordErrorMessage;
+        https://www.imdb.com/ap/signin (get url-lel)
+
+        //*[@id="auth-warning-message-box"]/div/h4
+
     }
 
 
