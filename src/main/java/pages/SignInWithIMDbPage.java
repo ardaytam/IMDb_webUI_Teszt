@@ -10,8 +10,8 @@ public class SignInWithIMDbPage {
     private By emailField = By.id("ap_email");
     private By passwordField = By.id("ap_password");
     private By signInButton = By.id("signInSubmit");
-    private By passwordError1 = By.xpath("//*[@id=\"auth-error-message-box\"]/div/div/ul/li/span");
-    private By passwordError1 = By.xpath("//*[@id=\"auth-error-message-box\"]/div/div/ul/li/span");
+//    private By passwordError1 = By.xpath("//*[@id=\"auth-error-message-box\"]/div/div/ul/li/span");
+//    private By passwordError1 = By.xpath("//*[@id=\"auth-error-message-box\"]/div/div/ul/li/span");
 
 
     public SignInWithIMDbPage(WebDriver webDriver) {
@@ -41,5 +41,3 @@ public class SignInWithIMDbPage {
 
 
 
-
-}
