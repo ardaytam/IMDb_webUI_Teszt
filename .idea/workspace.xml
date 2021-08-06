@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d1472d1-77fb-4f4b-9c0a-db84b9665e1f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/SignInWithIMDbPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/SignInWithIMDbPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/base/BaseTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/signinandout/SignInTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/signinandout/SignInTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/SignInWithIMDbPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/SignInWithIMDbPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/base/BaseTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/base/BaseTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/signinandout/SignInTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/signinandout/SignInTests.class" afterDir="false" />
-    </list>
+    <list default="true" id="3d1472d1-77fb-4f4b-9c0a-db84b9665e1f" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
