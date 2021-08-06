@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"broken","Fri Aug 06 08:26:33 GMT 2021","Fri Aug 06 08:26:34 GMT 2021","739","","signinandout.SignInTests","","signinandout.SignInTests","testSuccessfulLogIn","testSuccessfulLogIn()","Valid Login Test with Valid Username and Valid Password."
+"passed","Fri Aug 06 08:26:31 GMT 2021","Fri Aug 06 08:26:33 GMT 2021","1793","","signinandout.SignInTests","","signinandout.SignInTests","testLoginWithInvalidPassword","testLoginWithInvalidPassword()","Invalid Login Test with vali Username and Invalid Password."
+"broken","Fri Aug 06 08:26:36 GMT 2021","Fri Aug 06 08:26:38 GMT 2021","2510","","signinandout.SignOutTest","","signinandout.SignOutTest","testSuccessfulSignOut","testSuccessfulSignOut()",""
+"skipped","Fri Aug 06 08:26:40 GMT 2021","Fri Aug 06 08:26:40 GMT 2021","0","","createaccount.CreateAccountTests","","createaccount.CreateAccountTests","testSuccessfullRegistration","testSuccessfullRegistration()",""
