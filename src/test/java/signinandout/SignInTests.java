@@ -46,9 +46,9 @@ public class SignInTests extends BaseTests {
         signInWithIMDbPage.clickSignInButton();
 
         //*[@id="auth-error-message-box"]/div/div/ul/li/span
-        String errormessage = "Your password is incorrect";
-
-        Assertions.assertEquals(errormessage, signInWithIMDbPage.Passworderror());
+//        String errormessage = "Your password is incorrect";
+//
+//        Assertions.assertEquals(errormessage, signInWithIMDbPage.Passworderror());
 
     }
 
