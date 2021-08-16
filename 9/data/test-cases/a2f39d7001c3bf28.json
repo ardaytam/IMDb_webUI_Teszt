@@ -1,0 +1,112 @@
+{
+  "uid" : "a2f39d7001c3bf28",
+  "name" : "testRegistrationWithoutEmail()",
+  "fullName" : "createaccount.CreateAccountTests.testRegistrationWithoutEmail",
+  "historyId" : "be0e11cb8b0d9b1943912eef6da291e3",
+  "time" : {
+    "start" : 1629137085333,
+    "stop" : 1629137090633,
+    "duration" : 5300
+  },
+  "description" : "Invalid Registration Test: empty email field",
+  "descriptionHtml" : "<p>Invalid Registration Test: empty email field</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "goHomePage",
+    "time" : {
+      "start" : 1629137085333,
+      "stop" : 1629137088114,
+      "duration" : 2781
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1629137085151,
+      "stop" : 1629137085316,
+      "duration" : 165
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1629137090637,
+      "stop" : 1629137090711,
+      "duration" : 74
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Registration Tests"
+  }, {
+    "name" : "story",
+    "value" : "User tries to register without email"
+  }, {
+    "name" : "feature",
+    "value" : "Invalid Registration"
+  }, {
+    "name" : "host",
+    "value" : "fv-az39-548"
+  }, {
+    "name" : "thread",
+    "value" : "2906@fv-az39-548.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "createaccount.CreateAccountTests"
+  }, {
+    "name" : "testClass",
+    "value" : "createaccount.CreateAccountTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "testRegistrationWithoutEmail"
+  }, {
+    "name" : "suite",
+    "value" : "createaccount.CreateAccountTests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a2f39d7001c3bf28.json",
+  "parameterValues" : [ ]
+}

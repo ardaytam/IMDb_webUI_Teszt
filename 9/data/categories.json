@@ -1,0 +1,107 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"imdbHeader\"]/div[2]/div[5]/div/label[2]\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az39-548', ip: '10.1.0.174', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.Vo2fst}, goog:chromeOptions: {debuggerAddress: localhost:36321}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 3553d834f158540649017c4466b8e4b1\n*** Element info: {Using=xpath, value=//*[@id=\"imdbHeader\"]/div[2]/div[5]/div/label[2]}",
+      "children" : [ {
+        "name" : "testCreateNewPeopleList()",
+        "uid" : "75a686e92c97407b",
+        "parentUid" : "ea74049a6b3f43cf31a5cbb799ef36d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629136957459,
+          "stop" : 1629136973475,
+          "duration" : 16016
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ea74049a6b3f43cf31a5cbb799ef36d8"
+    }, {
+      "name" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"imdbHeader\"]/div[2]/div[5]/div/label[2]\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az39-548', ip: '10.1.0.174', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.KXwey7}, goog:chromeOptions: {debuggerAddress: localhost:43133}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: b51a36cc0f69d06449355047003e7e46\n*** Element info: {Using=xpath, value=//*[@id=\"imdbHeader\"]/div[2]/div[5]/div/label[2]}",
+      "children" : [ {
+        "name" : "testWriteDescription()",
+        "uid" : "2fcf6ab67834984a",
+        "parentUid" : "c7a6303074c78886403fc2e71c2be919",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629137003540,
+          "stop" : 1629137019379,
+          "duration" : 15839
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testModifyDescription()",
+        "uid" : "ab7f42035581b9ce",
+        "parentUid" : "c7a6303074c78886403fc2e71c2be919",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629137019388,
+          "stop" : 1629137031328,
+          "duration" : 11940
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testDeleteDescription()",
+        "uid" : "d7b50264a0fc8c70",
+        "parentUid" : "c7a6303074c78886403fc2e71c2be919",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629137031332,
+          "stop" : 1629137042981,
+          "duration" : 11649
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c7a6303074c78886403fc2e71c2be919"
+    }, {
+      "name" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"imdbHeader\"]/div[2]/div[5]/div/label[2]\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az39-548', ip: '10.1.0.174', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.olGFX7}, goog:chromeOptions: {debuggerAddress: localhost:43797}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 2fddf6ce6a809ea1478d403764fbfc34\n*** Element info: {Using=xpath, value=//*[@id=\"imdbHeader\"]/div[2]/div[5]/div/label[2]}",
+      "children" : [ {
+        "name" : "testSuccessfulSignOut()",
+        "uid" : "27982671347219a0",
+        "parentUid" : "d98ec518b793603a0affff050821618c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629137071350,
+          "stop" : 1629137085064,
+          "duration" : 13714
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d98ec518b793603a0affff050821618c"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expected: <true> but was: <false>",
+      "children" : [ {
+        "name" : "testSuccessfulLogIn()",
+        "uid" : "f91a1f33c6e109ad",
+        "parentUid" : "845845d2ca1b5f839f479796c2627505",
+        "status" : "failed",
+        "time" : {
+          "start" : 1629137057394,
+          "stop" : 1629137071090,
+          "duration" : 13696
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "845845d2ca1b5f839f479796c2627505"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}
