@@ -1,0 +1,8 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"broken","Mon Aug 16 17:57:52 GMT 2021","Mon Aug 16 17:57:52 GMT 2021","0","","editprofile.EditProfileTests","","editprofile.EditProfileTests","","EditProfileTests",""
+"broken","Mon Aug 16 17:57:52 GMT 2021","Mon Aug 16 17:57:52 GMT 2021","0","","searching.AdvancedSearchTest","","searching.AdvancedSearchTest","","AdvancedSearchTest",""
+"broken","Mon Aug 16 17:57:53 GMT 2021","Mon Aug 16 17:57:53 GMT 2021","0","","signinandout.SignInTests","","signinandout.SignInTests","","SignInTests",""
+"broken","Mon Aug 16 17:57:52 GMT 2021","Mon Aug 16 17:57:52 GMT 2021","0","","privacypolicy.PrivacyPolicyTests","","privacypolicy.PrivacyPolicyTests","","PrivacyPolicyTests",""
+"broken","Mon Aug 16 17:57:53 GMT 2021","Mon Aug 16 17:57:53 GMT 2021","0","","signinandout.SignOutTest","","signinandout.SignOutTest","","SignOutTest",""
+"broken","Mon Aug 16 17:57:53 GMT 2021","Mon Aug 16 17:57:53 GMT 2021","0","","createaccount.CreateAccountTests","","createaccount.CreateAccountTests","","CreateAccountTests",""
+"broken","Mon Aug 16 17:57:52 GMT 2021","Mon Aug 16 17:57:52 GMT 2021","1","","lists.ListTests","","lists.ListTests","","ListTests",""
