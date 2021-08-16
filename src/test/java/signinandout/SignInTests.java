@@ -12,13 +12,13 @@ import pages.SignInPage;
 import pages.SignInWithIMDbPage;
 
 
-@Epic("Login Tests Epic")
-@Feature("Valid Login Features")
+@Epic("Login Tests")
+
 
 public class SignInTests extends BaseTests {
 
-
     @Test
+    @Feature("Valid Login")
     @Story("User tries to login the system with valid username and valid password.")
     @Description("Valid Login Test with Valid Username and Valid Password.")
     public void testSuccessfulLogIn() {
@@ -29,27 +29,28 @@ public class SignInTests extends BaseTests {
         signInWithIMDbPage.setPassword("Oszip12600*");
         signInWithIMDbPage.clickSignInButton();
 
-        String testUserName = "Junior";
-        Assertions.assertTrue(mainPage.userIsSignedIn(testUserName));
+        String currentTestUserName = "Junior";
+        Assertions.assertTrue(mainPage.userIsSignedIn(currentTestUserName));
 
     }
 
     @Test
+    @Feature("Invalid Login")
     @Story("User tries to login the system with valid username and invalid password.")
-    @Description("Invalid Login Test with vali Username and Invalid Password.")
+    @Description("Invalid Login Test with valid Username and Invalid Password.")
     public void testLoginWithInvalidPassword() {
 
         SignInPage signInPage = mainPage.clickSignIn();
         SignInWithIMDbPage signInWithIMDbPage = signInPage.clickSignInWithIMDbButton();
         signInWithIMDbPage.setEmail("autotesztjunior@gmail.com");
-        signInWithIMDbPage.setPassword("Oszip12600");
+        signInWithIMDbPage.setPassword("Oszip12600"); //wrong password
         signInWithIMDbPage.clickSignInButton();
 
-        //*[@id="auth-error-message-box"]/div/div/ul/li/span
-//        String errormessage = "Your password is incorrect";
-//
-//        Assertions.assertEquals(errormessage, signInWithIMDbPage.Passworderror());
+        String errormessage1 = "Your password is incorrect";
+        String errormessage2 = "Important Message!"; //This message appears after the second unsuccessfull attempt
+
+        Assertions.assertTrue(errormessage1.equals(signInWithIMDbPage.firstPasswordError())
+                                     || errormessage2.equals(signInWithIMDbPage.secondPasswordError()));
 
     }
-
 }

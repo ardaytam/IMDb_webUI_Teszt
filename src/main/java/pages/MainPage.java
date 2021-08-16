@@ -7,56 +7,79 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class MainPage {
 
-    private WebDriver webDriver;
+    private WebDriver driver;
+
 
     private By userRollDownMenu = By.xpath("//*[@id=\"imdbHeader\"]/div[2]/div[5]/div/label[2]");
+    private By yourListMenuItem = By.xpath("//*[@id=\"navUserMenu-contents\"]/ul/a[5]");
+    private By accountSettingsMenuItem = By.xpath("//*[@id=\"navUserMenu-contents\"]/ul/a[6]");
     private By signOutMenuItem = By.xpath("//*[@id=\"navUserMenu-contents\"]/ul/a[7]");
+    private By signInMenuItem = By.linkText("Sign In");
+    private By privacyPolicyLink = By.linkText("Privacy Policy");
+    private By searchOptionsDropdownMenu = By.xpath("//*[@id=\"nav-search-form\"]//div[text()=\"All\"]");
+    private By advancedSearchMenuItem = By.xpath("//*[@id=\"navbar-search-category-select-contents\"]/ul/a[7]");
 
 
-    public MainPage(WebDriver webDriver) {
-        this.webDriver = webDriver;
+    //*[@id="navbar-search-category-select-contents"]/ul/a//[1] = All
+    //*[@id="navbar-search-category-select-contents"]/ul/a//[2] = Titles
+    //*[@id="navbar-search-category-select-contents"]/ul/a//[3] = TV Episodes
+
+    //*[@id=\"navbar-search-category-select-contents\"]/ul/a//*[text()=\"Advanced Search\"]"
+
+
+    public MainPage(WebDriver driver) {
+        this.driver = driver;
     }
+
+    //driver.get("https://www.imdb.com/");//mainPagebe átteni navigate
 
 
     public SignInPage clickSignIn() {
-        clickLink("Sign In");  //there is only one method use this, if there are more -> place on the top
-        return new SignInPage(webDriver);
+        driver.findElement(signInMenuItem).click();
+        return new SignInPage(driver);
     }
 
-    public Boolean userIsSignedIn(String testUserName) {
+    public Boolean userIsSignedIn(String signedinname) {
         Boolean result;
-        if (testUserName.equals(webDriver.findElement(By.xpath("//div[@class =\"ipc-button__text\"]//*[text()=\"Junior\"]")).getText())) {
-            result = true;
-        } else {
-            result = false;
-        }
-        return result;
-    }
-
-    public Boolean userIsNotSignedIn (String signinlegend) {
-        Boolean result;
-        if (signinlegend.equals(webDriver.findElement(By.xpath("//*[text()=\"Sign In\"]")).getText())) {
-            result = true;
-        } else {
+        try {
+            result = signedinname.equals(driver.findElement(By.xpath("//div[@class =\"ipc-button__text\"]//*[text()=" + "'" + signedinname + "']")));
+        } catch (Exception e) {
             result = false;
         }
         return result;
     }
 
     public void clickSignOut() {
-        webDriver.findElement(userRollDownMenu).click();
-        webDriver.findElement(signOutMenuItem).click();
+        driver.findElement(userRollDownMenu).click();
+        driver.findElement(signOutMenuItem).click();
         //*[@id="navUserMenu-contents"]/ul/a[7]
 
     }
 
-    public PrivacyPolicyPage clickPrivacyPolicy() {
-        clickLink("Privacy Policy");  //there is only one method use this, if there are more -> place on the top
-        return new PrivacyPolicyPage(webDriver);
+    public AdvancedSearchPage clickAdvancedSearch() {
+        driver.findElement(searchOptionsDropdownMenu).click();
+        driver.findElement(advancedSearchMenuItem).click();
+        return new AdvancedSearchPage(driver);
+
     }
 
-    private void clickLink(String linktext) { //private <-- tests do not need to call it
-        webDriver.findElement(By.linkText(linktext)).click();
-    } //generic method for clicking on a link
+    public AccountSettingsPage clickAccountSettings() {
+        driver.findElement(userRollDownMenu).click();
+        driver.findElement(accountSettingsMenuItem).click();
+        return new AccountSettingsPage(driver);
+
+    }
+    public YourListsPage clickYourLists() {
+        driver.findElement(userRollDownMenu).click();
+        driver.findElement(yourListMenuItem).click();
+        return new YourListsPage(driver);
+
+    }
+
+    public PrivacyPolicyPage clickPrivacyPolicy() {
+        driver.findElement(privacyPolicyLink).click();
+        return new PrivacyPolicyPage(driver);
+    }
+
 
 }

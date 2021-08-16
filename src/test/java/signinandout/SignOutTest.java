@@ -18,8 +18,8 @@ public class SignOutTest extends BaseTests {
         signInWithIMDbPage.clickSignInButton();
         mainPage.clickSignOut();
 
-        String signinlegend = "Sign In";
-        Assertions.assertTrue(mainPage.userIsNotSignedIn(signinlegend));
+        String currentTestUserName = "Junior";
+        Assertions.assertFalse(mainPage.userIsSignedIn(currentTestUserName));
 
     }
 
