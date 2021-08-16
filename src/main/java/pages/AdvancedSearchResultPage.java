@@ -18,7 +18,7 @@ public class AdvancedSearchResultPage {
 
     //*[@id="main"]/div/div[1]/span[1]
 
-    //*[@id="main"]/div/div[2]/div/div[1]/div[3]/h3/span[1]
+
     public AdvancedSearchResultPage(WebDriver driver) {
         this.driver = driver;
     }

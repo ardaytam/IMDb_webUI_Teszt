@@ -33,9 +33,9 @@ public class BaseTests {
         options.addArguments("--no-sandbox");
         options.addArguments("--disable-dev-shm-usage");
         options.addArguments("--incognito");
-//        options.addArguments("--headless");
+        options.addArguments("--headless");
         driver = new ChromeDriver(options); // új böngésző nyitása az opciókkal
-//        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
 //        driver.get("https://www.imdb.com/");//mainPagebe átteni navigate
         mainPage = new MainPage(driver);

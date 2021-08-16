@@ -46,7 +46,7 @@ public class YourListsPage {
 
     public void addNameToPeopleList(String name) {
 //        getWebDriverWait().until(ExpectedConditions.visibilityOfElementLocated(addToListSearchInput));
-        
+
         driver.findElement(addToListSearchInput).sendKeys(name);
             getWebDriverWait().until(ExpectedConditions.elementToBeClickable(firstSearchResult)).click();
             driver.findElement(addToListSearchInput).clear();
