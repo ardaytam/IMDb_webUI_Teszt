@@ -34,6 +34,10 @@ public class MainPage {
 
     //driver.get("https://www.imdb.com/");//mainPagebe átteni navigate
 
+    private WebDriverWait getWebDriverWait() {
+        return new WebDriverWait(driver, 10);
+    }
+
 
     public SignInPage clickSignIn() {
         driver.findElement(signInMenuItem).click();
@@ -51,6 +55,7 @@ public class MainPage {
     }
 
     public void clickSignOut() {
+        getWebDriverWait().until(ExpectedConditions.elementToBeClickable(userRollDownMenu));
         driver.findElement(userRollDownMenu).click();
         driver.findElement(signOutMenuItem).click();
         //*[@id="navUserMenu-contents"]/ul/a[7]
@@ -65,13 +70,14 @@ public class MainPage {
     }
 
     public AccountSettingsPage clickAccountSettings() {
-
+        getWebDriverWait().until(ExpectedConditions.elementToBeClickable(userRollDownMenu));
         driver.findElement(userRollDownMenu).click();
         driver.findElement(accountSettingsMenuItem).click();
         return new AccountSettingsPage(driver);
 
     }
     public YourListsPage clickYourLists() {
+        getWebDriverWait().until(ExpectedConditions.elementToBeClickable(userRollDownMenu));
         driver.findElement(userRollDownMenu).click();
         driver.findElement(yourListMenuItem).click();
         return new YourListsPage(driver);

@@ -30,7 +30,7 @@ public class AdvancedSearchTest extends BaseTests {
         String numberOfResults=  advancedSearchResultPage.getNumberOfResults();
         String lastResult = advancedSearchResultPage.CrawlingThroughSearchResultList();
 
-        Assertions.assertEquals(numberOfResults +".",lastResult);
+        Assertions.assertEquals(numberOfResults +".", lastResult);
 
     }
 

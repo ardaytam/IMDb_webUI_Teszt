@@ -35,8 +35,7 @@ public class AdvancedSearchResultPage {
         String resultNumberLong = driver.findElement(numberOfResultListItem).getText();
         System.out.println(resultNumberLong);
         String [] result = resultNumberLong.split(" ");
-        System.out.println(result[2]);
-        return result[3]; //return the number 809 from "1-50 of 809 titles."
+        return result[2]; //return the number 809 from "1-50 of 809 titles."
 
     }
 

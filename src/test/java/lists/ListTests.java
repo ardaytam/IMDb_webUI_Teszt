@@ -49,7 +49,7 @@ public class ListTests extends BaseTests {
         yourListsPage.finishPeopleListFilling();
 
     }
-
+//sign out!!!
     @Story("User write Biographic data in the profile")
     @Description("Checking that user cannot  select the same actor in the list again and again")
     @Test
