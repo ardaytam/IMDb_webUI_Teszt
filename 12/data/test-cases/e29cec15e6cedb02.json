@@ -1,0 +1,139 @@
+{
+  "uid" : "e29cec15e6cedb02",
+  "name" : "testSaveSearchResultTitlesToFile()",
+  "fullName" : "searching.AdvancedSearchTest.testSaveSearchResultTitlesToFile",
+  "historyId" : "8bddb2a06f5b6e31313e6f5615542374",
+  "time" : {
+    "start" : 1629296260610,
+    "stop" : 1629296266998,
+    "duration" : 6388
+  },
+  "description" : "Valid Login Test with Valid Username and Valid Password.",
+  "descriptionHtml" : "<p>Valid Login Test with Valid Username and Valid Password.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1629296234358,
+      "stop" : 1629296234528,
+      "duration" : 170
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "goHomePage",
+    "time" : {
+      "start" : 1629296260622,
+      "stop" : 1629296262512,
+      "duration" : 1890
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1629296266999,
+      "stop" : 1629296267073,
+      "duration" : 74
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : ""
+  }, {
+    "name" : "epic",
+    "value" : ""
+  }, {
+    "name" : "host",
+    "value" : "fv-az72-270"
+  }, {
+    "name" : "thread",
+    "value" : "2897@fv-az72-270.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "searching.AdvancedSearchTest"
+  }, {
+    "name" : "testClass",
+    "value" : "searching.AdvancedSearchTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testSaveSearchResultTitlesToFile"
+  }, {
+    "name" : "suite",
+    "value" : "searching.AdvancedSearchTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "897933e25e8e2aed",
+        "reportUrl" : "https://ardaytam.github.io/IMDb_webUI_Teszt/11//#testresult/897933e25e8e2aed",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629289847711,
+          "stop" : 1629289854762,
+          "duration" : 7051
+        }
+      }, {
+        "uid" : "22f3b187687adb4b",
+        "reportUrl" : "https://ardaytam.github.io/IMDb_webUI_Teszt/10//#testresult/22f3b187687adb4b",
+        "status" : "failed",
+        "statusDetails" : "expected: <50.> but was: <Episode:>",
+        "time" : {
+          "start" : 1629280934067,
+          "stop" : 1629280940674,
+          "duration" : 6607
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "e29cec15e6cedb02.json",
+  "parameterValues" : [ ]
+}

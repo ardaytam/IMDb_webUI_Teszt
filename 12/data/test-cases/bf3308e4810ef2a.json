@@ -1,0 +1,150 @@
+{
+  "uid" : "bf3308e4810ef2a",
+  "name" : "[5] Advertising",
+  "fullName" : "privacypolicy.PrivacyPolicyTests.testRelevantContentOfPrivacyPolicy",
+  "historyId" : "b1c15cb8583c65f11589442e0b47c178",
+  "time" : {
+    "start" : 1629296227313,
+    "stop" : 1629296230189,
+    "duration" : 2876
+  },
+  "description" : "Checking that Privacy Policy contains relevant expressions.",
+  "descriptionHtml" : "<p>Checking that Privacy Policy contains relevant expressions.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1629296214151,
+      "stop" : 1629296214349,
+      "duration" : 198
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "goHomePage",
+    "time" : {
+      "start" : 1629296227326,
+      "stop" : 1629296229063,
+      "duration" : 1737
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1629296234277,
+      "stop" : 1629296234352,
+      "duration" : 75
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Privacy Policy contains relevant text"
+  }, {
+    "name" : "epic",
+    "value" : "Privacy Policy Tests"
+  }, {
+    "name" : "story",
+    "value" : "User gets relevant and informative text from Privacy Policy."
+  }, {
+    "name" : "host",
+    "value" : "fv-az72-270"
+  }, {
+    "name" : "thread",
+    "value" : "2897@fv-az72-270.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "privacypolicy.PrivacyPolicyTests"
+  }, {
+    "name" : "testClass",
+    "value" : "privacypolicy.PrivacyPolicyTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "testRelevantContentOfPrivacyPolicy"
+  }, {
+    "name" : "suite",
+    "value" : "privacypolicy.PrivacyPolicyTests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "927df4bd6cc40c9d",
+        "reportUrl" : "https://ardaytam.github.io/IMDb_webUI_Teszt/11//#testresult/927df4bd6cc40c9d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629289805160,
+          "stop" : 1629289807499,
+          "duration" : 2339
+        }
+      }, {
+        "uid" : "2c001678d54cc785",
+        "reportUrl" : "https://ardaytam.github.io/IMDb_webUI_Teszt/10//#testresult/2c001678d54cc785",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629280920375,
+          "stop" : 1629280922601,
+          "duration" : 2226
+        }
+      }, {
+        "uid" : "ace8a8b19017f33c",
+        "reportUrl" : "https://ardaytam.github.io/IMDb_webUI_Teszt/9//#testresult/ace8a8b19017f33c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629136987525,
+          "stop" : 1629136990362,
+          "duration" : 2837
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "bf3308e4810ef2a.json",
+  "parameterValues" : [ ]
+}
