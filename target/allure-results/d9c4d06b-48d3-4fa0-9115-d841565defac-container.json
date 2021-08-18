@@ -1,0 +1,1 @@
+{"uuid":"d9c4d06b-48d3-4fa0-9115-d841565defac","name":"testSaveSearchResultTitlesToFile()","children":["5da30c4a-525e-491e-b613-82c6fb704ad6"],"befores":[{"name":"goHomePage","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1629227043588,"stop":1629227046703}],"afters":[],"links":[],"start":1629227043520,"stop":1629227052983}

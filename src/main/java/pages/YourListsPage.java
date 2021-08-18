@@ -48,16 +48,10 @@ public class YourListsPage {
 //        getWebDriverWait().until(ExpectedConditions.visibilityOfElementLocated(addToListSearchInput));
 
         driver.findElement(addToListSearchInput).sendKeys(name);
-            getWebDriverWait().until(ExpectedConditions.elementToBeClickable(firstSearchResult)).click();
-            driver.findElement(addToListSearchInput).clear();
-//        try {
-//            g
-//            Thread.sleep(1000);
-//
-//        } catch (Exception e) {
-//            e.printStackTrace();
-//
-//        }
+//        getWebDriverWait().until(ExpectedConditions.elementToBeClickable(firstSearchResult)).click();
+        getWebDriverWait().until(ExpectedConditions.visibilityOfElementLocated(firstSearchResult)).click();
+
+        driver.navigate().refresh();
     }
 
     public void finishPeopleListFilling() {

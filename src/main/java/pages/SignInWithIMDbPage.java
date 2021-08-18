@@ -47,8 +47,8 @@ public class SignInWithIMDbPage {
             result = driver.findElement(passwordError2).getText();
             System.out.println(result);
         }
-        catch(Exception e){
-            e.printStackTrace();
+        catch(Exception NoSuchElementException){
+            NoSuchElementException.printStackTrace();
         }
         return result;
 

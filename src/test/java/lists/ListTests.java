@@ -50,4 +50,35 @@ public class ListTests extends BaseTests {
 
     }
 
+    @Story("User write Biographic data in the profile")
+    @Description("Checking that user cannot  select the same actor in the list again and again")
+    @Test
+    public void testCreateNewPeopleListUsingOnlyOneNameMultipleTimes(){
+
+        SignInPage signInPage = mainPage.clickSignIn();
+        SignInWithIMDbPage signInWithIMDbPage = signInPage.clickSignInWithIMDbButton();
+        signInWithIMDbPage.setEmail("autotesztjunior@gmail.com");
+        signInWithIMDbPage.setPassword("Oszip12600*");
+        signInWithIMDbPage.clickSignInButton();
+
+        YourListsPage yourListsPage = mainPage.clickYourLists();
+        yourListsPage.createNewPeopleList("My favourite actor", "List of my favourite actor");
+
+
+        File file = new File("src/main/resources/redundant_actors.txt");
+        try {
+
+            Scanner scanner = new Scanner(file);
+            while (scanner.hasNextLine()) {
+                String name = scanner.nextLine();
+                yourListsPage.addNameToPeopleList(name);
+                System.out.println(name);
+            }
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
+
+        yourListsPage.finishPeopleListFilling();
+
+    }
 }

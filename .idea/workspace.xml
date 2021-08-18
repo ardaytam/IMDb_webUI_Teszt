@@ -6,9 +6,26 @@
   <component name="ChangeListManager">
     <list default="true" id="3d1472d1-77fb-4f4b-9c0a-db84b9665e1f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/AdvancedSearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/AdvancedSearchPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/AdvancedSearchResultPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/AdvancedSearchResultPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/EditProfilePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/EditProfilePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/SignInWithIMDbPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/SignInWithIMDbPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/YourListsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/YourListsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/actors.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/actors.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/base/BaseTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lists/ListTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lists/ListTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/searching/AdvancedSearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/searching/AdvancedSearchTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/actors.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/actors.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/AdvancedSearchPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/AdvancedSearchPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/AdvancedSearchResultPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/AdvancedSearchResultPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/EditProfilePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/EditProfilePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/MainPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/MainPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/SignInWithIMDbPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/SignInWithIMDbPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/YourListsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/YourListsPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/base/BaseTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/base/BaseTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lists/ListTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/lists/ListTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/searching/AdvancedSearchTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/searching/AdvancedSearchTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +71,22 @@
       <recent name="C:\Users\Tomi\IMDb_webUI_Teszt\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ListTests.testCreateNewPeopleList">
+  <component name="RunManager" selected="JUnit.AdvancedSearchTest.testSaveSearchResultTitlesToFile">
+    <configuration name="AdvancedSearchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="IMDb_webUI_Teszt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="searching.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="searching" />
+      <option name="MAIN_CLASS_NAME" value="searching.AdvancedSearchTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AdvancedSearchTest.testCrawlingThroughSearchResultList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="IMDb_webUI_Teszt" />
       <extension name="coverage">
@@ -71,48 +103,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EditProfileTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AdvancedSearchTest.testSaveSearchResultTitlesToFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="IMDb_webUI_Teszt" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="editprofile.*" />
+          <option name="PATTERN" value="searching.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="editprofile" />
-      <option name="MAIN_CLASS_NAME" value="editprofile.EditProfileTests" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EditProfileTests.testDeleteDescription" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="IMDb_webUI_Teszt" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="editprofile.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="editprofile" />
-      <option name="MAIN_CLASS_NAME" value="editprofile.EditProfileTests" />
-      <option name="METHOD_NAME" value="testDeleteDescription" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EditProfileTests.testModifyDescription" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="IMDb_webUI_Teszt" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="editprofile.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="editprofile" />
-      <option name="MAIN_CLASS_NAME" value="editprofile.EditProfileTests" />
-      <option name="METHOD_NAME" value="testModifyDescription" />
+      <option name="PACKAGE_NAME" value="searching" />
+      <option name="MAIN_CLASS_NAME" value="searching.AdvancedSearchTest" />
+      <option name="METHOD_NAME" value="testSaveSearchResultTitlesToFile" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -134,13 +135,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SignInTests.testSuccessfulLogIn" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="IMDb_webUI_Teszt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="signinandout.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="signinandout" />
+      <option name="MAIN_CLASS_NAME" value="signinandout.SignInTests" />
+      <option name="METHOD_NAME" value="testSuccessfulLogIn" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AdvancedSearchTest.testSaveSearchResultTitlesToFile" />
+        <item itemvalue="JUnit.SignInTests.testSuccessfulLogIn" />
         <item itemvalue="JUnit.ListTests.testCreateNewPeopleList" />
         <item itemvalue="JUnit.AdvancedSearchTest.testCrawlingThroughSearchResultList" />
-        <item itemvalue="JUnit.EditProfileTests" />
-        <item itemvalue="JUnit.EditProfileTests.testDeleteDescription" />
-        <item itemvalue="JUnit.EditProfileTests.testModifyDescription" />
+        <item itemvalue="JUnit.AdvancedSearchTest" />
       </list>
     </recent_temporary>
   </component>

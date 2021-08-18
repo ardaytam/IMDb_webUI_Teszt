@@ -31,8 +31,6 @@ public class EditProfilePage {
     }
 
 
-
-
 //*This method return the actual text of the  textarea Webelement called Bio
     public String getDescriptionText() {
         String descriptionText= driver.findElement(bioTextBox).getText();

@@ -33,11 +33,13 @@ public class BaseTests {
         options.addArguments("--no-sandbox");
         options.addArguments("--disable-dev-shm-usage");
         options.addArguments("--incognito");
-        options.addArguments("--headless");
-        driver = new ChromeDriver(options); // új böngésző nyitása az opciókkal
+//        options.addArguments("--headless");
+        driver = new ChromeDriver(options);
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
 //        driver.get("https://www.imdb.com/");//mainPagebe átteni navigate
+        System.out.println("Hello I am BEFORE ALL");
+
         mainPage = new MainPage(driver);
 
     }
@@ -45,12 +47,9 @@ public class BaseTests {
     @BeforeEach
 
     public void goHomePage (){
-        driver.get("https://www.imdb.com/"); //PL Egy tesztosztályban több teszteset van ugyanonnan induljanak
+        System.out.println("Hello I am BEFORE EACH");
+        driver.get("https://www.imdb.com/");
     }
-//
-//
-//    driver.get("https://www.imdb.com"); // Egy tesztosztályban több teszteset van ugyanonnan induljanak
-//    }
 
     @AfterAll
     public void tearDown() {

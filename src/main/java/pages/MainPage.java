@@ -23,7 +23,6 @@ public class MainPage {
     //*[@id="navbar-search-category-select-contents"]/ul/a//[1] = All
     //*[@id="navbar-search-category-select-contents"]/ul/a//[2] = Titles
     //*[@id="navbar-search-category-select-contents"]/ul/a//[3] = TV Episodes
-
     //*[@id=\"navbar-search-category-select-contents\"]/ul/a//*[text()=\"Advanced Search\"]"
 
 
@@ -42,7 +41,7 @@ public class MainPage {
     public Boolean userIsSignedIn(String signedinname) {
         Boolean result;
         try {
-            result = signedinname.equals(driver.findElement(By.xpath("//div[@class =\"ipc-button__text\"]//*[text()=" + "'" + signedinname + "']")));
+            result = signedinname.equals(driver.findElement(By.xpath("//div[@class =\"ipc-button__text\"]//*[text()=" + "'" + signedinname + "']")).getText());
         } catch (Exception e) {
             result = false;
         }
