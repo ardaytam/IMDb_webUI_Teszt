@@ -34,31 +34,32 @@ public class AdvancedSearchResultPage {
     public String getNumberOfResults() {
         String resultNumberLong = driver.findElement(numberOfResultListItem).getText();
         System.out.println(resultNumberLong);
-        return resultNumberLong;
+        String [] result = resultNumberLong.split(" ");
+        System.out.println(result[2]);
+        return result[3]; //return the number 809 from "1-50 of 809 titles."
 
     }
 
-    public void CrawlingThroughSearchResultList() {
-
+    public String CrawlingThroughSearchResultList() {
+        String lastItemNumber ="";
         while (true) {
 
+
+            //              getWebDriverWait().until(ExpectedConditions.visibilityOfElementLocated(LastNumberOfResultListItem));
+
             try {
-
-                ArrayList<String> resultItemNumbers = new ArrayList<String>();
-
-//              getWebDriverWait().until(ExpectedConditions.visibilityOfElementLocated(LastNumberOfResultListItem));
-                resultItemNumbers.add(driver.findElement(LastNumberOfResultListItem).getText());
-                System.out.println(resultItemNumbers.get(0));
+                lastItemNumber = driver.findElement(LastNumberOfResultListItem).getText();
+              System.out.println(lastItemNumber);
                 getWebDriverWait().until(ExpectedConditions.elementToBeClickable(nextPageLink));
                 driver.findElement(nextPageLink).click();
-                break;
-
 
             } catch (Exception e) {
                 e.printStackTrace();
+                break;
             }
-//            break;
+//
         }
+        return lastItemNumber;
     }
 
     public void saveSearchResultTitles() {
@@ -80,12 +81,3 @@ public class AdvancedSearchResultPage {
 }
 
 
-//
-//try {
-//        driver.get("https://example.com");
-//        // Get all the elements available with tag name 'p'
-
-//        for (WebElement element : elements) {
-//        System.out.println("Paragraph text:" + element.getText());
-//        }
-//        } //*[@class = "lister-item-header"]

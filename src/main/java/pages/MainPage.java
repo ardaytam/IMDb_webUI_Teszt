@@ -10,7 +10,9 @@ public class MainPage {
     private WebDriver driver;
 
 
-    private By userRollDownMenu = By.xpath("//*[@id=\"imdbHeader\"]/div[2]/div[5]/div/label[2]");
+//    private By userRollDownMenu = By.xpath("//*[@id=\"imdbHeader\"]/div[2]/div[5]/div/label[2]");//Ezért hasalnak el most a tesztek, mert nem találják
+    private By userRollDownMenu = By.xpath("//*[@for=\"navUserMenu\"][2]");//Ezért hasalnak el most a tesztek, mert nem találják
+
     private By yourListMenuItem = By.xpath("//*[@id=\"navUserMenu-contents\"]/ul/a[5]");
     private By accountSettingsMenuItem = By.xpath("//*[@id=\"navUserMenu-contents\"]/ul/a[6]");
     private By signOutMenuItem = By.xpath("//*[@id=\"navUserMenu-contents\"]/ul/a[7]");
@@ -63,6 +65,7 @@ public class MainPage {
     }
 
     public AccountSettingsPage clickAccountSettings() {
+
         driver.findElement(userRollDownMenu).click();
         driver.findElement(accountSettingsMenuItem).click();
         return new AccountSettingsPage(driver);

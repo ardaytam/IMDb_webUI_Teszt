@@ -25,11 +25,12 @@ public class AdvancedSearchTest extends BaseTests {
     @Test
     public void testCrawlingThroughSearchResultList() {
         AdvancedSearchPage advancedSearchPage = mainPage.clickAdvancedSearch();
-        //Searching in Movie pLots contains keyword Orca
         AdvancedSearchResultPage advancedSearchResultPage = advancedSearchPage.searchMovieByPlotKeywords("orca");
-        advancedSearchResultPage.getNumberOfResults();
-        advancedSearchResultPage.CrawlingThroughSearchResultList();
 
+        String numberOfResults=  advancedSearchResultPage.getNumberOfResults();
+        String lastResult = advancedSearchResultPage.CrawlingThroughSearchResultList();
+
+        Assertions.assertEquals(numberOfResults +".",lastResult);
 
     }
 
