@@ -48,6 +48,9 @@ public class ListTests extends BaseTests {
 
         yourListsPage.finishPeopleListFilling();
 
+//Assertion missing
+
+        mainPage.clickSignOut();
 
     }
 
@@ -66,6 +69,9 @@ public class ListTests extends BaseTests {
         YourListsPage yourListsPage = mainPage.clickYourLists();
         yourListsPage.createNewPeopleList("My favourite actor", "List of my favourite actor");
 
+        //Assertion missing
+
+        mainPage.clickSignOut();
 
         File file = new File("src/main/resources/redundant_actors.txt");
         try {
@@ -81,6 +87,7 @@ public class ListTests extends BaseTests {
         }
 
         yourListsPage.finishPeopleListFilling();
+
 
     }
 }

@@ -1,0 +1,1 @@
+{"uuid":"60c458cc-1110-463b-bcc0-be9ae63f27b9","name":"[4] Communicate with you","children":["960a058d-489f-4b8e-8a77-78c3c85296f8"],"befores":[{"name":"goHomePage","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1629354249819,"stop":1629354251662}],"afters":[],"links":[],"start":1629354249816,"stop":1629354253810}

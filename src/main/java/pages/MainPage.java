@@ -10,7 +10,7 @@ public class MainPage {
     private WebDriver driver;
 
 
-//    private By userRollDownMenu = By.xpath("//*[@id=\"imdbHeader\"]/div[2]/div[5]/div/label[2]");//Ezért hasalnak el most a tesztek, mert nem találják
+    //    private By userRollDownMenu = By.xpath("//*[@id=\"imdbHeader\"]/div[2]/div[5]/div/label[2]");//Ezért hasalnak el most a tesztek, mert nem találják
     private By userRollDownMenu = By.xpath("//*[@for=\"navUserMenu\"][2]");//Ezért hasalnak el most a tesztek, mert nem találják
 
     private By yourListMenuItem = By.xpath("//*[@id=\"navUserMenu-contents\"]/ul/a[5]");
@@ -49,10 +49,21 @@ public class MainPage {
         try {
             result = signedinname.equals(driver.findElement(By.xpath("//div[@class =\"ipc-button__text\"]//*[text()=" + "'" + signedinname + "']")).getText());
         } catch (Exception e) {
+            e.printStackTrace();
             result = false;
         }
         return result;
     }
+
+
+    public String userIsSignedIn() {
+        String result;
+
+        result = driver.findElement(By.xpath("//span[contains(@class, 'user-menu-toggle')]")).getText();
+
+        return result;
+    }
+
 
     public void clickSignOut() {
         getWebDriverWait().until(ExpectedConditions.elementToBeClickable(userRollDownMenu));
@@ -76,6 +87,7 @@ public class MainPage {
         return new AccountSettingsPage(driver);
 
     }
+
     public YourListsPage clickYourLists() {
         getWebDriverWait().until(ExpectedConditions.elementToBeClickable(userRollDownMenu));
         driver.findElement(userRollDownMenu).click();

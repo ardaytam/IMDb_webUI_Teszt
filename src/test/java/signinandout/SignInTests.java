@@ -31,7 +31,8 @@ public class SignInTests extends BaseTests {
         signInWithIMDbPage.clickSignInButton();
 
         String currentTestUserName = "Junior";
-        Assertions.assertTrue(mainPage.userIsSignedIn(currentTestUserName));
+        
+        Assertions.assertEquals(currentTestUserName, mainPage.userIsSignedIn());
 
     }
 

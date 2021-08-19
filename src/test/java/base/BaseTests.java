@@ -33,7 +33,7 @@ public class BaseTests {
         options.addArguments("--no-sandbox");
         options.addArguments("--disable-dev-shm-usage");
         options.addArguments("--incognito");
-        options.addArguments("--headless");
+//        options.addArguments("--headless");
         options.addArguments("--window-size=1920,1080");
 
         driver = new ChromeDriver(options);
@@ -49,7 +49,7 @@ public class BaseTests {
 
     @BeforeEach
 
-    public void goHomePage (){
+    public void goHomePage() {
         System.out.println("Hello I am BEFORE EACH");
         driver.get("https://www.imdb.com/");
     }
@@ -57,6 +57,7 @@ public class BaseTests {
     @AfterAll
 
     public void tearDown() {
+        System.out.println("Hello I am AFTER ALL");
         driver.quit();
     }
 
