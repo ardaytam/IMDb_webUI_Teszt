@@ -20,7 +20,7 @@ public class SignOutTest extends BaseTests {
 
         String currentTestUserName = "Junior";
         Assertions.assertNotEquals(currentTestUserName, mainPage.userIsSignedIn());
-        
+
 
     }
 
