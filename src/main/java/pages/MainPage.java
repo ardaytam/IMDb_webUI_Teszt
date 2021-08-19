@@ -1,9 +1,14 @@
 package pages;
 
+import io.qameta.allure.Allure;
 import org.openqa.selenium.By;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.io.ByteArrayInputStream;
 
 public class MainPage {
 
@@ -68,6 +73,8 @@ public class MainPage {
     public void clickSignOut() {
 
         driver.findElement(userRollDownMenu).click();
+        Allure.addAttachment("Screenshot", new ByteArrayInputStream(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)));
+        System.out.println(driver.getCurrentUrl());
         driver.findElement(signOutMenuItem).click();
         //*[@id="navUserMenu-contents"]/ul/a[7]
 
@@ -83,6 +90,8 @@ public class MainPage {
     public AccountSettingsPage clickAccountSettings() {
 
         driver.findElement(userRollDownMenu).click();
+        Allure.addAttachment("Screenshot", new ByteArrayInputStream(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)));
+        System.out.println(driver.getCurrentUrl());
         driver.findElement(accountSettingsMenuItem).click();
         return new AccountSettingsPage(driver);
 
@@ -91,6 +100,8 @@ public class MainPage {
     public YourListsPage clickYourLists() {
 
         driver.findElement(userRollDownMenu).click();
+        Allure.addAttachment("Screenshot", new ByteArrayInputStream(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)));
+        System.out.println(driver.getCurrentUrl());
         driver.findElement(yourListMenuItem).click();
         return new YourListsPage(driver);
 
