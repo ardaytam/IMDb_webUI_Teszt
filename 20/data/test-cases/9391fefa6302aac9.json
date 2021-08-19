@@ -1,0 +1,98 @@
+{
+  "uid" : "9391fefa6302aac9",
+  "name" : "testLoginWithInvalidPassword()",
+  "fullName" : "signinandout.SignInTests.testLoginWithInvalidPassword",
+  "historyId" : "4cef37e62c8c6fa12ffa52c493a9b06e",
+  "time" : {
+    "start" : 1629393925148,
+    "stop" : 1629393925148,
+    "duration" : 0
+  },
+  "description" : "Invalid Login Test with valid Username and Invalid Password.",
+  "descriptionHtml" : "<p>Invalid Login Test with valid Username and Invalid Password.</p>\n",
+  "status" : "skipped",
+  "statusMessage" : "public void signinandout.SignInTests.testLoginWithInvalidPassword() is @Disabled",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1629393924986,
+      "stop" : 1629393925145,
+      "duration" : 159
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1629393938357,
+      "stop" : 1629393938427,
+      "duration" : 70
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Login Tests"
+  }, {
+    "name" : "feature",
+    "value" : "Invalid Login"
+  }, {
+    "name" : "story",
+    "value" : "User tries to login the system with valid username and invalid password."
+  }, {
+    "name" : "host",
+    "value" : "fv-az39-896"
+  }, {
+    "name" : "thread",
+    "value" : "3036@fv-az39-896.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "signinandout.SignInTests"
+  }, {
+    "name" : "testClass",
+    "value" : "signinandout.SignInTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "testLoginWithInvalidPassword"
+  }, {
+    "name" : "suite",
+    "value" : "signinandout.SignInTests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9391fefa6302aac9.json",
+  "parameterValues" : [ ]
+}
