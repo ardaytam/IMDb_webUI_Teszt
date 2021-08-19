@@ -1,15 +1,18 @@
 package editprofile;
 
 import base.BaseTests;
-import io.qameta.allure.Description;
-import io.qameta.allure.Epic;
-import io.qameta.allure.Feature;
-import io.qameta.allure.Story;
+import io.qameta.allure.*;
 import org.junit.jupiter.api.*;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import pages.AccountSettingsPage;
 import pages.EditProfilePage;
 import pages.SignInPage;
 import pages.SignInWithIMDbPage;
+
+import java.io.ByteArrayInputStream;
 
 @Epic("Edit Profile Tests")
 @Feature("User can write, modify, delete data in the profile")
@@ -28,6 +31,10 @@ public class EditProfileTests extends BaseTests {
         signInWithIMDbPage.setEmail("autotesztjunior@gmail.com");
         signInWithIMDbPage.setPassword("Oszip12600*");
         signInWithIMDbPage.clickSignInButton();
+
+        WebDriver driver= new ChromeDriver();
+        Allure.addAttachment("Screenshot", new ByteArrayInputStream(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)));
+        System.out.println(driver.getCurrentUrl());
 
         AccountSettingsPage accountSettingsPage = mainPage.clickAccountSettings();
         EditProfilePage editProfilePage = accountSettingsPage.clickEditProfileLink();

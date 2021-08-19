@@ -13,6 +13,7 @@ import pages.MainPage;
 import java.util.concurrent.TimeUnit;
 
 //https://github.com/ardaytam/IMDb_webUI_Teszt
+
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
 //JUnitException: @BeforeAll method 'public void base.BaseTests.setUp()' must be static
 // unless the test class is annotated with @TestInstance(Lifecycle.PER_CLASS).
@@ -39,23 +40,17 @@ public class BaseTests {
         driver = new ChromeDriver(options);
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
-
-//        driver.get("https://www.imdb.com/");//mainPagebe átteni navigate
-        System.out.println("Hello I am BEFORE ALL");
-
         mainPage = new MainPage(driver);
 
     }
 
     @BeforeEach
-
     public void goHomePage() {
         System.out.println("Hello I am BEFORE EACH");
         driver.get("https://www.imdb.com/");
     }
 
     @AfterAll
-
     public void tearDown() {
         System.out.println("Hello I am AFTER ALL");
         driver.quit();

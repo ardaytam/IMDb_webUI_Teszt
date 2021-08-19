@@ -46,7 +46,12 @@ public class AdvancedSearchTest extends BaseTests {
 
 
         String lastLineNumber = "50.";
-        Assertions.assertEquals(lastLineNumber, getLastLine("searchResultTitles.txt"));
+        String lastLineWithEpisode = "Episode:";
+
+        Assertions.assertTrue(lastLineNumber.equals( getLastLine("searchResultTitles.txt"))
+                ||lastLineWithEpisode.equals( getLastLine("searchResultTitles.txt")));
+
+
     }
 
      //Segédmetódus a fájl utolsó sorának kiolvasására

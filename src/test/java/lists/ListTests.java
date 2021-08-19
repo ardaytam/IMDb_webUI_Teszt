@@ -1,15 +1,17 @@
 package lists;
 
 import base.BaseTests;
-import io.qameta.allure.Description;
-import io.qameta.allure.Epic;
-import io.qameta.allure.Feature;
-import io.qameta.allure.Story;
+import io.qameta.allure.*;
 import org.junit.jupiter.api.Test;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import pages.SignInPage;
 import pages.SignInWithIMDbPage;
 import pages.YourListsPage;
 
+import java.io.ByteArrayInputStream;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
@@ -39,6 +41,13 @@ public class ListTests extends BaseTests {
             Scanner scanner = new Scanner(file);
             while (scanner.hasNextLine()) {
                 String name = scanner.nextLine();
+
+                try {
+                    Thread.sleep(1000);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+
                 yourListsPage.addNameToPeopleList(name);
                 System.out.println(name);
             }
@@ -65,6 +74,10 @@ public class ListTests extends BaseTests {
         signInWithIMDbPage.setEmail("autotesztjunior@gmail.com");
         signInWithIMDbPage.setPassword("Oszip12600*");
         signInWithIMDbPage.clickSignInButton();
+
+        WebDriver driver= new ChromeDriver();
+        Allure.addAttachment("Screenshot", new ByteArrayInputStream(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)));
+        System.out.println(driver.getCurrentUrl());
 
         YourListsPage yourListsPage = mainPage.clickYourLists();
         yourListsPage.createNewPeopleList("My favourite actor", "List of my favourite actor");
