@@ -2,7 +2,9 @@ package lists;
 
 import base.BaseTests;
 import io.qameta.allure.*;
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
+import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -20,6 +22,7 @@ import java.util.Scanner;
 @Epic("Create list tests")
 @Feature("User can create lists from the IMDB database eg. save actors/movies in a list")
 public class ListTests extends BaseTests {
+
     @Story("User can create a list contains her/his favourite actors")
     @Description("Checking that user can create a list contains her/his favourite actors")
     @Test
@@ -31,8 +34,14 @@ public class ListTests extends BaseTests {
         signInWithIMDbPage.setPassword("Oszip12600*");
         signInWithIMDbPage.clickSignInButton();
 
+//        Allure.addAttachment("Screenshot", new ByteArrayInputStream(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)));
+//        System.out.println(driver.getCurrentUrl());
+
         YourListsPage yourListsPage = mainPage.clickYourLists();
-        yourListsPage.createNewPeopleList("My favourite actors", "List of my favourite actors");
+
+        String listTitle ="My favourite actors";
+        String listDescription=  "List of my favourite actors";
+        yourListsPage.createNewPeopleList(listTitle,listDescription);
 
 
         File file = new File("src/main/resources/actors.txt");
@@ -47,7 +56,6 @@ public class ListTests extends BaseTests {
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
-
                 yourListsPage.addNameToPeopleList(name);
                 System.out.println(name);
             }
@@ -57,13 +65,12 @@ public class ListTests extends BaseTests {
 
         yourListsPage.finishPeopleListFilling();
 
-//Assertion missing
+        Assertions.assertTrue(driver.getPageSource().contains(listTitle));
 
-        mainPage.clickSignOut();
 
     }
 
-    //sign out!!!
+
     @Story("User can not create list that  contains the same  person's name")
     @Description("Checking that user can not create a list that  contains the same name multiple times")
     @Test
@@ -75,7 +82,7 @@ public class ListTests extends BaseTests {
         signInWithIMDbPage.setPassword("Oszip12600*");
         signInWithIMDbPage.clickSignInButton();
 
-        WebDriver driver= new ChromeDriver();
+
         Allure.addAttachment("Screenshot", new ByteArrayInputStream(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)));
         System.out.println(driver.getCurrentUrl());
 
@@ -84,7 +91,6 @@ public class ListTests extends BaseTests {
 
         //Assertion missing
 
-        mainPage.clickSignOut();
 
         File file = new File("src/main/resources/redundant_actors.txt");
         try {
@@ -100,6 +106,10 @@ public class ListTests extends BaseTests {
         }
 
         yourListsPage.finishPeopleListFilling();
+
+       int numberOfNameOccurrences = driver.findElements(By.xpath("//h3/a[contains(text(),\"John Travolta\")]")).size();
+       Assertions.assertTrue(numberOfNameOccurrences ==1, "The number of Occurences are: " + numberOfNameOccurrences);
+
 
 
     }

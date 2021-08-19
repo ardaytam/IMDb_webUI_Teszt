@@ -31,7 +31,7 @@ public class CreateAccountTests extends BaseTests {
         createAccountPage.clickCreateAccountButton();
 
     }
-    @Disabled("Remote server does not allow user to sign in after this test has run?")
+
     @Feature("Invalid Registration")
     @Story("User tries to register without email")
     @Description("Invalid Registration Test: empty email field")

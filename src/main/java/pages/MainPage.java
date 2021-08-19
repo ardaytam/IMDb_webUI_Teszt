@@ -66,7 +66,7 @@ public class MainPage {
 
 
     public void clickSignOut() {
-        getWebDriverWait().until(ExpectedConditions.elementToBeClickable(userRollDownMenu));
+
         driver.findElement(userRollDownMenu).click();
         driver.findElement(signOutMenuItem).click();
         //*[@id="navUserMenu-contents"]/ul/a[7]
@@ -81,7 +81,7 @@ public class MainPage {
     }
 
     public AccountSettingsPage clickAccountSettings() {
-        getWebDriverWait().until(ExpectedConditions.elementToBeClickable(userRollDownMenu));
+
         driver.findElement(userRollDownMenu).click();
         driver.findElement(accountSettingsMenuItem).click();
         return new AccountSettingsPage(driver);
@@ -89,7 +89,7 @@ public class MainPage {
     }
 
     public YourListsPage clickYourLists() {
-        getWebDriverWait().until(ExpectedConditions.elementToBeClickable(userRollDownMenu));
+
         driver.findElement(userRollDownMenu).click();
         driver.findElement(yourListMenuItem).click();
         return new YourListsPage(driver);

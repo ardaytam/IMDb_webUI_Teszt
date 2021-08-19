@@ -20,7 +20,8 @@ import java.util.concurrent.TimeUnit;
 
 public class BaseTests {
 
-    private WebDriver driver;
+
+    protected WebDriver driver;// private to protected
     protected MainPage mainPage; //test classes can inherit from this
 
 
@@ -34,7 +35,7 @@ public class BaseTests {
         options.addArguments("--no-sandbox");
         options.addArguments("--disable-dev-shm-usage");
         options.addArguments("--incognito");
-      options.addArguments("--headless");
+//        options.addArguments("--headless");
         options.addArguments("--window-size=1920,1080");
 
         driver = new ChromeDriver(options);

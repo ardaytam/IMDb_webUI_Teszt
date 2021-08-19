@@ -1,1 +1,0 @@
-{"uuid":"83e40ae2-b04c-46a2-bbcb-3ea233841bea","name":"testRegistrationWithoutEmail()","children":["488adeb4-435b-482e-a002-876da684cfcf"],"befores":[{"name":"goToMainPage","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1628869193177,"stop":1628869195676}],"afters":[],"links":[],"start":1628869193127,"stop":1628869198911}

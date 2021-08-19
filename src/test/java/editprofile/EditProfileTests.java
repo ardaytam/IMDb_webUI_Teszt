@@ -5,8 +5,6 @@ import io.qameta.allure.*;
 import org.junit.jupiter.api.*;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import pages.AccountSettingsPage;
 import pages.EditProfilePage;
 import pages.SignInPage;
@@ -32,7 +30,7 @@ public class EditProfileTests extends BaseTests {
         signInWithIMDbPage.setPassword("Oszip12600*");
         signInWithIMDbPage.clickSignInButton();
 
-        WebDriver driver= new ChromeDriver();
+
         Allure.addAttachment("Screenshot", new ByteArrayInputStream(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)));
         System.out.println(driver.getCurrentUrl());
 
