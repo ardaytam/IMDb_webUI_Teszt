@@ -1,0 +1,136 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "Create list tests",
+    "children" : [ {
+      "name" : "User can create lists from the IMDB database eg. save actors/movies in a list",
+      "children" : [ {
+        "name" : "ListTests",
+        "uid" : "c661f854638b036d",
+        "parentUid" : "59c984095b9b3bbad2d66f0101d3f81f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629392924281,
+          "stop" : 1629392924282,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "59c984095b9b3bbad2d66f0101d3f81f"
+    } ],
+    "uid" : "e156a681662e75c74235325090bfb03a"
+  }, {
+    "name" : "Privacy Policy Tests",
+    "children" : [ {
+      "name" : "Privacy Policy contains relevant text",
+      "children" : [ {
+        "name" : "PrivacyPolicyTests",
+        "uid" : "86d11b0c60ea417d",
+        "parentUid" : "66b0ff20623662995a4469bcd158ecbb",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629392924539,
+          "stop" : 1629392924539,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "66b0ff20623662995a4469bcd158ecbb"
+    } ],
+    "uid" : "20cf7c2d882eb79253000c50aa4065a4"
+  }, {
+    "name" : "Összetett keresési funkció tesztelése",
+    "children" : [ {
+      "name" : "A felhasználó képes több oldalas találati lista eléjétől végéig navigálni",
+      "children" : [ {
+        "name" : "AdvancedSearchTest",
+        "uid" : "9bae84481469ac7d",
+        "parentUid" : "1551b94771c539e6e3dfe1ecbb8a1f72",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629392924693,
+          "stop" : 1629392924693,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1551b94771c539e6e3dfe1ecbb8a1f72"
+    } ],
+    "uid" : "f2d09927021c169c8ab89abac7869288"
+  }, {
+    "name" : "Edit Profile Tests",
+    "children" : [ {
+      "name" : "User can write, modify, delete data in the profile",
+      "children" : [ {
+        "name" : "EditProfileTests",
+        "uid" : "b01af5a96f5282c0",
+        "parentUid" : "e1c6f1fb95d8bd5e8053667d13932972",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629392924866,
+          "stop" : 1629392924866,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e1c6f1fb95d8bd5e8053667d13932972"
+    } ],
+    "uid" : "915d8a412ed303655fa7b6c178b11026"
+  }, {
+    "name" : "Login Tests",
+    "children" : [ {
+      "name" : "SignInTests",
+      "uid" : "e967df13cfce3771",
+      "parentUid" : "be15aedb7bbea3712dfc833701a8007f",
+      "status" : "broken",
+      "time" : {
+        "start" : 1629392925037,
+        "stop" : 1629392925037,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "be15aedb7bbea3712dfc833701a8007f"
+  }, {
+    "name" : "SignOutTest",
+    "uid" : "232beb9def99864f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1629392925196,
+      "stop" : 1629392925196,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Registration Tests",
+    "children" : [ {
+      "name" : "CreateAccountTests",
+      "uid" : "28f9eddd22fda7f5",
+      "parentUid" : "47fbb0056bf4127c8288fd824a062f55",
+      "status" : "broken",
+      "time" : {
+        "start" : 1629392925389,
+        "stop" : 1629392925389,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "47fbb0056bf4127c8288fd824a062f55"
+  } ],
+  "name" : "behaviors"
+}
