@@ -15,13 +15,13 @@ import java.io.FileNotFoundException;
 import java.util.Scanner;
 
 
-@Epic("Edit Profile Tests")
-@Feature("User can write, modify, delete data in the profile")
+@Epic("Create list tests")
+@Feature("User can create lists from the IMDB database eg. save actors/movies in a list")
 public class ListTests extends BaseTests {
-    @Story("User write Biographic data in the profile")
-    @Description("Checking that user can write data in the profile")
+    @Story("User can create a list contains her/his favourite actors")
+    @Description("Checking that user can create a list contains her/his favourite actors")
     @Test
-    public void testCreateNewPeopleList(){
+    public void testCreateNewPeopleList() {
 
         SignInPage signInPage = mainPage.clickSignIn();
         SignInWithIMDbPage signInWithIMDbPage = signInPage.clickSignInWithIMDbButton();
@@ -48,12 +48,14 @@ public class ListTests extends BaseTests {
 
         yourListsPage.finishPeopleListFilling();
 
+
     }
-//sign out!!!
-    @Story("User write Biographic data in the profile")
-    @Description("Checking that user cannot  select the same actor in the list again and again")
+
+    //sign out!!!
+    @Story("User can not create list that  contains the same  person's name")
+    @Description("Checking that user can not create a list that  contains the same name multiple times")
     @Test
-    public void testCreateNewPeopleListUsingOnlyOneNameMultipleTimes(){
+    public void testCreateNewPeopleListUsingOnlyOneNameMultipleTimes() {
 
         SignInPage signInPage = mainPage.clickSignIn();
         SignInWithIMDbPage signInWithIMDbPage = signInPage.clickSignInWithIMDbButton();

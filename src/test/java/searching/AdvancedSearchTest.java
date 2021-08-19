@@ -6,6 +6,7 @@ import io.qameta.allure.Epic;
 import io.qameta.allure.Feature;
 import io.qameta.allure.Story;
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.RepeatedTest;
 import org.junit.jupiter.api.Test;
 import pages.AdvancedSearchPage;
 import pages.AdvancedSearchResultPage;
@@ -16,11 +17,12 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.InputStreamReader;
 
-@Epic("")//Ezeket magyarul kellene?
-@Feature("")
+@Epic("Összetett keresési funkció tesztelése")//Ezeket magyarul kellene?
+@Feature("A felhasználó képes több oldalas találati lista eléjétől végéig navigálni")
 
 
 public class AdvancedSearchTest extends BaseTests {
+    @Story("Összetett keresési funkció tesztelése")
     @Description("Valid Login Test with Valid Username and Valid Password.")
     @Test
     public void testCrawlingThroughSearchResultList() {
@@ -33,9 +35,9 @@ public class AdvancedSearchTest extends BaseTests {
         Assertions.assertEquals(numberOfResults +".", lastResult);
 
     }
-
-    @Description("Valid Login Test with Valid Username and Valid Password.")
-    @Test
+    @Story("Összetett keresési funkció tesztelése")
+    @Description("A felhasználó képes több oldalas találati lista címeit fájlba menteni")
+    @RepeatedTest(3)
     public void testSaveSearchResultTitlesToFile() throws Exception {
         AdvancedSearchPage advancedSearchPage = mainPage.clickAdvancedSearch();
         //Searching in Movie pLots contains keyword mosquito
