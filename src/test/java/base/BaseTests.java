@@ -36,7 +36,7 @@ public class BaseTests {
         options.addArguments("--disable-dev-shm-usage");
         options.addArguments("--incognito");
         options.addArguments("--headless");
-        options.addArguments("--window-size=1920,1080");
+
 
         driver = new ChromeDriver(options);
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);

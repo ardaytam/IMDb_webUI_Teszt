@@ -19,7 +19,8 @@ public class SignOutTest extends BaseTests {
         mainPage.clickSignOut();
 
         String currentTestUserName = "Junior";
-        Assertions.assertFalse(mainPage.userIsSignedIn(currentTestUserName));
+        Assertions.assertNotEquals(currentTestUserName, mainPage.userIsSignedIn());
+        
 
     }
 
