@@ -1,0 +1,116 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az82-467', ip: '10.1.0.13', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x55eb869cda63 <unknown>\n#1 0x55eb86742458 <unknown>\n#2 0x55eb867652e3 <unknown>\n#3 0x55eb86760e9f <unknown>\n#4 0x55eb8679ab72 <unknown>\n#5 0x55eb86794fd3 <unknown>\n#6 0x55eb8676b514 <unknown>\n#7 0x55eb8676c505 <unknown>\n#8 0x55eb869f9e2e <unknown>\n#9 0x55eb86a0f886 <unknown>\n#10 0x55eb869fad75 <unknown>\n#11 0x55eb86a10d94 <unknown>\n#12 0x55eb869f18eb <unknown>\n#13 0x55eb86a2bcd8 <unknown>\n#14 0x55eb86a2be58 <unknown>\n#15 0x55eb86a45dfd <unknown>\n#16 0x7fb82c7ce609 start_thread\n",
+      "children" : [ {
+        "name" : "testCreateNewPeopleListUsingOnlyOneNameMultipleTimes()",
+        "uid" : "38389a3ef0d90cb7",
+        "parentUid" : "a824eda02b6f5b5623a1782c13879873",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629380370138,
+          "stop" : 1629380375001,
+          "duration" : 4863
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a824eda02b6f5b5623a1782c13879873"
+    }, {
+      "name" : "Expected condition failed: waiting for element to be clickable: By.xpath: //*[@for=\"navUserMenu\"][2] (tried for 10 second(s) with 500 milliseconds interval)",
+      "children" : [ {
+        "name" : "testCreateNewPeopleList()",
+        "uid" : "e16d7445e990bb2e",
+        "parentUid" : "0d45c7e99ba1912eaf330e16d9211158",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629380375235,
+          "stop" : 1629380389807,
+          "duration" : 14572
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testModifyDescription()",
+        "uid" : "45b9c2da737f0037",
+        "parentUid" : "0d45c7e99ba1912eaf330e16d9211158",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629380456342,
+          "stop" : 1629380468708,
+          "duration" : 12366
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testDeleteDescription()",
+        "uid" : "e08760265c7d58ff",
+        "parentUid" : "0d45c7e99ba1912eaf330e16d9211158",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629380468718,
+          "stop" : 1629380480794,
+          "duration" : 12076
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testSuccessfulSignOut()",
+        "uid" : "4a2682d327de6c17",
+        "parentUid" : "0d45c7e99ba1912eaf330e16d9211158",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629380495274,
+          "stop" : 1629380509454,
+          "duration" : 14180
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0d45c7e99ba1912eaf330e16d9211158"
+    }, {
+      "name" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az82-467', ip: '10.1.0.13', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x563177123a63 <unknown>\n#1 0x563176e98458 <unknown>\n#2 0x563176ebb2e3 <unknown>\n#3 0x563176eb6e9f <unknown>\n#4 0x563176ef0b72 <unknown>\n#5 0x563176eeafd3 <unknown>\n#6 0x563176ec1514 <unknown>\n#7 0x563176ec2505 <unknown>\n#8 0x56317714fe2e <unknown>\n#9 0x563177165886 <unknown>\n#10 0x563177150d75 <unknown>\n#11 0x563177166d94 <unknown>\n#12 0x5631771478eb <unknown>\n#13 0x563177181cd8 <unknown>\n#14 0x563177181e58 <unknown>\n#15 0x56317719bdfd <unknown>\n#16 0x7f0961671609 start_thread\n",
+      "children" : [ {
+        "name" : "testWriteDescription()",
+        "uid" : "2c980122e1d8caa7",
+        "parentUid" : "fb52377131f864ee2a8e5e5b12f80294",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629380452216,
+          "stop" : 1629380456337,
+          "duration" : 4121
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fb52377131f864ee2a8e5e5b12f80294"
+    }, {
+      "name" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[contains(@class, 'user-menu-toggle')]\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az82-467', ip: '10.1.0.13', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.iarjO7}, goog:chromeOptions: {debuggerAddress: localhost:34251}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: bfe3892577de0c1b2a4e4fb67b58bdab\n*** Element info: {Using=xpath, value=//span[contains(@class, 'user-menu-toggle')]}",
+      "children" : [ {
+        "name" : "testSuccessfulLogIn()",
+        "uid" : "7dfa2d141e1bf054",
+        "parentUid" : "8e4c049332049f36ef7dfdc6fa862893",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629380481085,
+          "stop" : 1629380494995,
+          "duration" : 13910
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8e4c049332049f36ef7dfdc6fa862893"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}

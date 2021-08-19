@@ -1,0 +1,150 @@
+{
+  "uid" : "4021d02fc6a9f86b",
+  "name" : "repetition 2 of 3",
+  "fullName" : "searching.AdvancedSearchTest.testSaveSearchResultTitlesToFile",
+  "historyId" : "36529f1ba1daf91b3a6b1f853efacff9",
+  "time" : {
+    "start" : 1629380442525,
+    "stop" : 1629380447393,
+    "duration" : 4868
+  },
+  "description" : "A felhasználó képes több oldalas találati lista címeit fájlba menteni",
+  "descriptionHtml" : "<p>A felhasználó képes több oldalas találati lista címeit fájlba menteni</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1629380407715,
+      "stop" : 1629380407895,
+      "duration" : 180
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "goHomePage",
+    "time" : {
+      "start" : 1629380442529,
+      "stop" : 1629380444439,
+      "duration" : 1910
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1629380451933,
+      "stop" : 1629380452009,
+      "duration" : 76
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Összetett keresési funkció tesztelése"
+  }, {
+    "name" : "feature",
+    "value" : "A felhasználó képes több oldalas találati lista eléjétől végéig navigálni"
+  }, {
+    "name" : "story",
+    "value" : "Összetett keresési funkció tesztelése"
+  }, {
+    "name" : "host",
+    "value" : "fv-az82-467"
+  }, {
+    "name" : "thread",
+    "value" : "2947@fv-az82-467.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "searching.AdvancedSearchTest"
+  }, {
+    "name" : "testClass",
+    "value" : "searching.AdvancedSearchTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testSaveSearchResultTitlesToFile"
+  }, {
+    "name" : "suite",
+    "value" : "searching.AdvancedSearchTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "12ff6c29f2ce17c",
+        "reportUrl" : "https://ardaytam.github.io/IMDb_webUI_Teszt/16//#testresult/12ff6c29f2ce17c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629358419817,
+          "stop" : 1629358423728,
+          "duration" : 3911
+        }
+      }, {
+        "uid" : "ef59d3e321b41a41",
+        "reportUrl" : "https://ardaytam.github.io/IMDb_webUI_Teszt/14//#testresult/ef59d3e321b41a41",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629353908725,
+          "stop" : 1629353915172,
+          "duration" : 6447
+        }
+      }, {
+        "uid" : "540dee79fc94e889",
+        "reportUrl" : "https://ardaytam.github.io/IMDb_webUI_Teszt/13//#testresult/540dee79fc94e889",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629353313014,
+          "stop" : 1629353317303,
+          "duration" : 4289
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "4021d02fc6a9f86b.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,189 @@
+{
+  "uid" : "c9971752e494953",
+  "name" : "testSuccessfullRegistration()",
+  "fullName" : "createaccount.CreateAccountTests.testSuccessfullRegistration",
+  "historyId" : "e9d578002d4424ddeb4f2f4e63d0480c",
+  "time" : {
+    "start" : 1629380509731,
+    "stop" : 1629380509731,
+    "duration" : 0
+  },
+  "description" : "ValidRegistration Test with properly given data",
+  "descriptionHtml" : "<p>ValidRegistration Test with properly given data</p>\n",
+  "status" : "skipped",
+  "statusMessage" : "Can not be automatized cause the email verification process",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1629380509539,
+      "stop" : 1629380509730,
+      "duration" : 191
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1629380509745,
+      "stop" : 1629380509811,
+      "duration" : 66
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Registration Tests"
+  }, {
+    "name" : "feature",
+    "value" : "Valid Registration"
+  }, {
+    "name" : "story",
+    "value" : "User tries to register with properly given data"
+  }, {
+    "name" : "host",
+    "value" : "fv-az82-467"
+  }, {
+    "name" : "thread",
+    "value" : "2947@fv-az82-467.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "createaccount.CreateAccountTests"
+  }, {
+    "name" : "testClass",
+    "value" : "createaccount.CreateAccountTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "testSuccessfullRegistration"
+  }, {
+    "name" : "suite",
+    "value" : "createaccount.CreateAccountTests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 9,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 9
+      },
+      "items" : [ {
+        "uid" : "de807cfa3ed2428e",
+        "reportUrl" : "https://ardaytam.github.io/IMDb_webUI_Teszt/16//#testresult/de807cfa3ed2428e",
+        "status" : "skipped",
+        "statusDetails" : "Can not be automatized cause the email verification process",
+        "time" : {
+          "start" : 1629358489918,
+          "stop" : 1629358489918,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "3cd50d288e50c94d",
+        "reportUrl" : "https://ardaytam.github.io/IMDb_webUI_Teszt/14//#testresult/3cd50d288e50c94d",
+        "status" : "skipped",
+        "statusDetails" : "Can not be automatized cause the email verification process",
+        "time" : {
+          "start" : 1629353990413,
+          "stop" : 1629353990413,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "e8b0a0f5aa9548ff",
+        "reportUrl" : "https://ardaytam.github.io/IMDb_webUI_Teszt/13//#testresult/e8b0a0f5aa9548ff",
+        "status" : "skipped",
+        "statusDetails" : "Can not be automatized cause the email verification process",
+        "time" : {
+          "start" : 1629353400907,
+          "stop" : 1629353400907,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "fddbcb44d1c71672",
+        "reportUrl" : "https://ardaytam.github.io/IMDb_webUI_Teszt/12//#testresult/fddbcb44d1c71672",
+        "status" : "skipped",
+        "statusDetails" : "Can not be automatized cause the email verification process",
+        "time" : {
+          "start" : 1629296348844,
+          "stop" : 1629296348844,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "a8bf686112037012",
+        "reportUrl" : "https://ardaytam.github.io/IMDb_webUI_Teszt/11//#testresult/a8bf686112037012",
+        "status" : "skipped",
+        "statusDetails" : "Can not be automatized cause the email verification process",
+        "time" : {
+          "start" : 1629289883155,
+          "stop" : 1629289883155,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "f33948126aa0e56f",
+        "reportUrl" : "https://ardaytam.github.io/IMDb_webUI_Teszt/10//#testresult/f33948126aa0e56f",
+        "status" : "skipped",
+        "statusDetails" : "Can not be automatized cause the email verification process",
+        "time" : {
+          "start" : 1629281018106,
+          "stop" : 1629281018106,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "9e3dd726ba695c36",
+        "reportUrl" : "https://ardaytam.github.io/IMDb_webUI_Teszt/9//#testresult/9e3dd726ba695c36",
+        "status" : "skipped",
+        "statusDetails" : "Can not be automatized cause the email verification process",
+        "time" : {
+          "start" : 1629137085319,
+          "stop" : 1629137085319,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "511e15312e106700",
+        "reportUrl" : "https://ardaytam.github.io/IMDb_webUI_Teszt/7//#testresult/511e15312e106700",
+        "status" : "skipped",
+        "statusDetails" : "Can not be automatized cause the email verification process",
+        "time" : {
+          "start" : 1628238400731,
+          "stop" : 1628238400731,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "c9971752e494953.json",
+  "parameterValues" : [ ]
+}
