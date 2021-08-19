@@ -1,0 +1,112 @@
+{
+  "uid" : "6c2b6d22ad2ffa98",
+  "name" : "repetition 1 of 3",
+  "fullName" : "searching.AdvancedSearchTest.testSaveSearchResultTitlesToFile",
+  "historyId" : "5d753bda126b8f7bc43bbc0697a050f3",
+  "time" : {
+    "start" : 1629353307019,
+    "stop" : 1629353313012,
+    "duration" : 5993
+  },
+  "description" : "A felhasználó képes több oldalas találati lista címeit fájlba menteni",
+  "descriptionHtml" : "<p>A felhasználó képes több oldalas találati lista címeit fájlba menteni</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1629353281706,
+      "stop" : 1629353281888,
+      "duration" : 182
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "goHomePage",
+    "time" : {
+      "start" : 1629353307020,
+      "stop" : 1629353308682,
+      "duration" : 1662
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1629353321806,
+      "stop" : 1629353321881,
+      "duration" : 75
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "A felhasználó képes több oldalas találati lista eléjétől végéig navigálni"
+  }, {
+    "name" : "epic",
+    "value" : "Összetett keresési funkció tesztelése"
+  }, {
+    "name" : "story",
+    "value" : "Összetett keresési funkció tesztelése"
+  }, {
+    "name" : "host",
+    "value" : "fv-az39-548"
+  }, {
+    "name" : "thread",
+    "value" : "2906@fv-az39-548.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "searching.AdvancedSearchTest"
+  }, {
+    "name" : "testClass",
+    "value" : "searching.AdvancedSearchTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testSaveSearchResultTitlesToFile"
+  }, {
+    "name" : "suite",
+    "value" : "searching.AdvancedSearchTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6c2b6d22ad2ffa98.json",
+  "parameterValues" : [ ]
+}
