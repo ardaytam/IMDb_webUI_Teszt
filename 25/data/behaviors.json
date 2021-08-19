@@ -1,0 +1,365 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "Create list tests",
+    "children" : [ {
+      "name" : "User can create lists from the IMDB database eg. save actors/movies in a list",
+      "children" : [ {
+        "name" : "User can not create list that  contains the same  person's name",
+        "children" : [ {
+          "name" : "testCreateNewPeopleListUsingOnlyOneNameMultipleTimes()",
+          "uid" : "9555673745e0816",
+          "parentUid" : "9a26b2182ca022972f02d2d7a6969532",
+          "status" : "broken",
+          "time" : {
+            "start" : 1629402229503,
+            "stop" : 1629402247136,
+            "duration" : 17633
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "9a26b2182ca022972f02d2d7a6969532"
+      }, {
+        "name" : "User can create a list contains her/his favourite actors",
+        "children" : [ {
+          "name" : "testCreateNewPeopleList()",
+          "uid" : "42a9978e957fea35",
+          "parentUid" : "3edd3dd1832fed14886c6abde1a7f18f",
+          "status" : "broken",
+          "time" : {
+            "start" : 1629402247509,
+            "stop" : 1629402264438,
+            "duration" : 16929
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "3edd3dd1832fed14886c6abde1a7f18f"
+      } ],
+      "uid" : "59c984095b9b3bbad2d66f0101d3f81f"
+    } ],
+    "uid" : "e156a681662e75c74235325090bfb03a"
+  }, {
+    "name" : "Privacy Policy Tests",
+    "children" : [ {
+      "name" : "Privacy Policy contains relevant text",
+      "children" : [ {
+        "name" : "User gets relevant and informative text from Privacy Policy.",
+        "children" : [ {
+          "name" : "[1] Provide, troubleshoot, and improve IMDb Services",
+          "uid" : "d41bb00bada0b7c2",
+          "parentUid" : "4e279ad7f2a791cc5747d6de02269504",
+          "status" : "passed",
+          "time" : {
+            "start" : 1629402229534,
+            "stop" : 1629402237181,
+            "duration" : 7647
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "[2] Recommendations and personalization",
+          "uid" : "dcf5681a946bc8a8",
+          "parentUid" : "4e279ad7f2a791cc5747d6de02269504",
+          "status" : "passed",
+          "time" : {
+            "start" : 1629402237341,
+            "stop" : 1629402240175,
+            "duration" : 2834
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "[3] Comply with legal obligations",
+          "uid" : "5d115268e7a7e0f8",
+          "parentUid" : "4e279ad7f2a791cc5747d6de02269504",
+          "status" : "passed",
+          "time" : {
+            "start" : 1629402240183,
+            "stop" : 1629402242882,
+            "duration" : 2699
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "[4] Communicate with you",
+          "uid" : "cdfea26f2d722033",
+          "parentUid" : "4e279ad7f2a791cc5747d6de02269504",
+          "status" : "passed",
+          "time" : {
+            "start" : 1629402242896,
+            "stop" : 1629402245662,
+            "duration" : 2766
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "[5] Advertising",
+          "uid" : "7617768a7e271586",
+          "parentUid" : "4e279ad7f2a791cc5747d6de02269504",
+          "status" : "passed",
+          "time" : {
+            "start" : 1629402245670,
+            "stop" : 1629402251898,
+            "duration" : 6228
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "[6] Fraud Prevention",
+          "uid" : "68047bdbdfcad402",
+          "parentUid" : "4e279ad7f2a791cc5747d6de02269504",
+          "status" : "passed",
+          "time" : {
+            "start" : 1629402251915,
+            "stop" : 1629402255651,
+            "duration" : 3736
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "4e279ad7f2a791cc5747d6de02269504"
+      } ],
+      "uid" : "66b0ff20623662995a4469bcd158ecbb"
+    } ],
+    "uid" : "20cf7c2d882eb79253000c50aa4065a4"
+  }, {
+    "name" : "Edit Profile Tests",
+    "children" : [ {
+      "name" : "User can write, modify, delete data in the profile",
+      "children" : [ {
+        "name" : "User write Biographic data in the profile",
+        "children" : [ {
+          "name" : "testWriteDescription()",
+          "uid" : "1d06a381b1bd14d",
+          "parentUid" : "c98d335fc0e3cf16b205d9a04ca01433",
+          "status" : "broken",
+          "time" : {
+            "start" : 1629402256038,
+            "stop" : 1629402272841,
+            "duration" : 16803
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "c98d335fc0e3cf16b205d9a04ca01433"
+      }, {
+        "name" : "User modify Biographic data in the profile",
+        "children" : [ {
+          "name" : "testModifyDescription()",
+          "uid" : "b227ed15a4088bb7",
+          "parentUid" : "84263b053ab35fd42ceebec942337db1",
+          "status" : "broken",
+          "time" : {
+            "start" : 1629402272882,
+            "stop" : 1629402284454,
+            "duration" : 11572
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "84263b053ab35fd42ceebec942337db1"
+      }, {
+        "name" : "User delete Biographic data in the profile",
+        "children" : [ {
+          "name" : "testDeleteDescription()",
+          "uid" : "3cd604ca54e4def6",
+          "parentUid" : "14d919a0d395c494a2b136f974c37fef",
+          "status" : "broken",
+          "time" : {
+            "start" : 1629402284462,
+            "stop" : 1629402296023,
+            "duration" : 11561
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "14d919a0d395c494a2b136f974c37fef"
+      } ],
+      "uid" : "e1c6f1fb95d8bd5e8053667d13932972"
+    } ],
+    "uid" : "915d8a412ed303655fa7b6c178b11026"
+  }, {
+    "name" : "Összetett keresési funkció tesztelése",
+    "children" : [ {
+      "name" : "A felhasználó képes több oldalas találati lista eléjétől végéig navigálni",
+      "children" : [ {
+        "name" : "Összetett keresési funkció tesztelése",
+        "children" : [ {
+          "name" : "testCrawlingThroughSearchResultList()",
+          "uid" : "de2cc5a7780cd34f",
+          "parentUid" : "1d5b3c0b0c9cf76a0123cd3015418baa",
+          "status" : "passed",
+          "time" : {
+            "start" : 1629402264878,
+            "stop" : 1629402289476,
+            "duration" : 24598
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "repetition 1 of 3",
+          "uid" : "ad99dc369be151a9",
+          "parentUid" : "1d5b3c0b0c9cf76a0123cd3015418baa",
+          "status" : "passed",
+          "time" : {
+            "start" : 1629402289496,
+            "stop" : 1629402295852,
+            "duration" : 6356
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "repetition 2 of 3",
+          "uid" : "364e84f9fcbf722b",
+          "parentUid" : "1d5b3c0b0c9cf76a0123cd3015418baa",
+          "status" : "passed",
+          "time" : {
+            "start" : 1629402295859,
+            "stop" : 1629402302272,
+            "duration" : 6413
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "repetition 3 of 3",
+          "uid" : "f6a536b0a4c2e359",
+          "parentUid" : "1d5b3c0b0c9cf76a0123cd3015418baa",
+          "status" : "passed",
+          "time" : {
+            "start" : 1629402302275,
+            "stop" : 1629402306275,
+            "duration" : 4000
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "1d5b3c0b0c9cf76a0123cd3015418baa"
+      } ],
+      "uid" : "1551b94771c539e6e3dfe1ecbb8a1f72"
+    } ],
+    "uid" : "f2d09927021c169c8ab89abac7869288"
+  }, {
+    "name" : "Login Tests",
+    "children" : [ {
+      "name" : "Invalid Login",
+      "children" : [ {
+        "name" : "User tries to login the system with valid username and invalid password.",
+        "children" : [ {
+          "name" : "testLoginWithInvalidPassword()",
+          "uid" : "b475dcca558a7838",
+          "parentUid" : "69292b9839cc215b80a36b0ecb142c80",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1629402296312,
+            "stop" : 1629402296312,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "69292b9839cc215b80a36b0ecb142c80"
+      } ],
+      "uid" : "88724768a1e144ab3e4f0e199526fb21"
+    }, {
+      "name" : "Valid Login",
+      "children" : [ {
+        "name" : "User tries to login the system with valid username and valid password.",
+        "children" : [ {
+          "name" : "testSuccessfulLogIn()",
+          "uid" : "24e2bdb4539c515c",
+          "parentUid" : "21b30f395a9be927a76d79e4e43b7125",
+          "status" : "broken",
+          "time" : {
+            "start" : 1629402296315,
+            "stop" : 1629402311445,
+            "duration" : 15130
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "21b30f395a9be927a76d79e4e43b7125"
+      } ],
+      "uid" : "f190a6297d7e39020f6e04e38589b00a"
+    } ],
+    "uid" : "be15aedb7bbea3712dfc833701a8007f"
+  }, {
+    "name" : "testSuccessfulSignOut()",
+    "uid" : "f4edc021ee346604",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1629402306567,
+      "stop" : 1629402323784,
+      "duration" : 17217
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Registration Tests",
+    "children" : [ {
+      "name" : "Valid Registration",
+      "children" : [ {
+        "name" : "User tries to register with properly given data",
+        "children" : [ {
+          "name" : "testSuccessfullRegistration()",
+          "uid" : "1432920105922470",
+          "parentUid" : "8a16efc5b4ede3f61d0e66656dae62c5",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1629402324023,
+            "stop" : 1629402324023,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "8a16efc5b4ede3f61d0e66656dae62c5"
+      } ],
+      "uid" : "4e93a1a6ec6fb209c0c1c01d3a83e33d"
+    }, {
+      "name" : "Invalid Registration",
+      "children" : [ {
+        "name" : "User tries to register without email",
+        "children" : [ {
+          "name" : "testRegistrationWithoutEmail()",
+          "uid" : "628454aca69f2d8d",
+          "parentUid" : "333728be76fd0c72297c1fe650b7f8d1",
+          "status" : "passed",
+          "time" : {
+            "start" : 1629402324031,
+            "stop" : 1629402327703,
+            "duration" : 3672
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "333728be76fd0c72297c1fe650b7f8d1"
+      } ],
+      "uid" : "eefa0ea55b3f3831171ecac21f1a8ce2"
+    } ],
+    "uid" : "47fbb0056bf4127c8288fd824a062f55"
+  } ],
+  "name" : "behaviors"
+}

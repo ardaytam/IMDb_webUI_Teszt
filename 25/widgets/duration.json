@@ -1,0 +1,201 @@
+[ {
+  "uid" : "ad99dc369be151a9",
+  "name" : "repetition 1 of 3",
+  "time" : {
+    "start" : 1629402289496,
+    "stop" : 1629402295852,
+    "duration" : 6356
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b475dcca558a7838",
+  "name" : "testLoginWithInvalidPassword()",
+  "time" : {
+    "start" : 1629402296312,
+    "stop" : 1629402296312,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "d41bb00bada0b7c2",
+  "name" : "[1] Provide, troubleshoot, and improve IMDb Services",
+  "time" : {
+    "start" : 1629402229534,
+    "stop" : 1629402237181,
+    "duration" : 7647
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "628454aca69f2d8d",
+  "name" : "testRegistrationWithoutEmail()",
+  "time" : {
+    "start" : 1629402324031,
+    "stop" : 1629402327703,
+    "duration" : 3672
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5d115268e7a7e0f8",
+  "name" : "[3] Comply with legal obligations",
+  "time" : {
+    "start" : 1629402240183,
+    "stop" : 1629402242882,
+    "duration" : 2699
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9555673745e0816",
+  "name" : "testCreateNewPeopleListUsingOnlyOneNameMultipleTimes()",
+  "time" : {
+    "start" : 1629402229503,
+    "stop" : 1629402247136,
+    "duration" : 17633
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "3cd604ca54e4def6",
+  "name" : "testDeleteDescription()",
+  "time" : {
+    "start" : 1629402284462,
+    "stop" : 1629402296023,
+    "duration" : 11561
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "f4edc021ee346604",
+  "name" : "testSuccessfulSignOut()",
+  "time" : {
+    "start" : 1629402306567,
+    "stop" : 1629402323784,
+    "duration" : 17217
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "f6a536b0a4c2e359",
+  "name" : "repetition 3 of 3",
+  "time" : {
+    "start" : 1629402302275,
+    "stop" : 1629402306275,
+    "duration" : 4000
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "364e84f9fcbf722b",
+  "name" : "repetition 2 of 3",
+  "time" : {
+    "start" : 1629402295859,
+    "stop" : 1629402302272,
+    "duration" : 6413
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b227ed15a4088bb7",
+  "name" : "testModifyDescription()",
+  "time" : {
+    "start" : 1629402272882,
+    "stop" : 1629402284454,
+    "duration" : 11572
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "1432920105922470",
+  "name" : "testSuccessfullRegistration()",
+  "time" : {
+    "start" : 1629402324023,
+    "stop" : 1629402324023,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "cdfea26f2d722033",
+  "name" : "[4] Communicate with you",
+  "time" : {
+    "start" : 1629402242896,
+    "stop" : 1629402245662,
+    "duration" : 2766
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dcf5681a946bc8a8",
+  "name" : "[2] Recommendations and personalization",
+  "time" : {
+    "start" : 1629402237341,
+    "stop" : 1629402240175,
+    "duration" : 2834
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1d06a381b1bd14d",
+  "name" : "testWriteDescription()",
+  "time" : {
+    "start" : 1629402256038,
+    "stop" : 1629402272841,
+    "duration" : 16803
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "24e2bdb4539c515c",
+  "name" : "testSuccessfulLogIn()",
+  "time" : {
+    "start" : 1629402296315,
+    "stop" : 1629402311445,
+    "duration" : 15130
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "42a9978e957fea35",
+  "name" : "testCreateNewPeopleList()",
+  "time" : {
+    "start" : 1629402247509,
+    "stop" : 1629402264438,
+    "duration" : 16929
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "7617768a7e271586",
+  "name" : "[5] Advertising",
+  "time" : {
+    "start" : 1629402245670,
+    "stop" : 1629402251898,
+    "duration" : 6228
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "de2cc5a7780cd34f",
+  "name" : "testCrawlingThroughSearchResultList()",
+  "time" : {
+    "start" : 1629402264878,
+    "stop" : 1629402289476,
+    "duration" : 24598
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "68047bdbdfcad402",
+  "name" : "[6] Fraud Prevention",
+  "time" : {
+    "start" : 1629402251915,
+    "stop" : 1629402255651,
+    "duration" : 3736
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
