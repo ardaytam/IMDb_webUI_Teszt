@@ -1,0 +1,149 @@
+{
+  "uid" : "aa96751eb6d4389",
+  "name" : "testSuccessfullRegistration()",
+  "fullName" : "createaccount.CreateAccountTests.testSuccessfullRegistration",
+  "historyId" : "e9d578002d4424ddeb4f2f4e63d0480c",
+  "time" : {
+    "start" : 1629396585393,
+    "stop" : 1629396585393,
+    "duration" : 0
+  },
+  "description" : "ValidRegistration Test with properly given data",
+  "descriptionHtml" : "<p>ValidRegistration Test with properly given data</p>\n",
+  "status" : "skipped",
+  "statusMessage" : "Can not be automatized cause the email verification process",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1629396585246,
+      "stop" : 1629396585392,
+      "duration" : 146
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1629396588799,
+      "stop" : 1629396588872,
+      "duration" : 73
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Registration Tests"
+  }, {
+    "name" : "feature",
+    "value" : "Valid Registration"
+  }, {
+    "name" : "story",
+    "value" : "User tries to register with properly given data"
+  }, {
+    "name" : "host",
+    "value" : "fv-az72-349"
+  }, {
+    "name" : "thread",
+    "value" : "2861@fv-az72-349.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "createaccount.CreateAccountTests"
+  }, {
+    "name" : "testClass",
+    "value" : "createaccount.CreateAccountTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "testSuccessfullRegistration"
+  }, {
+    "name" : "suite",
+    "value" : "createaccount.CreateAccountTests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 5,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "a5811757332bffdd",
+        "reportUrl" : "https://ardaytam.github.io/IMDb_webUI_Teszt/23//#testresult/a5811757332bffdd",
+        "status" : "skipped",
+        "statusDetails" : "Can not be automatized cause the email verification process",
+        "time" : {
+          "start" : 1629395824370,
+          "stop" : 1629395824370,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "53c78e1ab16aed4d",
+        "reportUrl" : "https://ardaytam.github.io/IMDb_webUI_Teszt/22//#testresult/53c78e1ab16aed4d",
+        "status" : "skipped",
+        "statusDetails" : "Can not be automatized cause the email verification process",
+        "time" : {
+          "start" : 1629395274939,
+          "stop" : 1629395274939,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "5210ff1193b79d59",
+        "reportUrl" : "https://ardaytam.github.io/IMDb_webUI_Teszt/21//#testresult/5210ff1193b79d59",
+        "status" : "skipped",
+        "statusDetails" : "Can not be automatized cause the email verification process",
+        "time" : {
+          "start" : 1629394620777,
+          "stop" : 1629394620777,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "faf4d3be3f3e884d",
+        "reportUrl" : "https://ardaytam.github.io/IMDb_webUI_Teszt/20//#testresult/faf4d3be3f3e884d",
+        "status" : "skipped",
+        "statusDetails" : "Can not be automatized cause the email verification process",
+        "time" : {
+          "start" : 1629393951845,
+          "stop" : 1629393951845,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "aa96751eb6d4389.json",
+  "parameterValues" : [ ]
+}
