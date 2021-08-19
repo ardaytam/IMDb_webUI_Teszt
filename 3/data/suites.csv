@@ -1,4 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"broken","Thu Aug 05 19:08:48 GMT 2021","Thu Aug 05 19:09:20 GMT 2021","31748","","signinandout.SignOutTest","","signinandout.SignOutTest","testSuccessfulSignOut","testSuccessfulSignOut()",""
-"skipped","Thu Aug 05 19:09:22 GMT 2021","Thu Aug 05 19:09:22 GMT 2021","0","","createaccount.CreateAccountTests","","createaccount.CreateAccountTests","testSuccessfullRegistration","testSuccessfullRegistration()",""
-"broken","Thu Aug 05 19:08:14 GMT 2021","Thu Aug 05 19:08:46 GMT 2021","32312","","signinandout.SignInTests","","signinandout.SignInTests","testSuccessfulSignIn","testSuccessfulSignIn()",""

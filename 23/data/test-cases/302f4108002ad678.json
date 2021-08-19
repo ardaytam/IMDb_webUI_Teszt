@@ -1,0 +1,139 @@
+{
+  "uid" : "302f4108002ad678",
+  "name" : "testLoginWithInvalidPassword()",
+  "fullName" : "signinandout.SignInTests.testLoginWithInvalidPassword",
+  "historyId" : "4cef37e62c8c6fa12ffa52c493a9b06e",
+  "time" : {
+    "start" : 1629395796007,
+    "stop" : 1629395796007,
+    "duration" : 0
+  },
+  "description" : "Invalid Login Test with valid Username and Invalid Password.",
+  "descriptionHtml" : "<p>Invalid Login Test with valid Username and Invalid Password.</p>\n",
+  "status" : "skipped",
+  "statusMessage" : "public void signinandout.SignInTests.testLoginWithInvalidPassword() is @Disabled",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1629395795839,
+      "stop" : 1629395796004,
+      "duration" : 165
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1629395808869,
+      "stop" : 1629395808955,
+      "duration" : 86
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Login Tests"
+  }, {
+    "name" : "story",
+    "value" : "User tries to login the system with valid username and invalid password."
+  }, {
+    "name" : "feature",
+    "value" : "Invalid Login"
+  }, {
+    "name" : "host",
+    "value" : "fv-az47-486"
+  }, {
+    "name" : "thread",
+    "value" : "2858@fv-az47-486.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "signinandout.SignInTests"
+  }, {
+    "name" : "testClass",
+    "value" : "signinandout.SignInTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "testLoginWithInvalidPassword"
+  }, {
+    "name" : "suite",
+    "value" : "signinandout.SignInTests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 4,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "107450af744ced0f",
+        "reportUrl" : "https://ardaytam.github.io/IMDb_webUI_Teszt/22//#testresult/107450af744ced0f",
+        "status" : "skipped",
+        "statusDetails" : "public void signinandout.SignInTests.testLoginWithInvalidPassword() is @Disabled",
+        "time" : {
+          "start" : 1629395247135,
+          "stop" : 1629395247135,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "4ea722d30f00d07b",
+        "reportUrl" : "https://ardaytam.github.io/IMDb_webUI_Teszt/21//#testresult/4ea722d30f00d07b",
+        "status" : "skipped",
+        "statusDetails" : "public void signinandout.SignInTests.testLoginWithInvalidPassword() is @Disabled",
+        "time" : {
+          "start" : 1629394592588,
+          "stop" : 1629394592588,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "9391fefa6302aac9",
+        "reportUrl" : "https://ardaytam.github.io/IMDb_webUI_Teszt/20//#testresult/9391fefa6302aac9",
+        "status" : "skipped",
+        "statusDetails" : "public void signinandout.SignInTests.testLoginWithInvalidPassword() is @Disabled",
+        "time" : {
+          "start" : 1629393925148,
+          "stop" : 1629393925148,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "302f4108002ad678.json",
+  "parameterValues" : [ ]
+}
