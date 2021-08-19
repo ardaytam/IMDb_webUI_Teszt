@@ -36,8 +36,10 @@ public class ListTests extends BaseTests {
         signInWithIMDbPage.setPassword("Oszip12600*");
         signInWithIMDbPage.clickSignInButton();
 
-//        Allure.addAttachment("Screenshot", new ByteArrayInputStream(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)));
-//        System.out.println(driver.getCurrentUrl());
+        mainPage.UserRollDownMenu();
+
+        Allure.addAttachment("Screenshot", new ByteArrayInputStream(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)));
+        System.out.println(driver.getCurrentUrl());
 
         YourListsPage yourListsPage = mainPage.clickYourLists();
 

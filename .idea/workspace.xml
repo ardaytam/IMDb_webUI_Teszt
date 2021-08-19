@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d1472d1-77fb-4f4b-9c0a-db84b9665e1f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/searchResultTitles.txt" beforeDir="false" afterPath="$PROJECT_DIR$/searchResultTitles.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/editprofile/EditProfileTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/editprofile/EditProfileTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lists/ListTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lists/ListTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/signinandout/SignInTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/signinandout/SignInTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,12 +161,12 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/lists/ListTests.java</url>
-          <line>71</line>
+          <line>73</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/lists/ListTests.java</url>
-          <line>114</line>
+          <line>116</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>

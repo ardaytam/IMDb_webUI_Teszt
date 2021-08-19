@@ -30,13 +30,14 @@ public class EditProfileTests extends BaseTests {
         signInWithIMDbPage.setPassword("Oszip12600*");
         signInWithIMDbPage.clickSignInButton();
 
-
-
-
-        AccountSettingsPage accountSettingsPage = mainPage.clickAccountSettings();
+        mainPage.UserRollDownMenu();
 
         Allure.addAttachment("Screenshot", new ByteArrayInputStream(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)));
         System.out.println(driver.getCurrentUrl());
+
+        AccountSettingsPage accountSettingsPage = mainPage.clickAccountSettings();
+
+
 
         EditProfilePage editProfilePage = accountSettingsPage.clickEditProfileLink();
 

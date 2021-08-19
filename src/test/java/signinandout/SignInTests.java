@@ -31,13 +31,14 @@ public class SignInTests extends BaseTests {
         signInWithIMDbPage.setPassword("Oszip12600*");
         signInWithIMDbPage.clickSignInButton();
 
+        Allure.addAttachment("Screenshot", new ByteArrayInputStream(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)));
+        System.out.println(driver.getCurrentUrl());
         String currentTestUserName = "Junior";
 
 
         Assertions.assertEquals(currentTestUserName, mainPage.userIsSignedIn());
 
-        Allure.addAttachment("Screenshot", new ByteArrayInputStream(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)));
-        System.out.println(driver.getCurrentUrl());
+
     }
 
     @Disabled
