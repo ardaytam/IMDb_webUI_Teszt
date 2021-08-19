@@ -6,6 +6,7 @@ import io.qameta.allure.Epic;
 import io.qameta.allure.Feature;
 import io.qameta.allure.Story;
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.WebDriver;
 import pages.SignInPage;
@@ -34,6 +35,7 @@ public class SignInTests extends BaseTests {
 
     }
 
+    @Disabled
     @Test
     @Feature("Invalid Login")
     @Story("User tries to login the system with valid username and invalid password.")
@@ -50,7 +52,7 @@ public class SignInTests extends BaseTests {
         String errormessage2 = "Important Message!"; //This message appears after the second unsuccessfull attempt
 
         Assertions.assertTrue(errormessage1.equals(signInWithIMDbPage.firstPasswordError())
-                                     || errormessage2.equals(signInWithIMDbPage.secondPasswordError()));
+                || errormessage2.equals(signInWithIMDbPage.secondPasswordError()));
 
     }
 }
