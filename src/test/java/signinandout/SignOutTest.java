@@ -1,10 +1,15 @@
 package signinandout;
 
 import base.BaseTests;
+import io.qameta.allure.Allure;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import pages.SignInPage;
 import pages.SignInWithIMDbPage;
+
+import java.io.ByteArrayInputStream;
 
 public class SignOutTest extends BaseTests {
 
@@ -17,6 +22,8 @@ public class SignOutTest extends BaseTests {
         signInWithIMDbPage.setPassword("Oszip12600*");
         signInWithIMDbPage.clickSignInButton();
         mainPage.clickSignOut();
+        Allure.addAttachment("Screenshot", new ByteArrayInputStream(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)));
+        System.out.println(driver.getCurrentUrl());
 
         String currentTestUserName = "Junior";
         Assertions.assertNotEquals(currentTestUserName, mainPage.userIsSignedIn());

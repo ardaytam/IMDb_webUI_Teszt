@@ -1,16 +1,17 @@
 package signinandout;
 
 import base.BaseTests;
-import io.qameta.allure.Description;
-import io.qameta.allure.Epic;
-import io.qameta.allure.Feature;
-import io.qameta.allure.Story;
+import io.qameta.allure.*;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import pages.SignInPage;
 import pages.SignInWithIMDbPage;
+
+import java.io.ByteArrayInputStream;
 
 
 @Epic("Login Tests")
@@ -32,8 +33,11 @@ public class SignInTests extends BaseTests {
 
         String currentTestUserName = "Junior";
 
+
         Assertions.assertEquals(currentTestUserName, mainPage.userIsSignedIn());
 
+        Allure.addAttachment("Screenshot", new ByteArrayInputStream(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)));
+        System.out.println(driver.getCurrentUrl());
     }
 
     @Disabled
