@@ -1,0 +1,201 @@
+[ {
+  "uid" : "ccea0e2b2f117d53",
+  "name" : "[4] Communicate with you",
+  "time" : {
+    "start" : 1629358381894,
+    "stop" : 1629358383966,
+    "duration" : 2072
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "174ef73108efe0c1",
+  "name" : "testSuccessfulLogIn()",
+  "time" : {
+    "start" : 1629358463732,
+    "stop" : 1629358476628,
+    "duration" : 12896
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "e6627232efd64525",
+  "name" : "[1] Provide, troubleshoot, and improve IMDb Services",
+  "time" : {
+    "start" : 1629358374285,
+    "stop" : 1629358376965,
+    "duration" : 2680
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "12ff6c29f2ce17c",
+  "name" : "repetition 2 of 3",
+  "time" : {
+    "start" : 1629358419817,
+    "stop" : 1629358423728,
+    "duration" : 3911
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "88077da7526c731a",
+  "name" : "testModifyDescription()",
+  "time" : {
+    "start" : 1629358440410,
+    "stop" : 1629358451920,
+    "duration" : 11510
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "f1baa8cea4218e8d",
+  "name" : "[3] Comply with legal obligations",
+  "time" : {
+    "start" : 1629358379189,
+    "stop" : 1629358381890,
+    "duration" : 2701
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7b0d616bc24b5bda",
+  "name" : "testSuccessfulSignOut()",
+  "time" : {
+    "start" : 1629358476883,
+    "stop" : 1629358489666,
+    "duration" : 12783
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "24f9513b7fa357a6",
+  "name" : "testLoginWithInvalidPassword()",
+  "time" : {
+    "start" : 1629358463710,
+    "stop" : 1629358463711,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "707b2d827831a0b",
+  "name" : "testRegistrationWithoutEmail()",
+  "time" : {
+    "start" : 1629358489930,
+    "stop" : 1629358489930,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "227003f630c8b90f",
+  "name" : "repetition 3 of 3",
+  "time" : {
+    "start" : 1629358423733,
+    "stop" : 1629358427219,
+    "duration" : 3486
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c0865cf5da3d31b",
+  "name" : "[2] Recommendations and personalization",
+  "time" : {
+    "start" : 1629358376970,
+    "stop" : 1629358379178,
+    "duration" : 2208
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "eb334bc68496c112",
+  "name" : "[6] Fraud Prevention",
+  "time" : {
+    "start" : 1629358386307,
+    "stop" : 1629358388351,
+    "duration" : 2044
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5eeda52517e1f855",
+  "name" : "testWriteDescription()",
+  "time" : {
+    "start" : 1629358427451,
+    "stop" : 1629358440395,
+    "duration" : 12944
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "633c2299e143f810",
+  "name" : "[5] Advertising",
+  "time" : {
+    "start" : 1629358383970,
+    "stop" : 1629358386302,
+    "duration" : 2332
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e793e9ddfc5f46f7",
+  "name" : "repetition 1 of 3",
+  "time" : {
+    "start" : 1629358414343,
+    "stop" : 1629358419815,
+    "duration" : 5472
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "de807cfa3ed2428e",
+  "name" : "testSuccessfullRegistration()",
+  "time" : {
+    "start" : 1629358489918,
+    "stop" : 1629358489918,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "a5ecfc35b40863fa",
+  "name" : "testCrawlingThroughSearchResultList()",
+  "time" : {
+    "start" : 1629358388621,
+    "stop" : 1629358414327,
+    "duration" : 25706
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "97737b954c076ded",
+  "name" : "testDeleteDescription()",
+  "time" : {
+    "start" : 1629358451923,
+    "stop" : 1629358463416,
+    "duration" : 11493
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "592e8493d52b07ab",
+  "name" : "testCreateNewPeopleListUsingOnlyOneNameMultipleTimes()",
+  "time" : {
+    "start" : 1629358347260,
+    "stop" : 1629358360540,
+    "duration" : 13280
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "dbb40fe26203a17c",
+  "name" : "testCreateNewPeopleList()",
+  "time" : {
+    "start" : 1629358360608,
+    "stop" : 1629358374017,
+    "duration" : 13409
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

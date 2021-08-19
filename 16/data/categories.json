@@ -1,0 +1,108 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Expected condition failed: waiting for element to be clickable: By.xpath: //*[@for=\"navUserMenu\"][2] (tried for 10 second(s) with 500 milliseconds interval)",
+      "children" : [ {
+        "name" : "testCreateNewPeopleListUsingOnlyOneNameMultipleTimes()",
+        "uid" : "592e8493d52b07ab",
+        "parentUid" : "0d45c7e99ba1912eaf330e16d9211158",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629358347260,
+          "stop" : 1629358360540,
+          "duration" : 13280
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testCreateNewPeopleList()",
+        "uid" : "dbb40fe26203a17c",
+        "parentUid" : "0d45c7e99ba1912eaf330e16d9211158",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629358360608,
+          "stop" : 1629358374017,
+          "duration" : 13409
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testWriteDescription()",
+        "uid" : "5eeda52517e1f855",
+        "parentUid" : "0d45c7e99ba1912eaf330e16d9211158",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629358427451,
+          "stop" : 1629358440395,
+          "duration" : 12944
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testModifyDescription()",
+        "uid" : "88077da7526c731a",
+        "parentUid" : "0d45c7e99ba1912eaf330e16d9211158",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629358440410,
+          "stop" : 1629358451920,
+          "duration" : 11510
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testDeleteDescription()",
+        "uid" : "97737b954c076ded",
+        "parentUid" : "0d45c7e99ba1912eaf330e16d9211158",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629358451923,
+          "stop" : 1629358463416,
+          "duration" : 11493
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testSuccessfulSignOut()",
+        "uid" : "7b0d616bc24b5bda",
+        "parentUid" : "0d45c7e99ba1912eaf330e16d9211158",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629358476883,
+          "stop" : 1629358489666,
+          "duration" : 12783
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0d45c7e99ba1912eaf330e16d9211158"
+    }, {
+      "name" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[contains(@class, 'user-menu-toggle')]\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az47-628', ip: '10.1.0.21', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.DqaQDm}, goog:chromeOptions: {debuggerAddress: localhost:35295}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 4405eeb528df8c86e7486c0a7010f2b8\n*** Element info: {Using=xpath, value=//span[contains(@class, 'user-menu-toggle')]}",
+      "children" : [ {
+        "name" : "testSuccessfulLogIn()",
+        "uid" : "174ef73108efe0c1",
+        "parentUid" : "a82c9e771803dda78bdad2db5186c751",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629358463732,
+          "stop" : 1629358476628,
+          "duration" : 12896
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a82c9e771803dda78bdad2db5186c751"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}

@@ -1,0 +1,70 @@
+{
+  "total" : 7,
+  "items" : [ {
+    "uid" : "be15aedb7bbea3712dfc833701a8007f",
+    "name" : "Login Tests",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "e156a681662e75c74235325090bfb03a",
+    "name" : "Create list tests",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "915d8a412ed303655fa7b6c178b11026",
+    "name" : "Edit Profile Tests",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "20cf7c2d882eb79253000c50aa4065a4",
+    "name" : "Privacy Policy Tests",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "f2d09927021c169c8ab89abac7869288",
+    "name" : "Összetett keresési funkció tesztelése",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "47fbb0056bf4127c8288fd824a062f55",
+    "name" : "Registration Tests",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 2,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    }
+  } ]
+}

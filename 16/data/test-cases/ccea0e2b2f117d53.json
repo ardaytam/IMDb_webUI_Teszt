@@ -1,0 +1,177 @@
+{
+  "uid" : "ccea0e2b2f117d53",
+  "name" : "[4] Communicate with you",
+  "fullName" : "privacypolicy.PrivacyPolicyTests.testRelevantContentOfPrivacyPolicy",
+  "historyId" : "ecc6d1a96b493e44270917e7e1007a6e",
+  "time" : {
+    "start" : 1629358381894,
+    "stop" : 1629358383966,
+    "duration" : 2072
+  },
+  "description" : "Checking that Privacy Policy contains relevant expressions.",
+  "descriptionHtml" : "<p>Checking that Privacy Policy contains relevant expressions.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1629358374103,
+      "stop" : 1629358374268,
+      "duration" : 165
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "goHomePage",
+    "time" : {
+      "start" : 1629358381895,
+      "stop" : 1629358383204,
+      "duration" : 1309
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1629358388355,
+      "stop" : 1629358388426,
+      "duration" : 71
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Privacy Policy Tests"
+  }, {
+    "name" : "feature",
+    "value" : "Privacy Policy contains relevant text"
+  }, {
+    "name" : "story",
+    "value" : "User gets relevant and informative text from Privacy Policy."
+  }, {
+    "name" : "host",
+    "value" : "fv-az47-628"
+  }, {
+    "name" : "thread",
+    "value" : "2883@fv-az47-628.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "privacypolicy.PrivacyPolicyTests"
+  }, {
+    "name" : "testClass",
+    "value" : "privacypolicy.PrivacyPolicyTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "testRelevantContentOfPrivacyPolicy"
+  }, {
+    "name" : "suite",
+    "value" : "privacypolicy.PrivacyPolicyTests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 7,
+        "unknown" : 0,
+        "total" : 7
+      },
+      "items" : [ {
+        "uid" : "727e1baa86f94373",
+        "reportUrl" : "https://ardaytam.github.io/IMDb_webUI_Teszt/14//#testresult/727e1baa86f94373",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629353867482,
+          "stop" : 1629353870812,
+          "duration" : 3330
+        }
+      }, {
+        "uid" : "6d9318ad56638c65",
+        "reportUrl" : "https://ardaytam.github.io/IMDb_webUI_Teszt/13//#testresult/6d9318ad56638c65",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629353273739,
+          "stop" : 1629353276480,
+          "duration" : 2741
+        }
+      }, {
+        "uid" : "28a476392235f99c",
+        "reportUrl" : "https://ardaytam.github.io/IMDb_webUI_Teszt/12//#testresult/28a476392235f99c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629296224331,
+          "stop" : 1629296227308,
+          "duration" : 2977
+        }
+      }, {
+        "uid" : "16f10cf79ac7e40a",
+        "reportUrl" : "https://ardaytam.github.io/IMDb_webUI_Teszt/11//#testresult/16f10cf79ac7e40a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629289802453,
+          "stop" : 1629289805148,
+          "duration" : 2695
+        }
+      }, {
+        "uid" : "f4dfdc2d2dd2bd2f",
+        "reportUrl" : "https://ardaytam.github.io/IMDb_webUI_Teszt/10//#testresult/f4dfdc2d2dd2bd2f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629280918117,
+          "stop" : 1629280920371,
+          "duration" : 2254
+        }
+      }, {
+        "uid" : "480b695cfa6e76fb",
+        "reportUrl" : "https://ardaytam.github.io/IMDb_webUI_Teszt/9//#testresult/480b695cfa6e76fb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629136984776,
+          "stop" : 1629136987519,
+          "duration" : 2743
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "ccea0e2b2f117d53.json",
+  "parameterValues" : [ ]
+}
