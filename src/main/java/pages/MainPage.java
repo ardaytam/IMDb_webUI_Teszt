@@ -44,16 +44,16 @@ public class MainPage {
         return new SignInPage(driver);
     }
 
-    public Boolean userIsSignedIn(String signedinname) {
-        Boolean result;
-        try {
-            result = signedinname.equals(driver.findElement(By.xpath("//div[@class =\"ipc-button__text\"]//*[text()=" + "'" + signedinname + "']")).getText());
-        } catch (Exception e) {
-            e.printStackTrace();
-            result = false;
-        }
-        return result;
-    }
+//    public Boolean userIsSignedIn(String signedinname) {
+//        Boolean result;
+//        try {
+//            result = signedinname.equals(driver.findElement(By.xpath("//div[@class =\"ipc-button__text\"]//*[text()=" + "'" + signedinname + "']")).getText());
+//        } catch (Exception e) {
+//            e.printStackTrace();
+//            result = false;
+//        }
+//        return result;
+//    }
 
 
     public String userIsSignedIn() {

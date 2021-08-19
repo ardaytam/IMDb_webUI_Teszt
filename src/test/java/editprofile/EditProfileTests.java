@@ -53,12 +53,6 @@ public class EditProfileTests extends BaseTests {
     @Order(2)
     public void testModifyDescription() {
 
-//        SignInPage signInPage = mainPage.clickSignIn();
-//        SignInWithIMDbPage signInWithIMDbPage = signInPage.clickSignInWithIMDbButton();
-//        signInWithIMDbPage.setEmail("autotesztjunior@gmail.com");
-//        signInWithIMDbPage.setPassword("Oszip12600*");
-//        signInWithIMDbPage.clickSignInButton();
-//
         AccountSettingsPage accountSettingsPage = mainPage.clickAccountSettings();
         EditProfilePage editProfilePage = accountSettingsPage.clickEditProfileLink();
 
@@ -77,13 +71,6 @@ public class EditProfileTests extends BaseTests {
     @Order(3)
     public void testDeleteDescription() {
 
-//        SignInPage signInPage = mainPage.clickSignIn();
-//        SignInWithIMDbPage signInWithIMDbPage = signInPage.clickSignInWithIMDbButton();
-//        signInWithIMDbPage.setEmail("autotesztjunior@gmail.com");
-//        signInWithIMDbPage.setPassword("Oszip12600*");
-//        signInWithIMDbPage.clickSignInButton();
-
-//fffdf
 
         AccountSettingsPage accountSettingsPage = mainPage.clickAccountSettings();
         EditProfilePage editProfilePage = accountSettingsPage.clickEditProfileLink();
