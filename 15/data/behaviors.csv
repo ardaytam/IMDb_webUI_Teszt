@@ -1,0 +1,8 @@
+"Epic","Feature","Story","FAILED","BROKEN","PASSED","SKIPPED","UNKNOWN"
+"Registration Tests","","","0","1","0","0","0"
+"","","","0","1","0","0","0"
+"Összetett keresési funkció tesztelése","A felhasználó képes több oldalas találati lista eléjétől végéig navigálni","","0","1","0","0","0"
+"Create list tests","User can create lists from the IMDB database eg. save actors/movies in a list","","0","1","0","0","0"
+"Privacy Policy Tests","Privacy Policy contains relevant text","","0","1","0","0","0"
+"Login Tests","","","0","1","0","0","0"
+"Edit Profile Tests","User can write, modify, delete data in the profile","","0","1","0","0","0"

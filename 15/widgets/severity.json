@@ -1,0 +1,71 @@
+[ {
+  "uid" : "60e27e645b986984",
+  "name" : "CreateAccountTests",
+  "time" : {
+    "start" : 1629357789638,
+    "stop" : 1629357789638,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "df3d5b9610a0ae81",
+  "name" : "SignInTests",
+  "time" : {
+    "start" : 1629357789273,
+    "stop" : 1629357789273,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "c614b6790748bac8",
+  "name" : "EditProfileTests",
+  "time" : {
+    "start" : 1629357789078,
+    "stop" : 1629357789078,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "1785046a3c75a1ad",
+  "name" : "SignOutTest",
+  "time" : {
+    "start" : 1629357789446,
+    "stop" : 1629357789446,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "ff46529dda39c6ff",
+  "name" : "PrivacyPolicyTests",
+  "time" : {
+    "start" : 1629357788709,
+    "stop" : 1629357788709,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "11801c26abd6e678",
+  "name" : "AdvancedSearchTest",
+  "time" : {
+    "start" : 1629357788903,
+    "stop" : 1629357788903,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "16ad4706bb4e23b8",
+  "name" : "ListTests",
+  "time" : {
+    "start" : 1629357788420,
+    "stop" : 1629357788421,
+    "duration" : 1
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]
