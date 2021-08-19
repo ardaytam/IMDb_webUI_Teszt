@@ -1,0 +1,116 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@for=\"navUserMenu\"][2]\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az72-349', ip: '10.1.0.128', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.NSgvyK}, goog:chromeOptions: {debuggerAddress: localhost:32827}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: a6325b77a51e05332560f640ea8dcacb\n*** Element info: {Using=xpath, value=//*[@for=\"navUserMenu\"][2]}",
+      "children" : [ {
+        "name" : "testCreateNewPeopleListUsingOnlyOneNameMultipleTimes()",
+        "uid" : "36c6dea9ab97109a",
+        "parentUid" : "cdda529f30b2d8fddf57a31457523108",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629395120547,
+          "stop" : 1629395137415,
+          "duration" : 16868
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testCreateNewPeopleList()",
+        "uid" : "62e0368934bfcdd4",
+        "parentUid" : "cdda529f30b2d8fddf57a31457523108",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629395137622,
+          "stop" : 1629395152493,
+          "duration" : 14871
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cdda529f30b2d8fddf57a31457523108"
+    }, {
+      "name" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@for=\"navUserMenu\"][2]\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az72-349', ip: '10.1.0.128', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.2uautP}, goog:chromeOptions: {debuggerAddress: localhost:35879}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 4b984f459f7274a14a2d0ea7eb8b9d82\n*** Element info: {Using=xpath, value=//*[@for=\"navUserMenu\"][2]}",
+      "children" : [ {
+        "name" : "testWriteDescription()",
+        "uid" : "96ea95614db0f2aa",
+        "parentUid" : "0cd711330ebb31e70df69b0ba72e6554",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629395209393,
+          "stop" : 1629395222807,
+          "duration" : 13414
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testModifyDescription()",
+        "uid" : "839ac59edd4703d1",
+        "parentUid" : "0cd711330ebb31e70df69b0ba72e6554",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629395222812,
+          "stop" : 1629395235048,
+          "duration" : 12236
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testDeleteDescription()",
+        "uid" : "fa932cb4fe6c951b",
+        "parentUid" : "0cd711330ebb31e70df69b0ba72e6554",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629395235052,
+          "stop" : 1629395246849,
+          "duration" : 11797
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0cd711330ebb31e70df69b0ba72e6554"
+    }, {
+      "name" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[contains(@class, 'user-menu-toggle')]\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az72-349', ip: '10.1.0.128', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.xAPNka}, goog:chromeOptions: {debuggerAddress: localhost:36281}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 22a4bac2c83f69fbc79cb8d4b20c3e5c\n*** Element info: {Using=xpath, value=//span[contains(@class, 'user-menu-toggle')]}",
+      "children" : [ {
+        "name" : "testSuccessfulLogIn()",
+        "uid" : "2a0919ecda44cb40",
+        "parentUid" : "f6b89e68f499299b213d91b45659c584",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629395247142,
+          "stop" : 1629395261055,
+          "duration" : 13913
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f6b89e68f499299b213d91b45659c584"
+    }, {
+      "name" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@for=\"navUserMenu\"][2]\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az72-349', ip: '10.1.0.128', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.MhY2Og}, goog:chromeOptions: {debuggerAddress: localhost:43561}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 2f468ef404a754299af99d2e34b0f1d9\n*** Element info: {Using=xpath, value=//*[@for=\"navUserMenu\"][2]}",
+      "children" : [ {
+        "name" : "testSuccessfulSignOut()",
+        "uid" : "2cca43a6a0ed1d33",
+        "parentUid" : "e638b7d409db878afbaab9c6751a41e8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629395261321,
+          "stop" : 1629395274679,
+          "duration" : 13358
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e638b7d409db878afbaab9c6751a41e8"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}

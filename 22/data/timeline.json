@@ -1,0 +1,273 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "fv-az72-349",
+    "children" : [ {
+      "name" : "2917@fv-az72-349.ForkJoinPool-1-worker-1(12)",
+      "children" : [ {
+        "name" : "[2] Recommendations and personalization",
+        "uid" : "e86da4edf70f5bb2",
+        "parentUid" : "b148fd925f3e0c4080604aa12665fc41",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629395158808,
+          "stop" : 1629395162428,
+          "duration" : 3620
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "repetition 1 of 3",
+        "uid" : "5d4ccb730f7d73b8",
+        "parentUid" : "b148fd925f3e0c4080604aa12665fc41",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629395195639,
+          "stop" : 1629395201044,
+          "duration" : 5405
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "[1] Provide, troubleshoot, and improve IMDb Services",
+        "uid" : "59b9bc502776fb3f",
+        "parentUid" : "b148fd925f3e0c4080604aa12665fc41",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629395152958,
+          "stop" : 1629395158795,
+          "duration" : 5837
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testCreateNewPeopleList()",
+        "uid" : "62e0368934bfcdd4",
+        "parentUid" : "b148fd925f3e0c4080604aa12665fc41",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629395137622,
+          "stop" : 1629395152493,
+          "duration" : 14871
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testRegistrationWithoutEmail()",
+        "uid" : "44945ea0fdc503f3",
+        "parentUid" : "b148fd925f3e0c4080604aa12665fc41",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629395274941,
+          "stop" : 1629395278710,
+          "duration" : 3769
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testLoginWithInvalidPassword()",
+        "uid" : "107450af744ced0f",
+        "parentUid" : "b148fd925f3e0c4080604aa12665fc41",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1629395247135,
+          "stop" : 1629395247135,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "repetition 2 of 3",
+        "uid" : "8c959eccb46fbe6b",
+        "parentUid" : "b148fd925f3e0c4080604aa12665fc41",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629395201047,
+          "stop" : 1629395205178,
+          "duration" : 4131
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "[3] Comply with legal obligations",
+        "uid" : "31f9bc128884fe3",
+        "parentUid" : "b148fd925f3e0c4080604aa12665fc41",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629395162435,
+          "stop" : 1629395164973,
+          "duration" : 2538
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "[6] Fraud Prevention",
+        "uid" : "28fdf39e205b8ed",
+        "parentUid" : "b148fd925f3e0c4080604aa12665fc41",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629395170263,
+          "stop" : 1629395172852,
+          "duration" : 2589
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "repetition 3 of 3",
+        "uid" : "dd876c31e4c1cf37",
+        "parentUid" : "b148fd925f3e0c4080604aa12665fc41",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629395205184,
+          "stop" : 1629395209131,
+          "duration" : 3947
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testWriteDescription()",
+        "uid" : "96ea95614db0f2aa",
+        "parentUid" : "b148fd925f3e0c4080604aa12665fc41",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629395209393,
+          "stop" : 1629395222807,
+          "duration" : 13414
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testCrawlingThroughSearchResultList()",
+        "uid" : "712896d918aa0ecc",
+        "parentUid" : "b148fd925f3e0c4080604aa12665fc41",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629395173121,
+          "stop" : 1629395195617,
+          "duration" : 22496
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testSuccessfulSignOut()",
+        "uid" : "2cca43a6a0ed1d33",
+        "parentUid" : "b148fd925f3e0c4080604aa12665fc41",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629395261321,
+          "stop" : 1629395274679,
+          "duration" : 13358
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testDeleteDescription()",
+        "uid" : "fa932cb4fe6c951b",
+        "parentUid" : "b148fd925f3e0c4080604aa12665fc41",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629395235052,
+          "stop" : 1629395246849,
+          "duration" : 11797
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "[5] Advertising",
+        "uid" : "536aed7e87170643",
+        "parentUid" : "b148fd925f3e0c4080604aa12665fc41",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629395167260,
+          "stop" : 1629395170252,
+          "duration" : 2992
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "[4] Communicate with you",
+        "uid" : "b4caa14acba8db6c",
+        "parentUid" : "b148fd925f3e0c4080604aa12665fc41",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629395164976,
+          "stop" : 1629395167255,
+          "duration" : 2279
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testSuccessfullRegistration()",
+        "uid" : "53c78e1ab16aed4d",
+        "parentUid" : "b148fd925f3e0c4080604aa12665fc41",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1629395274939,
+          "stop" : 1629395274939,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testSuccessfulLogIn()",
+        "uid" : "2a0919ecda44cb40",
+        "parentUid" : "b148fd925f3e0c4080604aa12665fc41",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629395247142,
+          "stop" : 1629395261055,
+          "duration" : 13913
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testModifyDescription()",
+        "uid" : "839ac59edd4703d1",
+        "parentUid" : "b148fd925f3e0c4080604aa12665fc41",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629395222812,
+          "stop" : 1629395235048,
+          "duration" : 12236
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testCreateNewPeopleListUsingOnlyOneNameMultipleTimes()",
+        "uid" : "36c6dea9ab97109a",
+        "parentUid" : "b148fd925f3e0c4080604aa12665fc41",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629395120547,
+          "stop" : 1629395137415,
+          "duration" : 16868
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b148fd925f3e0c4080604aa12665fc41"
+    } ],
+    "uid" : "4d69192d44bac573ff6a372fde317bb2"
+  } ],
+  "name" : "timeline"
+}
