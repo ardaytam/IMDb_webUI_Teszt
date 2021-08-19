@@ -1,0 +1,132 @@
+{
+  "uid" : "e9f40a3f707b71d7",
+  "name" : "[1] Provide, troubleshoot, and improve IMDb Services",
+  "fullName" : "privacypolicy.PrivacyPolicyTests.testRelevantContentOfPrivacyPolicy",
+  "historyId" : "c255d0571ab19d66f6728811a3dd4a79",
+  "time" : {
+    "start" : 1629394489982,
+    "stop" : 1629394493746,
+    "duration" : 3764
+  },
+  "description" : "Checking that Privacy Policy contains relevant expressions.",
+  "descriptionHtml" : "<p>Checking that Privacy Policy contains relevant expressions.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1629394489627,
+      "stop" : 1629394489908,
+      "duration" : 281
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "goHomePage",
+    "time" : {
+      "start" : 1629394490020,
+      "stop" : 1629394492328,
+      "duration" : 2308
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1629394510664,
+      "stop" : 1629394510742,
+      "duration" : 78
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Privacy Policy Tests"
+  }, {
+    "name" : "feature",
+    "value" : "Privacy Policy contains relevant text"
+  }, {
+    "name" : "story",
+    "value" : "User gets relevant and informative text from Privacy Policy."
+  }, {
+    "name" : "host",
+    "value" : "fv-az82-980"
+  }, {
+    "name" : "thread",
+    "value" : "2849@fv-az82-980.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "privacypolicy.PrivacyPolicyTests"
+  }, {
+    "name" : "testClass",
+    "value" : "privacypolicy.PrivacyPolicyTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "testRelevantContentOfPrivacyPolicy"
+  }, {
+    "name" : "suite",
+    "value" : "privacypolicy.PrivacyPolicyTests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "e68728e6c2d92cfd",
+        "reportUrl" : "https://ardaytam.github.io/IMDb_webUI_Teszt/20//#testresult/e68728e6c2d92cfd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629393827198,
+          "stop" : 1629393830093,
+          "duration" : 2895
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "e9f40a3f707b71d7.json",
+  "parameterValues" : [ ]
+}

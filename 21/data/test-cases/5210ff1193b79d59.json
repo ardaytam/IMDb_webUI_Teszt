@@ -1,0 +1,119 @@
+{
+  "uid" : "5210ff1193b79d59",
+  "name" : "testSuccessfullRegistration()",
+  "fullName" : "createaccount.CreateAccountTests.testSuccessfullRegistration",
+  "historyId" : "e9d578002d4424ddeb4f2f4e63d0480c",
+  "time" : {
+    "start" : 1629394620777,
+    "stop" : 1629394620777,
+    "duration" : 0
+  },
+  "description" : "ValidRegistration Test with properly given data",
+  "descriptionHtml" : "<p>ValidRegistration Test with properly given data</p>\n",
+  "status" : "skipped",
+  "statusMessage" : "Can not be automatized cause the email verification process",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1629394620597,
+      "stop" : 1629394620775,
+      "duration" : 178
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1629394625359,
+      "stop" : 1629394625430,
+      "duration" : 71
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Registration Tests"
+  }, {
+    "name" : "story",
+    "value" : "User tries to register with properly given data"
+  }, {
+    "name" : "feature",
+    "value" : "Valid Registration"
+  }, {
+    "name" : "host",
+    "value" : "fv-az82-980"
+  }, {
+    "name" : "thread",
+    "value" : "2849@fv-az82-980.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "createaccount.CreateAccountTests"
+  }, {
+    "name" : "testClass",
+    "value" : "createaccount.CreateAccountTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "testSuccessfullRegistration"
+  }, {
+    "name" : "suite",
+    "value" : "createaccount.CreateAccountTests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 2,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "faf4d3be3f3e884d",
+        "reportUrl" : "https://ardaytam.github.io/IMDb_webUI_Teszt/20//#testresult/faf4d3be3f3e884d",
+        "status" : "skipped",
+        "statusDetails" : "Can not be automatized cause the email verification process",
+        "time" : {
+          "start" : 1629393951845,
+          "stop" : 1629393951845,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "5210ff1193b79d59.json",
+  "parameterValues" : [ ]
+}
