@@ -1,0 +1,201 @@
+[ {
+  "uid" : "ca723844b9493792",
+  "name" : "testRegistrationWithoutEmail()",
+  "time" : {
+    "start" : 1629489266323,
+    "stop" : 1629489269323,
+    "duration" : 3000
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bf030e363c8572e7",
+  "name" : "testWriteDescription()",
+  "time" : {
+    "start" : 1629489203028,
+    "stop" : 1629489215918,
+    "duration" : 12890
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "7ffe431ff247bf7",
+  "name" : "testCrawlingThroughSearchResultList()",
+  "time" : {
+    "start" : 1629489170170,
+    "stop" : 1629489191044,
+    "duration" : 20874
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7e84e45e84d35b77",
+  "name" : "testDeleteDescription()",
+  "time" : {
+    "start" : 1629489227449,
+    "stop" : 1629489239082,
+    "duration" : 11633
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "775315a22feada0a",
+  "name" : "repetition 3 of 3",
+  "time" : {
+    "start" : 1629489199598,
+    "stop" : 1629489202793,
+    "duration" : 3195
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1888461a7f53813b",
+  "name" : "repetition 1 of 3",
+  "time" : {
+    "start" : 1629489191052,
+    "stop" : 1629489195918,
+    "duration" : 4866
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a43cf921bc6687dc",
+  "name" : "[4] Communicate with you",
+  "time" : {
+    "start" : 1629489162469,
+    "stop" : 1629489164645,
+    "duration" : 2176
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "af1c57efac40e8ed",
+  "name" : "[1] Provide, troubleshoot, and improve IMDb Services",
+  "time" : {
+    "start" : 1629489154078,
+    "stop" : 1629489157457,
+    "duration" : 3379
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c29cab6a539070ed",
+  "name" : "[3] Comply with legal obligations",
+  "time" : {
+    "start" : 1629489160058,
+    "stop" : 1629489162455,
+    "duration" : 2397
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4b3f97dd8afaf7d5",
+  "name" : "[5] Advertising",
+  "time" : {
+    "start" : 1629489164657,
+    "stop" : 1629489167278,
+    "duration" : 2621
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "23ef7ab92a113f2",
+  "name" : "[6] Fraud Prevention",
+  "time" : {
+    "start" : 1629489167283,
+    "stop" : 1629489169927,
+    "duration" : 2644
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "45a90cd3978990e1",
+  "name" : "testSuccessfulLogIn()",
+  "time" : {
+    "start" : 1629489239382,
+    "stop" : 1629489252964,
+    "duration" : 13582
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "4bf1bf89e9919afe",
+  "name" : "testLoginWithInvalidPassword()",
+  "time" : {
+    "start" : 1629489239359,
+    "stop" : 1629489239359,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "dda3bc13430e9535",
+  "name" : "testSuccessfulSignOut()",
+  "time" : {
+    "start" : 1629489253197,
+    "stop" : 1629489266092,
+    "duration" : 12895
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "75d5ec9cfa5a80c2",
+  "name" : "[2] Recommendations and personalization",
+  "time" : {
+    "start" : 1629489157471,
+    "stop" : 1629489160054,
+    "duration" : 2583
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "19de2c50d89fda65",
+  "name" : "testSuccessfulRegistration()",
+  "time" : {
+    "start" : 1629489266321,
+    "stop" : 1629489266321,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "a0f3afeae3dbc9c2",
+  "name" : "testModifyDescription()",
+  "time" : {
+    "start" : 1629489215922,
+    "stop" : 1629489227443,
+    "duration" : 11521
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "5650ff9a5257fdcc",
+  "name" : "testCreateNewPeopleListUsingOnlyOneNameMultipleTimes()",
+  "time" : {
+    "start" : 1629489141797,
+    "stop" : 1629489153723,
+    "duration" : 11926
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "d4b3a094f9e836f5",
+  "name" : "repetition 2 of 3",
+  "time" : {
+    "start" : 1629489195921,
+    "stop" : 1629489199596,
+    "duration" : 3675
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3432e1a6d6d6d81d",
+  "name" : "testCreateNewPeopleList()",
+  "time" : {
+    "start" : 1629489127697,
+    "stop" : 1629489141624,
+    "duration" : 13927
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]
