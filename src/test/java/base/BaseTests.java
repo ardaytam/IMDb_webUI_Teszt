@@ -21,7 +21,7 @@ import java.util.concurrent.TimeUnit;
 public class BaseTests {
 
 
-    protected WebDriver driver;// private to protected
+    protected WebDriver driver;// test classes can inherit from this
     protected MainPage mainPage; //test classes can inherit from this
 
 
@@ -34,7 +34,7 @@ public class BaseTests {
         options.addArguments("start-maximized");
         options.addArguments("--no-sandbox");
         options.addArguments("--disable-dev-shm-usage");
-        options.addArguments("--incognito");
+//        options.addArguments("--incognito");
         options.addArguments("--headless");
 
 
@@ -42,21 +42,17 @@ public class BaseTests {
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
         mainPage = new MainPage(driver);
-
     }
 
     @BeforeEach
     public void goHomePage() {
-        System.out.println("Hello I am BEFORE EACH");
         driver.get("https://www.imdb.com/");
     }
 
     @AfterAll
     public void tearDown() {
-        System.out.println("Hello I am AFTER ALL");
         driver.quit();
     }
-
 }
     
 

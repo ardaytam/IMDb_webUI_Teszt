@@ -62,18 +62,20 @@ public class MainPage {
 
 
     public String userIsSignedIn() {
-        String result;
+        String result = "";
+        try {
+            result = driver.findElement(By.xpath("//span[contains(@class, 'user-menu-toggle')]")).getText();
 
-        result = driver.findElement(By.xpath("//span[contains(@class, 'user-menu-toggle')]")).getText();
-
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
         return result;
     }
 
 
     public void clickSignOut() {
 
-//        driver.findElement(userRollDownMenu).click();
-
+        driver.findElement(userRollDownMenu).click();
         driver.findElement(signOutMenuItem).click();
         //*[@id="navUserMenu-contents"]/ul/a[7]
 
@@ -88,8 +90,7 @@ public class MainPage {
 
     public AccountSettingsPage clickAccountSettings() {
 
-//        driver.findElement(userRollDownMenu).click();
-
+        driver.findElement(userRollDownMenu).click();
         driver.findElement(accountSettingsMenuItem).click();
         return new AccountSettingsPage(driver);
 
@@ -97,8 +98,7 @@ public class MainPage {
 
     public YourListsPage clickYourLists() {
 
-//        driver.findElement(userRollDownMenu).click();
-
+        driver.findElement(userRollDownMenu).click();
         driver.findElement(yourListMenuItem).click();
         return new YourListsPage(driver);
 
@@ -109,8 +109,5 @@ public class MainPage {
         return new PrivacyPolicyPage(driver);
     }
 
-    public void UserRollDownMenu() {
-        driver.findElement(userRollDownMenu).click();
-    }
 
 }

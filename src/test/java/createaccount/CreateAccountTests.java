@@ -21,7 +21,7 @@ public class CreateAccountTests extends BaseTests {
     @Story("User tries to register with properly given data")
     @Description("ValidRegistration Test with properly given data")
     @Test
-    public void testSuccessfullRegistration() {
+    public void testSuccessfulRegistration() {
         SignInPage signInPage = mainPage.clickSignIn();
         CreateAccountPage createAccountPage = signInPage.clickCreateNewAccountButton();
         createAccountPage.setName("Junior Autoteszt");
@@ -47,7 +47,6 @@ public class CreateAccountTests extends BaseTests {
 
         String emailerrormessage = "Enter your email";
         Assertions.assertTrue(emailerrormessage.equals(createAccountPage.missingEmailError()));
-
 
     }
 }

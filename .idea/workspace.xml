@@ -6,8 +6,25 @@
   <component name="ChangeListManager">
     <list default="true" id="3d1472d1-77fb-4f4b-9c0a-db84b9665e1f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/searchResultTitles.txt" beforeDir="false" afterPath="$PROJECT_DIR$/searchResultTitles.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/YourListsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/YourListsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/base/BaseTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/createaccount/CreateAccountTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/createaccount/CreateAccountTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/editprofile/EditProfileTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/editprofile/EditProfileTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lists/ListTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lists/ListTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/privacypolicy/PrivacyPolicyTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/privacypolicy/PrivacyPolicyTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/signinandout/SignInTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/signinandout/SignInTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/signinandout/SignOutTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/signinandout/SignOutTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/MainPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/MainPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/YourListsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/YourListsPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/base/BaseTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/base/BaseTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/createaccount/CreateAccountTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/createaccount/CreateAccountTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/editprofile/EditProfileTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/editprofile/EditProfileTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lists/ListTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/lists/ListTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/privacypolicy/PrivacyPolicyTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/privacypolicy/PrivacyPolicyTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/signinandout/SignInTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/signinandout/SignInTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/signinandout/SignOutTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/signinandout/SignOutTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +70,23 @@
       <recent name="C:\Users\Tomi\IMDb_webUI_Teszt\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.EditProfileTests">
+  <component name="RunManager" selected="JUnit.SignOutTest.testSuccessfulSignOut">
+    <configuration name="AdvancedSearchTest.testSaveSearchResultTitlesToFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="IMDb_webUI_Teszt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="searching.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="searching" />
+      <option name="MAIN_CLASS_NAME" value="searching.AdvancedSearchTest" />
+      <option name="METHOD_NAME" value="testSaveSearchResultTitlesToFile" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="All in IMDb_webUI_Teszt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="IMDb_webUI_Teszt" />
       <option name="PACKAGE_NAME" value="" />
@@ -62,37 +95,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CreateAccountTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="IMDb_webUI_Teszt" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="createaccount.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="createaccount" />
-      <option name="MAIN_CLASS_NAME" value="createaccount.CreateAccountTests" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EditProfileTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="IMDb_webUI_Teszt" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="editprofile.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="editprofile" />
-      <option name="MAIN_CLASS_NAME" value="editprofile.EditProfileTests" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ListTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ListTests.testCreateNewPeopleList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="IMDb_webUI_Teszt" />
       <extension name="coverage">
         <pattern>
@@ -102,32 +105,50 @@
       </extension>
       <option name="PACKAGE_NAME" value="lists" />
       <option name="MAIN_CLASS_NAME" value="lists.ListTests" />
+      <option name="METHOD_NAME" value="testCreateNewPeopleList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrivacyPolicyTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="IMDb_webUI_Teszt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="privacypolicy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="privacypolicy" />
+      <option name="MAIN_CLASS_NAME" value="privacypolicy.PrivacyPolicyTests" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="lists in IMDb_webUI_Teszt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SignOutTest.testSuccessfulSignOut" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="IMDb_webUI_Teszt" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lists.*" />
+          <option name="PATTERN" value="signinandout.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lists" />
-      <option name="TEST_OBJECT" value="package" />
+      <option name="PACKAGE_NAME" value="signinandout" />
+      <option name="MAIN_CLASS_NAME" value="signinandout.SignOutTest" />
+      <option name="METHOD_NAME" value="testSuccessfulSignOut" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.EditProfileTests" />
-        <item itemvalue="JUnit.ListTests" />
-        <item itemvalue="JUnit.CreateAccountTests" />
-        <item itemvalue="JUnit.lists in IMDb_webUI_Teszt" />
+        <item itemvalue="JUnit.SignOutTest.testSuccessfulSignOut" />
         <item itemvalue="JUnit.All in IMDb_webUI_Teszt" />
+        <item itemvalue="JUnit.PrivacyPolicyTests" />
+        <item itemvalue="JUnit.AdvancedSearchTest.testSaveSearchResultTitlesToFile" />
+        <item itemvalue="JUnit.ListTests.testCreateNewPeopleList" />
       </list>
     </recent_temporary>
   </component>
@@ -153,21 +174,5 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/lists/ListTests.java</url>
-          <line>73</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/lists/ListTests.java</url>
-          <line>116</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

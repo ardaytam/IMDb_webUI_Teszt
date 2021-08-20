@@ -1,0 +1,1 @@
+{"uuid":"3334252e-4b5c-4977-8349-68d87bbfb19d","name":"[2] Recommendations and personalization","children":["48ef0ac0-4d36-42c6-994d-0d2ac2e0d1e2"],"befores":[{"name":"goHomePage","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1629485397387,"stop":1629485399033}],"afters":[],"links":[],"start":1629485397387,"stop":1629485401606}

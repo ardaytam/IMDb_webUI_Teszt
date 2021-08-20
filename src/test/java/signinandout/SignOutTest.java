@@ -21,15 +21,16 @@ public class SignOutTest extends BaseTests {
         signInWithIMDbPage.setEmail("autotesztjunior@gmail.com");
         signInWithIMDbPage.setPassword("Oszip12600*");
         signInWithIMDbPage.clickSignInButton();
-        try {
-            Thread.sleep(3000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-        System.out.println(driver.getCurrentUrl());
-        System.out.println(driver.getPageSource());
-        Allure.addAttachment("Screenshot", new ByteArrayInputStream(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)));
-        System.out.println(driver.getCurrentUrl());
+//
+//        try {
+//            Thread.sleep(3000);
+//        } catch (InterruptedException e) {
+//            e.printStackTrace();
+//        }
+//        System.out.println(driver.getCurrentUrl());
+//        System.out.println(driver.getPageSource());
+//        Allure.addAttachment("Screenshot", new ByteArrayInputStream(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)));
+//        System.out.println(driver.getCurrentUrl());
         mainPage.clickSignOut();
 
 

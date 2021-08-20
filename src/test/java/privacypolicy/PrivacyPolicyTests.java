@@ -27,6 +27,7 @@ public class PrivacyPolicyTests extends BaseTests {
     public void testRelevantContentOfPrivacyPolicy(String expression) {
         PrivacyPolicyPage privacyPolicyPage = mainPage.clickPrivacyPolicy();
         Assertions.assertTrue(privacyPolicyPage.searchRelevantContentOfPrivacyPolicy(expression));
+        System.out.println(expression);
     }
 
 }

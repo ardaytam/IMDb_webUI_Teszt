@@ -1,0 +1,1 @@
+{"uuid":"a0142860-dd89-4202-95b7-2e4538b61960","name":"testSuccessfulSignOut()","children":["5c09f944-ab67-4403-b46e-6946fe1c0ed0"],"befores":[{"name":"goHomePage","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1629483796343,"stop":1629483798548}],"afters":[],"links":[],"start":1629483796340,"stop":1629483817567}

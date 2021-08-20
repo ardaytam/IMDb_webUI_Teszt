@@ -30,20 +30,17 @@ public class EditProfileTests extends BaseTests {
         signInWithIMDbPage.setPassword("Oszip12600*");
         signInWithIMDbPage.clickSignInButton();
 
-        try {
-            Thread.sleep(3000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-        System.out.println(driver.getCurrentUrl());
-        System.out.println(driver.getPageSource());
-        Allure.addAttachment("Screenshot", new ByteArrayInputStream(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)));
-        System.out.println(driver.getCurrentUrl());
-        mainPage.UserRollDownMenu();
+//        try {
+//            Thread.sleep(3000);
+//        } catch (InterruptedException e) {
+//            e.printStackTrace();
+//        }
+//        System.out.println(driver.getCurrentUrl());
+//        System.out.println(driver.getPageSource());
 
-        
+
+
         AccountSettingsPage accountSettingsPage = mainPage.clickAccountSettings();
-
 
 
         EditProfilePage editProfilePage = accountSettingsPage.clickEditProfileLink();
@@ -54,6 +51,7 @@ public class EditProfileTests extends BaseTests {
 
 
         Assertions.assertEquals(textToSend, editProfilePage.getDescriptionText());
+
 
 
     }

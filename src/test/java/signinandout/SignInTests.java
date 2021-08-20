@@ -55,7 +55,7 @@ public class SignInTests extends BaseTests {
         signInWithIMDbPage.clickSignInButton();
 
         String errormessage1 = "Your password is incorrect";
-        String errormessage2 = "Important Message!"; //This message appears after the second unsuccessfull attempt
+        String errormessage2 = "Important Message!"; //This message appears after the second unsuccessful attempt
 
         Assertions.assertTrue(errormessage1.equals(signInWithIMDbPage.firstPasswordError())
                 || errormessage2.equals(signInWithIMDbPage.secondPasswordError()));
