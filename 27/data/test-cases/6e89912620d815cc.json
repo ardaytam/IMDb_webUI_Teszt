@@ -1,0 +1,186 @@
+{
+  "uid" : "6e89912620d815cc",
+  "name" : "testRegistrationWithoutEmail()",
+  "fullName" : "createaccount.CreateAccountTests.testRegistrationWithoutEmail",
+  "historyId" : "be0e11cb8b0d9b1943912eef6da291e3",
+  "time" : {
+    "start" : 1629541831561,
+    "stop" : 1629541835236,
+    "duration" : 3675
+  },
+  "description" : "Sikertelen regisztráció email cím megadása nélkül",
+  "descriptionHtml" : "<p>Sikertelen regisztráció email cím megadása nélkül</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "goHomePage",
+    "time" : {
+      "start" : 1629541831574,
+      "stop" : 1629541833452,
+      "duration" : 1878
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1629541831352,
+      "stop" : 1629541831537,
+      "duration" : 185
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1629541835237,
+      "stop" : 1629541835306,
+      "duration" : 69
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Regisztráció"
+  }, {
+    "name" : "feature",
+    "value" : "Sikertelen regisztráció"
+  }, {
+    "name" : "story",
+    "value" : "A felhasználó email cím megadsa nélkül próbál regisztrálni"
+  }, {
+    "name" : "host",
+    "value" : "fv-az72-349"
+  }, {
+    "name" : "thread",
+    "value" : "2997@fv-az72-349.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "createaccount.CreateAccountTests"
+  }, {
+    "name" : "testClass",
+    "value" : "createaccount.CreateAccountTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "testRegistrationWithoutEmail"
+  }, {
+    "name" : "suite",
+    "value" : "createaccount.CreateAccountTests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 8,
+        "unknown" : 0,
+        "total" : 8
+      },
+      "items" : [ {
+        "uid" : "ca723844b9493792",
+        "reportUrl" : "https://ardaytam.github.io/IMDb_webUI_Teszt/26//#testresult/ca723844b9493792",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629489266323,
+          "stop" : 1629489269323,
+          "duration" : 3000
+        }
+      }, {
+        "uid" : "628454aca69f2d8d",
+        "reportUrl" : "https://ardaytam.github.io/IMDb_webUI_Teszt/25//#testresult/628454aca69f2d8d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629402324031,
+          "stop" : 1629402327703,
+          "duration" : 3672
+        }
+      }, {
+        "uid" : "b936d62e8a8c8dea",
+        "reportUrl" : "https://ardaytam.github.io/IMDb_webUI_Teszt/24//#testresult/b936d62e8a8c8dea",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629396585395,
+          "stop" : 1629396588796,
+          "duration" : 3401
+        }
+      }, {
+        "uid" : "850493e34f8889f4",
+        "reportUrl" : "https://ardaytam.github.io/IMDb_webUI_Teszt/23//#testresult/850493e34f8889f4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629395824372,
+          "stop" : 1629395827516,
+          "duration" : 3144
+        }
+      }, {
+        "uid" : "44945ea0fdc503f3",
+        "reportUrl" : "https://ardaytam.github.io/IMDb_webUI_Teszt/22//#testresult/44945ea0fdc503f3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629395274941,
+          "stop" : 1629395278710,
+          "duration" : 3769
+        }
+      }, {
+        "uid" : "ac2127fd1cd0d4e",
+        "reportUrl" : "https://ardaytam.github.io/IMDb_webUI_Teszt/21//#testresult/ac2127fd1cd0d4e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629394620793,
+          "stop" : 1629394625358,
+          "duration" : 4565
+        }
+      }, {
+        "uid" : "efe555f3e2190de1",
+        "reportUrl" : "https://ardaytam.github.io/IMDb_webUI_Teszt/20//#testresult/efe555f3e2190de1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629393951860,
+          "stop" : 1629393957157,
+          "duration" : 5297
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "6e89912620d815cc.json",
+  "parameterValues" : [ ]
+}
