@@ -5,8 +5,12 @@ import io.qameta.allure.*;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import pages.SignInPage;
 import pages.SignInWithIMDbPage;
+
+import java.io.ByteArrayInputStream;
 
 @Epic("Bejelentkezés")
 
@@ -25,6 +29,14 @@ public class SignInTests extends BaseTests {
         signInWithIMDbPage.setPassword("Oszip12600*");
         signInWithIMDbPage.clickSignInButton();
 
+        try {
+            Thread.sleep(3000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+        Allure.addAttachment("Screenshot", new ByteArrayInputStream(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)));
+        System.out.println(driver.getCurrentUrl());
 
         //Bejelentkezés ellenőrzése: a megadott felhasználónév meglétének vizsgálata a főoldalon a felhasználói menüben
         String currentTestUserName = "Junior";
@@ -44,6 +56,9 @@ public class SignInTests extends BaseTests {
         signInWithIMDbPage.setEmail("autotesztjunior@gmail.com");
         signInWithIMDbPage.setPassword("Oszip12600"); //hibás jelszó
         signInWithIMDbPage.clickSignInButton();
+
+
+
 
 
         //Bejelentkezés ellenőrzése a lehetséges hibaüzenetek szövegének vizsgálatával
