@@ -17,9 +17,10 @@ import java.io.ByteArrayInputStream;
 public class SignInTests extends BaseTests {
 
     @Test
+    @Severity(SeverityLevel.CRITICAL)
     @Feature("Sikeres bejelentkezés")
     @Story("A felhasználó érvényes adatokkal jelentkezik be az alkalmazásba")
-    @Description("Sikeres bejelentkezéss érvényes adatokkal")
+    @Description("Bejelentkezés érvényes adatokkal")
     public void testSuccessfulLogIn() {
 
         //Bejelentkezés
@@ -47,7 +48,8 @@ public class SignInTests extends BaseTests {
     @Test
     @Feature("Érvénytelen bejelentkezés")
     @Story("A felhasználó érvényes felhasználónévvel és érvénytelen jelszóval próbál bejelentkezni")
-    @Description("Sikeres bejelentkezés érvénytelen jelszóval")
+    @Description("Bejelentkezés érvénytelen jelszóval")
+    @Severity(SeverityLevel.CRITICAL)
     public void testLoginWithInvalidPassword() {
 
         //Bejelentkezés

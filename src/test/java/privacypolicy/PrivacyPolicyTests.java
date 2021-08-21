@@ -1,22 +1,20 @@
 package privacypolicy;
 
 import base.BaseTests;
-import io.qameta.allure.Description;
-import io.qameta.allure.Epic;
-import io.qameta.allure.Feature;
-import io.qameta.allure.Story;
+import io.qameta.allure.*;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ValueSource;
 import pages.PrivacyPolicyPage;
 
 
-@Epic("Adatvédelmi házirend/nyilatkozat (Privacy Policy) használata")
+@Epic("Adatvkezelési házirend/nyilatkozat (Privacy Policy) használata")
 @Feature("Az adatkezelési nyilatkozat releváns elemeket tartalmaz")
 public class PrivacyPolicyTests extends BaseTests {
 
     @Story("A felhasználó releváns szöveget szeretne találni az adatkezelési nyilatkozatban.")
     @Description("Annak ellenőrzése, hogy az Adatkezelési Nyilatkozat releváns elemeket tartalmaz")
+    @Severity(SeverityLevel.NORMAL)
     @ParameterizedTest
     @ValueSource(strings = {"Provide, troubleshoot, and improve IMDb Services",
             "Recommendations and personalization",

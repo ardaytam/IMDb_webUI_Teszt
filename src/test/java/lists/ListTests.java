@@ -22,6 +22,7 @@ public class ListTests extends BaseTests {
 
     @Story("A felhasználó összeállítja kedvenc színészeinek adatainak listáját")
     @Description("Annak ellenőrzése, hogy a felhasználó képes színészek adatait tartalmazó lista összeállítására")
+    @Severity(SeverityLevel.NORMAL)
     @Test
     @Order(1)
     public void testCreateNewPeopleList() {
@@ -72,6 +73,7 @@ public class ListTests extends BaseTests {
 
     @Story("A felhasználó listát állít össze a kedvenc színészeinek nevéből, de többször ugyanazt a nevet adja meg")
     @Description("Annak ellenőrzése, hogy a webalkalmazás meggátolja azonos nevek szerepeltetését a listában")
+    @Severity(SeverityLevel.MINOR)
     @Test
     @Order(2)
     public void testCreateNewPeopleListUsingOnlyOneNameMultipleTimes() {

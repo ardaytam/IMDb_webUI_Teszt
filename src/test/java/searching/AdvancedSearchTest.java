@@ -1,10 +1,7 @@
 package searching;
 
 import base.BaseTests;
-import io.qameta.allure.Description;
-import io.qameta.allure.Epic;
-import io.qameta.allure.Feature;
-import io.qameta.allure.Story;
+import io.qameta.allure.*;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.RepeatedTest;
 import org.junit.jupiter.api.Test;
@@ -16,12 +13,13 @@ import java.io.FileInputStream;
 import java.io.InputStreamReader;
 
 @Epic("Összetett keresési funkció tesztelése")
-@Feature("Összetett keresés eredményeként kapott találati lista bejárása, mentése")
+@Feature("Találati lista bejárása, mentése")
 
 
 public class AdvancedSearchTest extends BaseTests {
     @Story("A felhasználó szeretné végiglapozni az összetett keresés eredményeként kapott találati listát")
-    @Description("Összetett keresés eredményeként kapott találati lista bejárása")
+    @Description("Összetett keresés eredményeként kapott több oldalas találati lista bejárása")
+    @Severity(SeverityLevel.NORMAL)
     @Test
     public void testCrawlingThroughSearchResultList() {
 
@@ -38,8 +36,10 @@ public class AdvancedSearchTest extends BaseTests {
         Assertions.assertEquals(numberOfResults +".", lastResult);
 
     }
+
     @Story("Az összetett keresés eredményeként kapott lista első 50 elemének címét fájlba mentése")
-    @Description("Több oldalas találati lista első 50 címének fájlba mentése")
+    @Description("Találati lista első 50 címének  megjelenítése és fájlba mentése")
+    @Severity(SeverityLevel.NORMAL)
     @RepeatedTest(3)
     public void testSaveSearchResultTitlesToFile() throws Exception {
 

@@ -1,10 +1,7 @@
 package createaccount;
 
 import base.BaseTests;
-import io.qameta.allure.Description;
-import io.qameta.allure.Epic;
-import io.qameta.allure.Feature;
-import io.qameta.allure.Story;
+import io.qameta.allure.*;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
@@ -20,6 +17,7 @@ public class CreateAccountTests extends BaseTests {
     @Feature("Sikeres regisztráció")
     @Story("A felhasználó érvényes adatokkal kísérli meg a regisztrációt")
     @Description("Regisztráció érvényes adatokkal")
+    @Severity(SeverityLevel.CRITICAL)
     @Test
     public void testSuccessfulRegistration() {
         //Regisztráció
@@ -36,6 +34,7 @@ public class CreateAccountTests extends BaseTests {
     @Feature("Sikertelen regisztráció")
     @Story("A felhasználó email cím megadsa nélkül próbál regisztrálni")
     @Description("Sikertelen regisztráció email cím megadása nélkül")
+    @Severity(SeverityLevel.CRITICAL)
     @Test
     public void testRegistrationWithoutEmail() {
         //Regisztráció
@@ -47,7 +46,7 @@ public class CreateAccountTests extends BaseTests {
         createAccountPage.setPasswordCheck("Oszip12600*");
         createAccountPage.clickCreateAccountButton();
 
-        //Sikeretelen regisztráció ellenőrzése: hibaüzenet szövegének vizsgálata
+        //Sikertelen regisztráció ellenőrzése: hibaüzenet szövegének vizsgálata
         String emailerrormessage = "Enter your email";
         Assertions.assertTrue(emailerrormessage.equals(createAccountPage.missingEmailError()));
 

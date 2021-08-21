@@ -16,6 +16,7 @@ public class EditProfileTests extends BaseTests {
 
     @Story("A felhasználó adatokat ad meg és ment el a profiljába")
     @Description("Annak ellenőrzése, hogy a felhasználó képes adatokat megadni és azt elmenteni a profiljába")
+    @Severity(SeverityLevel.NORMAL)
     @Test
     @Order(1)
     public void testWriteDescription() {
@@ -44,6 +45,7 @@ public class EditProfileTests extends BaseTests {
 
     @Story("A felhasználó adatokat módosít és ment el a profiljában")
     @Description("Annak ellenőrzése, hogy a felhasználó képes adatokat módosítani és azt elmenteni a profiljába")
+    @Severity(SeverityLevel.NORMAL)
     @Test
     @Order(2)
     public void testModifyDescription() {
@@ -64,6 +66,7 @@ public class EditProfileTests extends BaseTests {
 
     @Story("A felhasználó adatokat töröl a profiljából")
     @Description("Annak ellenőrzése, hogy a felhasználó képes adatokat törölni a profiljából")
+    @Severity(SeverityLevel.NORMAL)
     @Test
     @Order(3)
     public void testDeleteDescription() {

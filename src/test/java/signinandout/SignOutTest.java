@@ -1,10 +1,7 @@
 package signinandout;
 
 import base.BaseTests;
-import io.qameta.allure.Description;
-import io.qameta.allure.Epic;
-import io.qameta.allure.Feature;
-import io.qameta.allure.Story;
+import io.qameta.allure.*;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import pages.SignInPage;
@@ -15,7 +12,8 @@ public class SignOutTest extends BaseTests {
 
     @Feature("Sikeres kijelentkezés")
     @Story("A felhasználó sikeresen kijelentkezik az alkalmazásból")
-    @Description("Sikeres kijelentkezés az alkalmazásból")
+    @Description("Annak ellenőrzése, hogy a felhasználó sikeresen ki tud jelentkezni az alkalmazásból\n")
+    @Severity(SeverityLevel.CRITICAL)
     @Test
     public void testSuccessfulSignOut() {
 
