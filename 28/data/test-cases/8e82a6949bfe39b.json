@@ -1,0 +1,189 @@
+{
+  "uid" : "8e82a6949bfe39b",
+  "name" : "testLoginWithInvalidPassword()",
+  "fullName" : "signinandout.SignInTests.testLoginWithInvalidPassword",
+  "historyId" : "4cef37e62c8c6fa12ffa52c493a9b06e",
+  "time" : {
+    "start" : 1629542757303,
+    "stop" : 1629542757303,
+    "duration" : 0
+  },
+  "description" : "Sikeres bejelentkezés érvénytelen jelszóval",
+  "descriptionHtml" : "<p>Sikeres bejelentkezés érvénytelen jelszóval</p>\n",
+  "status" : "skipped",
+  "statusMessage" : "A weboldal biztonsági funkciói (captcha védelem) miatt  automatizálása nem javasolt",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1629542757133,
+      "stop" : 1629542757300,
+      "duration" : 167
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1629542772950,
+      "stop" : 1629542773021,
+      "duration" : 71
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Bejelentkezés"
+  }, {
+    "name" : "feature",
+    "value" : "Érvénytelen bejelentkezés"
+  }, {
+    "name" : "story",
+    "value" : "A felhasználó érvényes felhasználónévvel és érvénytelen jelszóval próbál bejelentkezni"
+  }, {
+    "name" : "host",
+    "value" : "fv-az47-486"
+  }, {
+    "name" : "thread",
+    "value" : "2884@fv-az47-486.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "signinandout.SignInTests"
+  }, {
+    "name" : "testClass",
+    "value" : "signinandout.SignInTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "testLoginWithInvalidPassword"
+  }, {
+    "name" : "suite",
+    "value" : "signinandout.SignInTests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 9,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 9
+      },
+      "items" : [ {
+        "uid" : "228aabc31478fb04",
+        "reportUrl" : "https://ardaytam.github.io/IMDb_webUI_Teszt/27//#testresult/228aabc31478fb04",
+        "status" : "skipped",
+        "statusDetails" : "A weboldal biztonsági funkciói (captcha védelem) miatt  automatizálása nem javasolt",
+        "time" : {
+          "start" : 1629541803986,
+          "stop" : 1629541803986,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "4bf1bf89e9919afe",
+        "reportUrl" : "https://ardaytam.github.io/IMDb_webUI_Teszt/26//#testresult/4bf1bf89e9919afe",
+        "status" : "skipped",
+        "statusDetails" : "public void signinandout.SignInTests.testLoginWithInvalidPassword() is @Disabled",
+        "time" : {
+          "start" : 1629489239359,
+          "stop" : 1629489239359,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "b475dcca558a7838",
+        "reportUrl" : "https://ardaytam.github.io/IMDb_webUI_Teszt/25//#testresult/b475dcca558a7838",
+        "status" : "skipped",
+        "statusDetails" : "public void signinandout.SignInTests.testLoginWithInvalidPassword() is @Disabled",
+        "time" : {
+          "start" : 1629402296312,
+          "stop" : 1629402296312,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "67577fb8c49a7d6b",
+        "reportUrl" : "https://ardaytam.github.io/IMDb_webUI_Teszt/24//#testresult/67577fb8c49a7d6b",
+        "status" : "skipped",
+        "statusDetails" : "public void signinandout.SignInTests.testLoginWithInvalidPassword() is @Disabled",
+        "time" : {
+          "start" : 1629396557314,
+          "stop" : 1629396557314,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "302f4108002ad678",
+        "reportUrl" : "https://ardaytam.github.io/IMDb_webUI_Teszt/23//#testresult/302f4108002ad678",
+        "status" : "skipped",
+        "statusDetails" : "public void signinandout.SignInTests.testLoginWithInvalidPassword() is @Disabled",
+        "time" : {
+          "start" : 1629395796007,
+          "stop" : 1629395796007,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "107450af744ced0f",
+        "reportUrl" : "https://ardaytam.github.io/IMDb_webUI_Teszt/22//#testresult/107450af744ced0f",
+        "status" : "skipped",
+        "statusDetails" : "public void signinandout.SignInTests.testLoginWithInvalidPassword() is @Disabled",
+        "time" : {
+          "start" : 1629395247135,
+          "stop" : 1629395247135,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "4ea722d30f00d07b",
+        "reportUrl" : "https://ardaytam.github.io/IMDb_webUI_Teszt/21//#testresult/4ea722d30f00d07b",
+        "status" : "skipped",
+        "statusDetails" : "public void signinandout.SignInTests.testLoginWithInvalidPassword() is @Disabled",
+        "time" : {
+          "start" : 1629394592588,
+          "stop" : 1629394592588,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "9391fefa6302aac9",
+        "reportUrl" : "https://ardaytam.github.io/IMDb_webUI_Teszt/20//#testresult/9391fefa6302aac9",
+        "status" : "skipped",
+        "statusDetails" : "public void signinandout.SignInTests.testLoginWithInvalidPassword() is @Disabled",
+        "time" : {
+          "start" : 1629393925148,
+          "stop" : 1629393925148,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "8e82a6949bfe39b.json",
+  "parameterValues" : [ ]
+}

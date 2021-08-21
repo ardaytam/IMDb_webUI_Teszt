@@ -1,0 +1,381 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "Egyedi lista létrehozása",
+    "children" : [ {
+      "name" : "A felhasználó egyedi - pl. színészek adatait tartalmazó - listát állít össze",
+      "children" : [ {
+        "name" : "A felhasználó összeállítja kedvenc színészeinek adatainak listáját",
+        "children" : [ {
+          "name" : "testCreateNewPeopleList()",
+          "uid" : "4467183fc9015d15",
+          "parentUid" : "42d2110a6adc703d79c1079ce475c0f0",
+          "status" : "broken",
+          "time" : {
+            "start" : 1629542647637,
+            "stop" : 1629542660915,
+            "duration" : 13278
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "42d2110a6adc703d79c1079ce475c0f0"
+      }, {
+        "name" : "A felhasználó listát állít össze a kedvenc színészeinek nevéből, de többször ugyanazt a nevet adja meg",
+        "children" : [ {
+          "name" : "testCreateNewPeopleListUsingOnlyOneNameMultipleTimes()",
+          "uid" : "6d0999fb8cb5e91f",
+          "parentUid" : "9ac2e95f7dba84b83bb15ba192d7c1b0",
+          "status" : "broken",
+          "time" : {
+            "start" : 1629542660983,
+            "stop" : 1629542672377,
+            "duration" : 11394
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "9ac2e95f7dba84b83bb15ba192d7c1b0"
+      } ],
+      "uid" : "b546972c0ca10a378a1ee5a1dc004216"
+    } ],
+    "uid" : "bbde7cd9385a032ea6178eb9b8bac4dc"
+  }, {
+    "name" : "Adatvédelmi házirend/nyilatkozat (Privacy Policy) használata",
+    "children" : [ {
+      "name" : "Az adatkezelési nyilatkozat releváns elemeket tartalmaz",
+      "children" : [ {
+        "name" : "A felhasználó releváns szöveget szeretne találni az adatkezelési nyilatkozatban.",
+        "children" : [ {
+          "name" : "[1] Provide, troubleshoot, and improve IMDb Services",
+          "uid" : "b6acd46d83660969",
+          "parentUid" : "416eb8456e09472033170c6338ab0923",
+          "status" : "passed",
+          "time" : {
+            "start" : 1629542672681,
+            "stop" : 1629542675078,
+            "duration" : 2397
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "[2] Recommendations and personalization",
+          "uid" : "bb9d9869755a7e8f",
+          "parentUid" : "416eb8456e09472033170c6338ab0923",
+          "status" : "passed",
+          "time" : {
+            "start" : 1629542675083,
+            "stop" : 1629542677076,
+            "duration" : 1993
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "[3] Comply with legal obligations",
+          "uid" : "e3b6f6764457def2",
+          "parentUid" : "416eb8456e09472033170c6338ab0923",
+          "status" : "passed",
+          "time" : {
+            "start" : 1629542677080,
+            "stop" : 1629542678909,
+            "duration" : 1829
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "[4] Communicate with you",
+          "uid" : "a247b669a1ed6dfb",
+          "parentUid" : "416eb8456e09472033170c6338ab0923",
+          "status" : "passed",
+          "time" : {
+            "start" : 1629542678916,
+            "stop" : 1629542680727,
+            "duration" : 1811
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "[5] Advertising",
+          "uid" : "3aa2c5920c46c145",
+          "parentUid" : "416eb8456e09472033170c6338ab0923",
+          "status" : "passed",
+          "time" : {
+            "start" : 1629542680731,
+            "stop" : 1629542682429,
+            "duration" : 1698
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "[6] Fraud Prevention",
+          "uid" : "92a949d0cb0c8fe2",
+          "parentUid" : "416eb8456e09472033170c6338ab0923",
+          "status" : "passed",
+          "time" : {
+            "start" : 1629542682433,
+            "stop" : 1629542684657,
+            "duration" : 2224
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "416eb8456e09472033170c6338ab0923"
+      } ],
+      "uid" : "cf4aa2d414aadeac8d579ade7dfcf806"
+    } ],
+    "uid" : "69d6223706f0754baaee5ad09293a207"
+  }, {
+    "name" : "Összetett keresési funkció tesztelése",
+    "children" : [ {
+      "name" : "Összetett keresés eredményeként kapott találati lista bejárása, mentése",
+      "children" : [ {
+        "name" : "A felhasználó szeretné végiglapozni az összetett keresés eredményeként kapott találati listát",
+        "children" : [ {
+          "name" : "testCrawlingThroughSearchResultList()",
+          "uid" : "d9203aa7827f9f1",
+          "parentUid" : "431fb8fec7763e1e86f8a5bf74514c20",
+          "status" : "passed",
+          "time" : {
+            "start" : 1629542684982,
+            "stop" : 1629542707456,
+            "duration" : 22474
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "431fb8fec7763e1e86f8a5bf74514c20"
+      }, {
+        "name" : "Az összetett keresés eredményeként kapott lista első 50 elemének címét fájlba mentése",
+        "children" : [ {
+          "name" : "repetition 1 of 3",
+          "uid" : "35cd6728706c212b",
+          "parentUid" : "f75505bcc57cad5a38b518c3fd5006b5",
+          "status" : "passed",
+          "time" : {
+            "start" : 1629542707461,
+            "stop" : 1629542712936,
+            "duration" : 5475
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "repetition 2 of 3",
+          "uid" : "b6bb2e70dc572c9c",
+          "parentUid" : "f75505bcc57cad5a38b518c3fd5006b5",
+          "status" : "passed",
+          "time" : {
+            "start" : 1629542712938,
+            "stop" : 1629542716750,
+            "duration" : 3812
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "repetition 3 of 3",
+          "uid" : "cf4d641ced3d9ee",
+          "parentUid" : "f75505bcc57cad5a38b518c3fd5006b5",
+          "status" : "passed",
+          "time" : {
+            "start" : 1629542716753,
+            "stop" : 1629542720621,
+            "duration" : 3868
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "f75505bcc57cad5a38b518c3fd5006b5"
+      } ],
+      "uid" : "dc3f8c8625d396108fd54cfc46a6627f"
+    } ],
+    "uid" : "f2d09927021c169c8ab89abac7869288"
+  }, {
+    "name" : "Felhasználói profil beállítása, szerkesztése",
+    "children" : [ {
+      "name" : "A felhasználó beállítja, szerkeszti a profil adatait",
+      "children" : [ {
+        "name" : "A felhasználó adatokat ad meg és ment el a profiljába",
+        "children" : [ {
+          "name" : "testWriteDescription()",
+          "uid" : "91314ffb8cf58800",
+          "parentUid" : "4d360b7c76620c5f6c1941731584288d",
+          "status" : "broken",
+          "time" : {
+            "start" : 1629542720840,
+            "stop" : 1629542734134,
+            "duration" : 13294
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "4d360b7c76620c5f6c1941731584288d"
+      }, {
+        "name" : "A felhasználó adatokat módosít és ment el a profiljában",
+        "children" : [ {
+          "name" : "testModifyDescription()",
+          "uid" : "5a4f3c4c144df8a1",
+          "parentUid" : "215e12f0c89c7876e35787c7f627c52b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1629542734139,
+            "stop" : 1629542745502,
+            "duration" : 11363
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "215e12f0c89c7876e35787c7f627c52b"
+      }, {
+        "name" : "A felhasználó adatokat töröl a profiljából",
+        "children" : [ {
+          "name" : "testDeleteDescription()",
+          "uid" : "21898656b87a8938",
+          "parentUid" : "ca1162ddbb18e35a4ede5625d9a30742",
+          "status" : "broken",
+          "time" : {
+            "start" : 1629542745507,
+            "stop" : 1629542757051,
+            "duration" : 11544
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "ca1162ddbb18e35a4ede5625d9a30742"
+      } ],
+      "uid" : "08b034074399585317f9e7d886e389c1"
+    } ],
+    "uid" : "b6ad565282573074f08119007f2e745b"
+  }, {
+    "name" : "Bejelentkezés",
+    "children" : [ {
+      "name" : "Érvénytelen bejelentkezés",
+      "children" : [ {
+        "name" : "A felhasználó érvényes felhasználónévvel és érvénytelen jelszóval próbál bejelentkezni",
+        "children" : [ {
+          "name" : "testLoginWithInvalidPassword()",
+          "uid" : "8e82a6949bfe39b",
+          "parentUid" : "fa17e7ce8b705983c293f096a1024385",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1629542757303,
+            "stop" : 1629542757303,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "fa17e7ce8b705983c293f096a1024385"
+      } ],
+      "uid" : "65ba43d27c2e94b7182effd12c66ff32"
+    }, {
+      "name" : "Sikeres bejelentkezés",
+      "children" : [ {
+        "name" : "A felhasználó érvényes adatokkal jelentkezik be az alkalmazásba",
+        "children" : [ {
+          "name" : "testSuccessfulLogIn()",
+          "uid" : "c50804da5d489dde",
+          "parentUid" : "23f6b426e54d17618c427ae85948ba9b",
+          "status" : "failed",
+          "time" : {
+            "start" : 1629542757307,
+            "stop" : 1629542772941,
+            "duration" : 15634
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "23f6b426e54d17618c427ae85948ba9b"
+      } ],
+      "uid" : "605513d2876577e40bb7f3f97961ae8e"
+    } ],
+    "uid" : "1e6583228dcad831032e83960ee61c85"
+  }, {
+    "name" : "Kijelentkezés",
+    "children" : [ {
+      "name" : "Sikeres kijelentkezés",
+      "children" : [ {
+        "name" : "A felhasználó sikeresen kijelentkezik az alkalmazásból",
+        "children" : [ {
+          "name" : "testSuccessfulSignOut()",
+          "uid" : "a3fbfbc2711b098a",
+          "parentUid" : "cd69dc5ea4f9fe2bff8b954385f818b8",
+          "status" : "broken",
+          "time" : {
+            "start" : 1629542773191,
+            "stop" : 1629542785678,
+            "duration" : 12487
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "cd69dc5ea4f9fe2bff8b954385f818b8"
+      } ],
+      "uid" : "30738d9c7fd9f4441a5c554088c18a31"
+    } ],
+    "uid" : "901cc2bce5a7d1e7206d000382086d6b"
+  }, {
+    "name" : "Regisztráció",
+    "children" : [ {
+      "name" : "Sikeres regisztráció",
+      "children" : [ {
+        "name" : "A felhasználó érvényes adatokkal kísérli meg a regisztrációt",
+        "children" : [ {
+          "name" : "testSuccessfulRegistration()",
+          "uid" : "680e899c6fe43e4f",
+          "parentUid" : "44619fbfb37e7dd3d2c318e41caf99d5",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1629542785905,
+            "stop" : 1629542785905,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "44619fbfb37e7dd3d2c318e41caf99d5"
+      } ],
+      "uid" : "785ccece56829bc54f666c575495d35e"
+    }, {
+      "name" : "Sikertelen regisztráció",
+      "children" : [ {
+        "name" : "A felhasználó email cím megadsa nélkül próbál regisztrálni",
+        "children" : [ {
+          "name" : "testRegistrationWithoutEmail()",
+          "uid" : "47d3331df0aa68c3",
+          "parentUid" : "dbb42cba47265f4ca59c59c4df97444d",
+          "status" : "passed",
+          "time" : {
+            "start" : 1629542785912,
+            "stop" : 1629542788976,
+            "duration" : 3064
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "dbb42cba47265f4ca59c59c4df97444d"
+      } ],
+      "uid" : "e6583610d48c7d61b9aa2dce64fd1bcc"
+    } ],
+    "uid" : "3aca2f1a79d29ccbe276e5efaf8933af"
+  } ],
+  "name" : "behaviors"
+}

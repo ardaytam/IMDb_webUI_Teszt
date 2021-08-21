@@ -1,0 +1,201 @@
+[ {
+  "uid" : "3aa2c5920c46c145",
+  "name" : "[5] Advertising",
+  "time" : {
+    "start" : 1629542680731,
+    "stop" : 1629542682429,
+    "duration" : 1698
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4467183fc9015d15",
+  "name" : "testCreateNewPeopleList()",
+  "time" : {
+    "start" : 1629542647637,
+    "stop" : 1629542660915,
+    "duration" : 13278
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "91314ffb8cf58800",
+  "name" : "testWriteDescription()",
+  "time" : {
+    "start" : 1629542720840,
+    "stop" : 1629542734134,
+    "duration" : 13294
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "bb9d9869755a7e8f",
+  "name" : "[2] Recommendations and personalization",
+  "time" : {
+    "start" : 1629542675083,
+    "stop" : 1629542677076,
+    "duration" : 1993
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "680e899c6fe43e4f",
+  "name" : "testSuccessfulRegistration()",
+  "time" : {
+    "start" : 1629542785905,
+    "stop" : 1629542785905,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "6d0999fb8cb5e91f",
+  "name" : "testCreateNewPeopleListUsingOnlyOneNameMultipleTimes()",
+  "time" : {
+    "start" : 1629542660983,
+    "stop" : 1629542672377,
+    "duration" : 11394
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "b6acd46d83660969",
+  "name" : "[1] Provide, troubleshoot, and improve IMDb Services",
+  "time" : {
+    "start" : 1629542672681,
+    "stop" : 1629542675078,
+    "duration" : 2397
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "47d3331df0aa68c3",
+  "name" : "testRegistrationWithoutEmail()",
+  "time" : {
+    "start" : 1629542785912,
+    "stop" : 1629542788976,
+    "duration" : 3064
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "35cd6728706c212b",
+  "name" : "repetition 1 of 3",
+  "time" : {
+    "start" : 1629542707461,
+    "stop" : 1629542712936,
+    "duration" : 5475
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5a4f3c4c144df8a1",
+  "name" : "testModifyDescription()",
+  "time" : {
+    "start" : 1629542734139,
+    "stop" : 1629542745502,
+    "duration" : 11363
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "e3b6f6764457def2",
+  "name" : "[3] Comply with legal obligations",
+  "time" : {
+    "start" : 1629542677080,
+    "stop" : 1629542678909,
+    "duration" : 1829
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b6bb2e70dc572c9c",
+  "name" : "repetition 2 of 3",
+  "time" : {
+    "start" : 1629542712938,
+    "stop" : 1629542716750,
+    "duration" : 3812
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a3fbfbc2711b098a",
+  "name" : "testSuccessfulSignOut()",
+  "time" : {
+    "start" : 1629542773191,
+    "stop" : 1629542785678,
+    "duration" : 12487
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "92a949d0cb0c8fe2",
+  "name" : "[6] Fraud Prevention",
+  "time" : {
+    "start" : 1629542682433,
+    "stop" : 1629542684657,
+    "duration" : 2224
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cf4d641ced3d9ee",
+  "name" : "repetition 3 of 3",
+  "time" : {
+    "start" : 1629542716753,
+    "stop" : 1629542720621,
+    "duration" : 3868
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "21898656b87a8938",
+  "name" : "testDeleteDescription()",
+  "time" : {
+    "start" : 1629542745507,
+    "stop" : 1629542757051,
+    "duration" : 11544
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "8e82a6949bfe39b",
+  "name" : "testLoginWithInvalidPassword()",
+  "time" : {
+    "start" : 1629542757303,
+    "stop" : 1629542757303,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "c50804da5d489dde",
+  "name" : "testSuccessfulLogIn()",
+  "time" : {
+    "start" : 1629542757307,
+    "stop" : 1629542772941,
+    "duration" : 15634
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "a247b669a1ed6dfb",
+  "name" : "[4] Communicate with you",
+  "time" : {
+    "start" : 1629542678916,
+    "stop" : 1629542680727,
+    "duration" : 1811
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d9203aa7827f9f1",
+  "name" : "testCrawlingThroughSearchResultList()",
+  "time" : {
+    "start" : 1629542684982,
+    "stop" : 1629542707456,
+    "duration" : 22474
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
