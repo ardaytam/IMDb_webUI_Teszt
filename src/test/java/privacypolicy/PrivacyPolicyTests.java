@@ -11,12 +11,12 @@ import org.junit.jupiter.params.provider.ValueSource;
 import pages.PrivacyPolicyPage;
 
 
-@Epic("Privacy Policy Tests")//Ezeket magyarul kellene?
-@Feature("Privacy Policy contains relevant text")
+@Epic("Adatvédelmi házirend/nyilatkozat (Privacy Policy) használata")
+@Feature("Az adatkezelési nyilatkozat releváns elemeket tartalmaz")
 public class PrivacyPolicyTests extends BaseTests {
 
-    @Story("User gets relevant and informative text from Privacy Policy.")
-    @Description("Checking that Privacy Policy contains relevant expressions.")
+    @Story("A felhasználó releváns szöveget szeretne találni az adatkezelési nyilatkozatban.")
+    @Description("Annak ellenőrzése, hogy az Adatkezelési Nyilatkozat releváns elemeket tartalmaz")
     @ParameterizedTest
     @ValueSource(strings = {"Provide, troubleshoot, and improve IMDb Services",
             "Recommendations and personalization",
@@ -25,9 +25,11 @@ public class PrivacyPolicyTests extends BaseTests {
             "Advertising",
             "Fraud Prevention"})
     public void testRelevantContentOfPrivacyPolicy(String expression) {
-        PrivacyPolicyPage privacyPolicyPage = mainPage.clickPrivacyPolicy();
-        Assertions.assertTrue(privacyPolicyPage.searchRelevantContentOfPrivacyPolicy(expression));
-        System.out.println(expression);
-    }
 
+        //Navigálás az Adatkezelési Nyilatkozatot tartalmazó oldalra
+        PrivacyPolicyPage privacyPolicyPage = mainPage.clickPrivacyPolicy();
+
+        //Az Adatkezelési Nyilatkozat tartalmának összevetése a paraméterként kapott kifejezéseekel
+        Assertions.assertTrue(privacyPolicyPage.searchRelevantContentOfPrivacyPolicy(expression));
+    }
 }

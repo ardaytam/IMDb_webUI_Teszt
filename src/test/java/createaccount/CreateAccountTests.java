@@ -11,40 +11,43 @@ import org.junit.jupiter.api.Test;
 import pages.CreateAccountPage;
 import pages.SignInPage;
 
-@Epic("Registration Tests")
+@Epic("Regisztráció")
 
 public class CreateAccountTests extends BaseTests {
 
 
-    @Disabled("Can not be automatized cause the email verification process")
-    @Feature("Valid Registration")
-    @Story("User tries to register with properly given data")
-    @Description("ValidRegistration Test with properly given data")
+    @Disabled("Nem javasolt az automatizálás az email verifikációs folyamat (email címre küldött egyedi azonosító) miatt")
+    @Feature("Sikeres regisztráció")
+    @Story("A felhasználó érvényes adatokkal kísérli meg a regisztrációt")
+    @Description("Regisztráció érvényes adatokkal")
     @Test
     public void testSuccessfulRegistration() {
+        //Regisztráció
         SignInPage signInPage = mainPage.clickSignIn();
         CreateAccountPage createAccountPage = signInPage.clickCreateNewAccountButton();
-        createAccountPage.setName("Junior Autoteszt");
-        createAccountPage.setEmail("autotesztjunior@gmail.com");
+        createAccountPage.setName("Junior Autotesztelo");
+        createAccountPage.setEmail("autotesztelojunior@gmail.com");
         createAccountPage.setPassword("Oszip12600*");
         createAccountPage.setPasswordCheck("Oszip12600*");
         createAccountPage.clickCreateAccountButton();
 
     }
 
-    @Feature("Invalid Registration")
-    @Story("User tries to register without email")
-    @Description("Invalid Registration Test: empty email field")
+    @Feature("Sikertelen regisztráció")
+    @Story("A felhasználó email cím megadsa nélkül próbál regisztrálni")
+    @Description("Sikertelen regisztráció email cím megadása nélkül")
     @Test
     public void testRegistrationWithoutEmail() {
+        //Regisztráció
         SignInPage signInPage = mainPage.clickSignIn();
         CreateAccountPage createAccountPage = signInPage.clickCreateNewAccountButton();
         createAccountPage.setName("Nagy Lajos");
-        createAccountPage.setEmail(""); //empty email field
+        createAccountPage.setEmail(""); //üres email mező
         createAccountPage.setPassword("Oszip12600*");
         createAccountPage.setPasswordCheck("Oszip12600*");
         createAccountPage.clickCreateAccountButton();
 
+        //Sikeretelen regisztráció ellenőrzése: hibaüzenet szövegének vizsgálata
         String emailerrormessage = "Enter your email";
         Assertions.assertTrue(emailerrormessage.equals(createAccountPage.missingEmailError()));
 

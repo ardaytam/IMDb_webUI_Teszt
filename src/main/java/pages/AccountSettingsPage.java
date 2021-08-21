@@ -8,7 +8,6 @@ public class AccountSettingsPage {
     private WebDriver driver;
     private By editProfileLink = By.linkText("Edit profile");
 
-
     public AccountSettingsPage(WebDriver driver) {
         this.driver = driver;
     }

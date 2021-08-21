@@ -3,90 +3,80 @@ package editprofile;
 import base.BaseTests;
 import io.qameta.allure.*;
 import org.junit.jupiter.api.*;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
 import pages.AccountSettingsPage;
 import pages.EditProfilePage;
 import pages.SignInPage;
 import pages.SignInWithIMDbPage;
 
-import java.io.ByteArrayInputStream;
+@Epic("Felhasználói profil beállítása, szerkesztése")
+@Feature("A felhasználó beállítja, szerkeszti a profil adatait")
 
-@Epic("Edit Profile Tests")
-@Feature("User can write, modify, delete data in the profile")
-
-@TestMethodOrder(MethodOrderer.OrderAnnotation.class) //Tests should be run in a specific order
+@TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 public class EditProfileTests extends BaseTests {
 
-    @Story("User write Biographic data in the profile")
-    @Description("Checking that user can write data in the profile")
+    @Story("A felhasználó adatokat ad meg és ment el a profiljába")
+    @Description("Annak ellenőrzése, hogy a felhasználó képes adatokat megadni és azt elmenteni a profiljába")
     @Test
     @Order(1)
     public void testWriteDescription() {
 
+        //Bejelentkezés
         SignInPage signInPage = mainPage.clickSignIn();
         SignInWithIMDbPage signInWithIMDbPage = signInPage.clickSignInWithIMDbButton();
-        signInWithIMDbPage.setEmail("autotesztjunior@gmail.com");
+        signInWithIMDbPage.setEmail("autotesztelojunior@gmail.com");
         signInWithIMDbPage.setPassword("Oszip12600*");
         signInWithIMDbPage.clickSignInButton();
 
-//        try {
-//            Thread.sleep(3000);
-//        } catch (InterruptedException e) {
-//            e.printStackTrace();
-//        }
-//        System.out.println(driver.getCurrentUrl());
-//        System.out.println(driver.getPageSource());
 
-
-
+        //Navigálás a Felhasználói profilhoz
         AccountSettingsPage accountSettingsPage = mainPage.clickAccountSettings();
 
-
+        //A Felhasználói profil szerkesztése, szöveg bevitele a Bio "szövegterületbe"(textarea)
         EditProfilePage editProfilePage = accountSettingsPage.clickEditProfileLink();
 
         String textToSend = "I was born a month ago. I am an automated program.";
         editProfilePage.writeDescription(textToSend);
-        accountSettingsPage.clickEditProfileLink(); //goes back to the previous page
 
-
+        //A szöveg bevitelének ellenőrzése
+        accountSettingsPage.clickEditProfileLink();
         Assertions.assertEquals(textToSend, editProfilePage.getDescriptionText());
-
-
-
     }
 
-    @Story("User modify Biographic data in the profile")
-    @Description("Checking that user can overwrite data in the profile")
+    @Story("A felhasználó adatokat módosít és ment el a profiljában")
+    @Description("Annak ellenőrzése, hogy a felhasználó képes adatokat módosítani és azt elmenteni a profiljába")
     @Test
     @Order(2)
     public void testModifyDescription() {
 
+        //Navigálás a Felhasználói profilhoz
         AccountSettingsPage accountSettingsPage = mainPage.clickAccountSettings();
-        EditProfilePage editProfilePage = accountSettingsPage.clickEditProfileLink();
 
+        //A Felhasználói profil szerkesztése, meglévő szöveg módosítása a Bio "szövegterületben"(textarea)
+        EditProfilePage editProfilePage = accountSettingsPage.clickEditProfileLink();
 
         editProfilePage.modifyDescription("a month","two months");
 
-        accountSettingsPage.clickEditProfileLink(); //goes back to the previous page
-
+        //A szöveg módosítás ellenőrzése
+        accountSettingsPage.clickEditProfileLink();
         String changedText = "I was born two months ago. I am an automated program.";
         Assertions.assertEquals(changedText, editProfilePage.getDescriptionText());
     }
 
-    @Story("User delete Biographic data in the profile")
-    @Description("Checking that user can delete data from the profile")
+    @Story("A felhasználó adatokat töröl a profiljából")
+    @Description("Annak ellenőrzése, hogy a felhasználó képes adatokat törölni a profiljából")
     @Test
     @Order(3)
     public void testDeleteDescription() {
 
-
+        //Navigálás a Felhasználói profilhoz
         AccountSettingsPage accountSettingsPage = mainPage.clickAccountSettings();
+
+        //A Felhasználói profil szerkesztése, meglévő szöveg törlése a Bio "szövegterületből"(textarea)
         EditProfilePage editProfilePage = accountSettingsPage.clickEditProfileLink();
         editProfilePage.deleteDescription();
 
-        accountSettingsPage.clickEditProfileLink(); //goes back to the previous page
-
+        //A szöveg törlésének ellenőrzése
+        accountSettingsPage.clickEditProfileLink();
         Assertions.assertEquals("", editProfilePage.getDescriptionText());
     }
 }

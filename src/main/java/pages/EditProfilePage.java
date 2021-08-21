@@ -30,17 +30,9 @@ public class EditProfilePage {
         driver.findElement(saveDescriptionButton).click();
     }
 
-
-//*This method return the actual text of the  textarea Webelement called Bio
+    //A Bio szövegterület aktuális szövegét adja vissza
     public String getDescriptionText() {
         String descriptionText= driver.findElement(bioTextBox).getText();
         return descriptionText;
             }
-
 }
-//#main > div > div:nth-child(2) > div:nth-child(2) > textarea
-//classname Bio
-
-//*[@id="main"]/div/div[2]/div[2]/textarea
-//*[@class="auth-button-link auth-button--primary"]
-//linktext

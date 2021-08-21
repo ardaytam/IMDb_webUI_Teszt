@@ -1,0 +1,1 @@
+{"uuid":"b6c0d346-a649-4e78-ae33-c25f341eb0e7","name":"testCreateNewPeopleList()","children":["0e7a5172-f17b-4191-8da7-60fcebca7eb7"],"befores":[{"name":"goHomePage","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1629527495697,"stop":1629527497749}],"afters":[],"links":[],"start":1629527495655,"stop":1629527521383}

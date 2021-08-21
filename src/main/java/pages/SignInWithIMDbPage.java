@@ -14,8 +14,8 @@ public class SignInWithIMDbPage {
     private By passwordError2 = By.xpath(" //*[@id=\"auth-warning-message-box\"]/div/h4");
 
 
-    public SignInWithIMDbPage(WebDriver webDriver) {
-        this.driver = webDriver;
+    public SignInWithIMDbPage(WebDriver driver) {
+        this.driver = driver;
     }
 
     public void setEmail(String email) {
@@ -51,8 +51,6 @@ public class SignInWithIMDbPage {
             NoSuchElementException.printStackTrace();
         }
         return result;
-
-
     }
 }
 

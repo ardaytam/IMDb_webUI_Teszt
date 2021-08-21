@@ -42,6 +42,5 @@ public class CreateAccountPage {
         String missingEmailErrorMessage = driver.findElement(missingEmailError).getText();
         return missingEmailErrorMessage;
     }
-
 }
 

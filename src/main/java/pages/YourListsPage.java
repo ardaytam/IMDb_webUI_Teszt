@@ -2,13 +2,9 @@ package pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
-import java.util.List;
-import java.util.concurrent.TimeUnit;
 
 public class YourListsPage {
 
@@ -48,8 +44,8 @@ public class YourListsPage {
 //        getWebDriverWait().until(ExpectedConditions.visibilityOfElementLocated(addToListSearchInput));
 
         driver.findElement(addToListSearchInput).sendKeys(name);
-//        getWebDriverWait().until(ExpectedConditions.elementToBeClickable(firstSearchResult)).click();
-    getWebDriverWait().until(ExpectedConditions.visibilityOfElementLocated(firstSearchResult)).click();
+        getWebDriverWait().until(ExpectedConditions.elementToBeClickable(firstSearchResult)).click();
+//    getWebDriverWait().until(ExpectedConditions.visibilityOfElementLocated(firstSearchResult)).click();
 
         driver.navigate().refresh();
     }

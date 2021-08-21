@@ -19,7 +19,6 @@ public class AdvancedSearchPage {
         driver.findElement(rightSearchButton).click();
         return new AdvancedSearchResultPage(driver);
     }
-//https://www.imdb.com/search/title-text/?plot=orca
 }
 
 

@@ -6,8 +6,8 @@ public class PrivacyPolicyPage {
 
     private WebDriver driver;
 
-    public PrivacyPolicyPage(WebDriver webDriver) {
-        this.driver = webDriver;
+    public PrivacyPolicyPage(WebDriver driver) {
+        this.driver = driver;
     }
 
     public boolean searchRelevantContentOfPrivacyPolicy(String expression) {

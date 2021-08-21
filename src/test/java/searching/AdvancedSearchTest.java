@@ -10,51 +10,57 @@ import org.junit.jupiter.api.RepeatedTest;
 import org.junit.jupiter.api.Test;
 import pages.AdvancedSearchPage;
 import pages.AdvancedSearchResultPage;
-import pages.PrivacyPolicyPage;
-
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.InputStreamReader;
 
-@Epic("Összetett keresési funkció tesztelése")//Ezeket magyarul kellene?
-@Feature("A felhasználó képes több oldalas találati lista eléjétől végéig navigálni")
+@Epic("Összetett keresési funkció tesztelése")
+@Feature("Összetett keresés eredményeként kapott találati lista bejárása, mentése")
 
 
 public class AdvancedSearchTest extends BaseTests {
-    @Story("Összetett keresési funkció tesztelése")
-    @Description("Valid Login Test with Valid Username and Valid Password.")
+    @Story("A felhasználó szeretné végiglapozni az összetett keresés eredményeként kapott találati listát")
+    @Description("Összetett keresés eredményeként kapott találati lista bejárása")
     @Test
     public void testCrawlingThroughSearchResultList() {
+
+        //Navigálás az Összetett keresés oldalra
         AdvancedSearchPage advancedSearchPage = mainPage.clickAdvancedSearch();
+
+        //Keresőkifejezés bevitele
         AdvancedSearchResultPage advancedSearchResultPage = advancedSearchPage.searchMovieByPlotKeywords("orca");
 
+        //Találati lista ellenőrzése: az utolsó listaelem sorszámának egyezése az összes elem számával
         String numberOfResults=  advancedSearchResultPage.getNumberOfResults();
         String lastResult = advancedSearchResultPage.CrawlingThroughSearchResultList();
 
         Assertions.assertEquals(numberOfResults +".", lastResult);
 
     }
-    @Story("Összetett keresési funkció tesztelése")
-    @Description("A felhasználó képes több oldalas találati lista címeit fájlba menteni")
+    @Story("Az összetett keresés eredményeként kapott lista első 50 elemének címét fájlba mentése")
+    @Description("Több oldalas találati lista első 50 címének fájlba mentése")
     @RepeatedTest(3)
     public void testSaveSearchResultTitlesToFile() throws Exception {
+
+        //Navigálás az Összetett keresés oldalra
         AdvancedSearchPage advancedSearchPage = mainPage.clickAdvancedSearch();
-        //Searching in Movie pLots contains keyword mosquito
+
+        //Keresőkifejezés bevitele
         AdvancedSearchResultPage advancedSearchResultPage = advancedSearchPage.searchMovieByPlotKeywords("COVID-19");
+
+        //A lista címeinek fájlba mentése
         advancedSearchResultPage.saveSearchResultTitles();
 
 
+        //Találati lista ellenőrzése: az utolsó listaelem és a listát tartalmazó fájl utolsó sorának összevetése
         String lastLineNumber = "50.";
         String lastLineWithEpisode = "Episode:";
-
         Assertions.assertTrue(lastLineNumber.equals( getLastLine("searchResultTitles.txt"))
                 ||lastLineWithEpisode.equals( getLastLine("searchResultTitles.txt")));
-
-
     }
 
-     //Segédmetódus a fájl utolsó sorának kiolvasására
+    //Segédmetódus a fájl utolsó sorának kiolvasásához
     public String getLastLine(String filename) throws Exception {
 
         File file = new File(filename);
