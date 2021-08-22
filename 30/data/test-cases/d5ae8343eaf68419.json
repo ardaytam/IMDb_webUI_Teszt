@@ -1,0 +1,152 @@
+{
+  "uid" : "d5ae8343eaf68419",
+  "name" : "testSuccessfulRegistration()",
+  "fullName" : "createaccount.CreateAccountTests.testSuccessfulRegistration",
+  "historyId" : "94d1af40cf2624d89e3461806aadb37c",
+  "time" : {
+    "start" : 1629625122058,
+    "stop" : 1629625122058,
+    "duration" : 0
+  },
+  "description" : "Regisztráció érvényes adatokkal",
+  "descriptionHtml" : "<p>Regisztráció érvényes adatokkal</p>\n",
+  "status" : "skipped",
+  "statusMessage" : "Nem javasolt az automatizálás az email verifikációs folyamat (email címre küldött egyedi azonosító) miatt",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1629625121872,
+      "stop" : 1629625122056,
+      "duration" : 184
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1629625125964,
+      "stop" : 1629625126036,
+      "duration" : 72
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Regisztráció"
+  }, {
+    "name" : "story",
+    "value" : "A felhasználó érvényes adatokkal kísérli meg a regisztrációt"
+  }, {
+    "name" : "feature",
+    "value" : "Sikeres regisztráció"
+  }, {
+    "name" : "host",
+    "value" : "fv-az47-486"
+  }, {
+    "name" : "thread",
+    "value" : "2931@fv-az47-486.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "createaccount.CreateAccountTests"
+  }, {
+    "name" : "testClass",
+    "value" : "createaccount.CreateAccountTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "testSuccessfulRegistration"
+  }, {
+    "name" : "suite",
+    "value" : "createaccount.CreateAccountTests"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 5,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "4ca321f1b9a91a05",
+        "reportUrl" : "https://ardaytam.github.io/IMDb_webUI_Teszt/29//#testresult/4ca321f1b9a91a05",
+        "status" : "skipped",
+        "statusDetails" : "Nem javasolt az automatizálás az email verifikációs folyamat (email címre küldött egyedi azonosító) miatt",
+        "time" : {
+          "start" : 1629559909633,
+          "stop" : 1629559909633,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "680e899c6fe43e4f",
+        "reportUrl" : "https://ardaytam.github.io/IMDb_webUI_Teszt/28//#testresult/680e899c6fe43e4f",
+        "status" : "skipped",
+        "statusDetails" : "Nem javasolt az automatizálás az email verifikációs folyamat (email címre küldött egyedi azonosító) miatt",
+        "time" : {
+          "start" : 1629542785905,
+          "stop" : 1629542785905,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "7774a2aa412ac03f",
+        "reportUrl" : "https://ardaytam.github.io/IMDb_webUI_Teszt/27//#testresult/7774a2aa412ac03f",
+        "status" : "skipped",
+        "statusDetails" : "Nem javasolt az automatizálás az email verifikációs folyamat (email címre küldött egyedi azonosító) miatt",
+        "time" : {
+          "start" : 1629541831540,
+          "stop" : 1629541831540,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "19de2c50d89fda65",
+        "reportUrl" : "https://ardaytam.github.io/IMDb_webUI_Teszt/26//#testresult/19de2c50d89fda65",
+        "status" : "skipped",
+        "statusDetails" : "Can not be automatized cause the email verification process",
+        "time" : {
+          "start" : 1629489266321,
+          "stop" : 1629489266321,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "d5ae8343eaf68419.json",
+  "parameterValues" : [ ]
+}

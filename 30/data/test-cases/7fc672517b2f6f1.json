@@ -1,0 +1,216 @@
+{
+  "uid" : "7fc672517b2f6f1",
+  "name" : "[2] Recommendations and personalization",
+  "fullName" : "privacypolicy.PrivacyPolicyTests.testRelevantContentOfPrivacyPolicy",
+  "historyId" : "57d96d13c596ca5e8d088f6f2027643c",
+  "time" : {
+    "start" : 1629624989588,
+    "stop" : 1629624993335,
+    "duration" : 3747
+  },
+  "description" : "Annak ellenőrzése, hogy az Adatkezelési Nyilatkozat releváns elemeket tartalmaz",
+  "descriptionHtml" : "<p>Annak ellenőrzése, hogy az Adatkezelési Nyilatkozat releváns elemeket tartalmaz</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "goHomePage",
+    "time" : {
+      "start" : 1629624989601,
+      "stop" : 1629624991993,
+      "duration" : 2392
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1629624985739,
+      "stop" : 1629624985938,
+      "duration" : 199
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1629625008042,
+      "stop" : 1629625008117,
+      "duration" : 75
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Adatvkezelési házirend/nyilatkozat (Privacy Policy) használata"
+  }, {
+    "name" : "feature",
+    "value" : "Az adatkezelési nyilatkozat releváns elemeket tartalmaz"
+  }, {
+    "name" : "story",
+    "value" : "A felhasználó releváns szöveget szeretne találni az adatkezelési nyilatkozatban."
+  }, {
+    "name" : "host",
+    "value" : "fv-az47-486"
+  }, {
+    "name" : "thread",
+    "value" : "2931@fv-az47-486.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "privacypolicy.PrivacyPolicyTests"
+  }, {
+    "name" : "testClass",
+    "value" : "privacypolicy.PrivacyPolicyTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "testRelevantContentOfPrivacyPolicy"
+  }, {
+    "name" : "suite",
+    "value" : "privacypolicy.PrivacyPolicyTests"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 11,
+        "unknown" : 0,
+        "total" : 11
+      },
+      "items" : [ {
+        "uid" : "670ff156717a32be",
+        "reportUrl" : "https://ardaytam.github.io/IMDb_webUI_Teszt/29//#testresult/670ff156717a32be",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629559786817,
+          "stop" : 1629559790461,
+          "duration" : 3644
+        }
+      }, {
+        "uid" : "bb9d9869755a7e8f",
+        "reportUrl" : "https://ardaytam.github.io/IMDb_webUI_Teszt/28//#testresult/bb9d9869755a7e8f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629542675083,
+          "stop" : 1629542677076,
+          "duration" : 1993
+        }
+      }, {
+        "uid" : "babb2f1e3db36e0f",
+        "reportUrl" : "https://ardaytam.github.io/IMDb_webUI_Teszt/27//#testresult/babb2f1e3db36e0f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629541695076,
+          "stop" : 1629541699672,
+          "duration" : 4596
+        }
+      }, {
+        "uid" : "75d5ec9cfa5a80c2",
+        "reportUrl" : "https://ardaytam.github.io/IMDb_webUI_Teszt/26//#testresult/75d5ec9cfa5a80c2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629489157471,
+          "stop" : 1629489160054,
+          "duration" : 2583
+        }
+      }, {
+        "uid" : "dcf5681a946bc8a8",
+        "reportUrl" : "https://ardaytam.github.io/IMDb_webUI_Teszt/25//#testresult/dcf5681a946bc8a8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629402237341,
+          "stop" : 1629402240175,
+          "duration" : 2834
+        }
+      }, {
+        "uid" : "6ed475138f90c963",
+        "reportUrl" : "https://ardaytam.github.io/IMDb_webUI_Teszt/24//#testresult/6ed475138f90c963",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629396468947,
+          "stop" : 1629396471932,
+          "duration" : 2985
+        }
+      }, {
+        "uid" : "9e2ccf71867babf5",
+        "reportUrl" : "https://ardaytam.github.io/IMDb_webUI_Teszt/23//#testresult/9e2ccf71867babf5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629395715328,
+          "stop" : 1629395717459,
+          "duration" : 2131
+        }
+      }, {
+        "uid" : "e86da4edf70f5bb2",
+        "reportUrl" : "https://ardaytam.github.io/IMDb_webUI_Teszt/22//#testresult/e86da4edf70f5bb2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629395158808,
+          "stop" : 1629395162428,
+          "duration" : 3620
+        }
+      }, {
+        "uid" : "bc229c859947643c",
+        "reportUrl" : "https://ardaytam.github.io/IMDb_webUI_Teszt/21//#testresult/bc229c859947643c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629394493762,
+          "stop" : 1629394497250,
+          "duration" : 3488
+        }
+      }, {
+        "uid" : "9b120dcc7c2fc524",
+        "reportUrl" : "https://ardaytam.github.io/IMDb_webUI_Teszt/20//#testresult/9b120dcc7c2fc524",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629393830107,
+          "stop" : 1629393832857,
+          "duration" : 2750
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "7fc672517b2f6f1.json",
+  "parameterValues" : [ ]
+}
