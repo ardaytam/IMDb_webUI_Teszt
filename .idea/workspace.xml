@@ -6,14 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3d1472d1-77fb-4f4b-9c0a-db84b9665e1f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/actors.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/actors.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/createaccount/CreateAccountTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/createaccount/CreateAccountTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/editprofile/EditProfileTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/editprofile/EditProfileTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/lists/ListTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lists/ListTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/privacypolicy/PrivacyPolicyTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/privacypolicy/PrivacyPolicyTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/searching/AdvancedSearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/searching/AdvancedSearchTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/signinandout/SignInTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/signinandout/SignInTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/signinandout/SignOutTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/signinandout/SignOutTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +42,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.6402299" />
   </component>
