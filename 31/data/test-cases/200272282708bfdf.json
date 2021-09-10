@@ -1,0 +1,225 @@
+{
+  "uid" : "200272282708bfdf",
+  "name" : "repetition 3 of 3",
+  "fullName" : "searching.AdvancedSearchTest.testSaveSearchResultTitlesToFile",
+  "historyId" : "f7016a65194da8807318458b113bc31f",
+  "time" : {
+    "start" : 1631286026304,
+    "stop" : 1631286032528,
+    "duration" : 6224
+  },
+  "description" : "Találati lista első 50 címének  megjelenítése és fájlba mentése",
+  "descriptionHtml" : "<p>Találati lista első 50 címének  megjelenítése és fájlba mentése</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "goHomePage",
+    "time" : {
+      "start" : 1631286026314,
+      "stop" : 1631286028408,
+      "duration" : 2094
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1631285983239,
+      "stop" : 1631285983451,
+      "duration" : 212
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1631286032530,
+      "stop" : 1631286032616,
+      "duration" : 86
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Összetett keresési funkció tesztelése"
+  }, {
+    "name" : "feature",
+    "value" : "Találati lista bejárása, mentése"
+  }, {
+    "name" : "story",
+    "value" : "Az összetett keresés eredményeként kapott lista első 50 elemének címét fájlba mentése"
+  }, {
+    "name" : "host",
+    "value" : "fv-az47-747"
+  }, {
+    "name" : "thread",
+    "value" : "2815@fv-az47-747.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "searching.AdvancedSearchTest"
+  }, {
+    "name" : "testClass",
+    "value" : "searching.AdvancedSearchTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testSaveSearchResultTitlesToFile"
+  }, {
+    "name" : "suite",
+    "value" : "searching.AdvancedSearchTest"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 12,
+        "unknown" : 0,
+        "total" : 12
+      },
+      "items" : [ {
+        "uid" : "2745f7a60533da20",
+        "reportUrl" : "https://ardaytam.github.io/IMDb_webUI_Teszt/30//#testresult/2745f7a60533da20",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629625048083,
+          "stop" : 1629625053334,
+          "duration" : 5251
+        }
+      }, {
+        "uid" : "f2bd09ab0fb2b082",
+        "reportUrl" : "https://ardaytam.github.io/IMDb_webUI_Teszt/29//#testresult/f2bd09ab0fb2b082",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629559834080,
+          "stop" : 1629559839071,
+          "duration" : 4991
+        }
+      }, {
+        "uid" : "cf4d641ced3d9ee",
+        "reportUrl" : "https://ardaytam.github.io/IMDb_webUI_Teszt/28//#testresult/cf4d641ced3d9ee",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629542716753,
+          "stop" : 1629542720621,
+          "duration" : 3868
+        }
+      }, {
+        "uid" : "faa855bf0f7d3764",
+        "reportUrl" : "https://ardaytam.github.io/IMDb_webUI_Teszt/27//#testresult/faa855bf0f7d3764",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629541761873,
+          "stop" : 1629541766321,
+          "duration" : 4448
+        }
+      }, {
+        "uid" : "775315a22feada0a",
+        "reportUrl" : "https://ardaytam.github.io/IMDb_webUI_Teszt/26//#testresult/775315a22feada0a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629489199598,
+          "stop" : 1629489202793,
+          "duration" : 3195
+        }
+      }, {
+        "uid" : "f6a536b0a4c2e359",
+        "reportUrl" : "https://ardaytam.github.io/IMDb_webUI_Teszt/25//#testresult/f6a536b0a4c2e359",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629402302275,
+          "stop" : 1629402306275,
+          "duration" : 4000
+        }
+      }, {
+        "uid" : "80fdd8058e97bf9b",
+        "reportUrl" : "https://ardaytam.github.io/IMDb_webUI_Teszt/24//#testresult/80fdd8058e97bf9b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629396515800,
+          "stop" : 1629396519823,
+          "duration" : 4023
+        }
+      }, {
+        "uid" : "da57d1090aeaa7cb",
+        "reportUrl" : "https://ardaytam.github.io/IMDb_webUI_Teszt/23//#testresult/da57d1090aeaa7cb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629395755742,
+          "stop" : 1629395759240,
+          "duration" : 3498
+        }
+      }, {
+        "uid" : "dd876c31e4c1cf37",
+        "reportUrl" : "https://ardaytam.github.io/IMDb_webUI_Teszt/22//#testresult/dd876c31e4c1cf37",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629395205184,
+          "stop" : 1629395209131,
+          "duration" : 3947
+        }
+      }, {
+        "uid" : "4c0e4f4e96c3e651",
+        "reportUrl" : "https://ardaytam.github.io/IMDb_webUI_Teszt/21//#testresult/4c0e4f4e96c3e651",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629394546407,
+          "stop" : 1629394551114,
+          "duration" : 4707
+        }
+      }, {
+        "uid" : "b0e9e3b77d042ac7",
+        "reportUrl" : "https://ardaytam.github.io/IMDb_webUI_Teszt/20//#testresult/b0e9e3b77d042ac7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629393883268,
+          "stop" : 1629393887221,
+          "duration" : 3953
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "200272282708bfdf.json",
+  "parameterValues" : [ ]
+}
