@@ -11,7 +11,7 @@ Az IMDb webalkalmazás felület-tesztelése Selenium WebDriver használatával.
 **A projekt követelményrendszerét leíró  specifikáció elérhetősége**
 
 [https://api.ikk.hu/storage/uploads/files/06135009_junior_automata_tesztelo_pkpdf-1622538452474.pdf](https://)
-10.3.Projekt felada:t 6-8.oldal
+10.3.Projekt feladat: 6-8.oldal
 
 **A tesztelt alkalmazás elérési helye**
 

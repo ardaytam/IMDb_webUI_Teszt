@@ -6,7 +6,15 @@
   <component name="ChangeListManager">
     <list default="true" id="3d1472d1-77fb-4f4b-9c0a-db84b9665e1f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/searchResultTitles.txt" beforeDir="false" afterPath="$PROJECT_DIR$/searchResultTitles.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/actors.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/actors.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/base/BaseTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lists/ListTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lists/ListTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/signinandout/SignInTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/signinandout/SignInTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/actors.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/actors.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/base/BaseTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/base/BaseTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lists/ListTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/lists/ListTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/signinandout/SignInTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/signinandout/SignInTests.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +50,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.6402299" />
   </component>
@@ -52,27 +60,32 @@
       <recent name="C:\Users\Tomi\IMDb_webUI_Teszt\src\test\java" />
     </key>
   </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn site" />
+      <command value="mvn allure:serve" />
+    </option>
+  </component>
   <component name="RunManager" selected="JUnit.All in IMDb_webUI_Teszt">
-    <configuration name="AdvancedSearchTest.testSaveSearchResultTitlesToFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="IMDb_webUI_Teszt" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="searching.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="searching" />
-      <option name="MAIN_CLASS_NAME" value="searching.AdvancedSearchTest" />
-      <option name="METHOD_NAME" value="testSaveSearchResultTitlesToFile" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="All in IMDb_webUI_Teszt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="IMDb_webUI_Teszt" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ListTests (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="IMDb_webUI_Teszt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lists.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lists" />
+      <option name="MAIN_CLASS_NAME" value="lists.ListTests" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -122,10 +135,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.All in IMDb_webUI_Teszt" />
+        <item itemvalue="JUnit.ListTests (1)" />
         <item itemvalue="JUnit.ListTests" />
         <item itemvalue="JUnit.SignOutTest.testSuccessfulSignOut" />
         <item itemvalue="JUnit.PrivacyPolicyTests" />
-        <item itemvalue="JUnit.AdvancedSearchTest.testSaveSearchResultTitlesToFile" />
       </list>
     </recent_temporary>
   </component>

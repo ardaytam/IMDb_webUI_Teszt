@@ -30,7 +30,7 @@ public class ListTests extends BaseTests {
         //Bejelentkezés
         SignInPage signInPage = mainPage.clickSignIn();
         SignInWithIMDbPage signInWithIMDbPage = signInPage.clickSignInWithIMDbButton();
-        signInWithIMDbPage.setEmail("autotesztelojunior@gmail.com");
+        signInWithIMDbPage.setEmail("autotesztjunior@gmail.com");
         signInWithIMDbPage.setPassword("Oszip12600*");
         signInWithIMDbPage.clickSignInButton();
 

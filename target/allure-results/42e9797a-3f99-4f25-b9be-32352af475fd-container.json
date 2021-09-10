@@ -1,0 +1,1 @@
+{"uuid":"42e9797a-3f99-4f25-b9be-32352af475fd","name":"[3] Comply with legal obligations","children":["74184f89-7afc-4b16-87b9-7f21f8bc1bdd"],"befores":[{"name":"goHomePage","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1631043975659,"stop":1631043978195}],"afters":[],"links":[],"start":1631043975653,"stop":1631043980118}
